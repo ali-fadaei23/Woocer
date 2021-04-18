@@ -11,7 +11,7 @@ const Features = () => (
           padding: "200px",
         }}
       >
-        Features
+        Features Container
       </Col>
     </Row>
   </Container>
