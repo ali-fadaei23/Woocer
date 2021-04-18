@@ -7,6 +7,8 @@ import "./App.css";
 
 // Add Components
 import NavBar from "./Components/NavBar";
+import Header from "./Components/Header";
+import Features from "./Components/Features";
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +18,13 @@ class App extends Component {
   render() {
     return (
       <>
-        <NavBar />
+        <div className="background-header">
+          <NavBar />
+          <Header />
+        </div>
+        <div className="features-container">
+          <Features />
+        </div>
       </>
     );
   }

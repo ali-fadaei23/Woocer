@@ -1,1 +1,10 @@
+/* Default Style */
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}
