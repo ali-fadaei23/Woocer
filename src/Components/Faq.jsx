@@ -1,0 +1,20 @@
+import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
+import "./Faq.css";
+
+const Faq = () => (
+  <Container style={{ maxWidth: "100%", color: "#fff", fontSize: "20px" }}>
+    <Row>
+      <Col
+        style={{
+          backgroundColor: "#4749A0",
+          padding: "130px",
+        }}
+      >
+        Faq Container
+      </Col>
+    </Row>
+  </Container>
+);
+
+export default Faq;
