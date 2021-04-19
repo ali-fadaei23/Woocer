@@ -1,25 +1,22 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./Header.css";
+import AwesomeImage from "../Assets/Woocer-screenshot-5.png";
 
 const Header = () => (
-  <Container style={{ maxWidth: "100%", color: "#fff", fontSize: "20px" }}>
+  <Container style={{}}>
     <Row>
-      <Col
-        style={{
-          backgroundColor: "#945CDC",
-          padding: "300px",
-        }}
-      >
-        Left Header
-      </Col>
-      <Col
-        style={{
-          backgroundColor: "#282C34",
-          padding: "300px",
-        }}
-      >
-        Right Header
+      <Col style={{ display: "flex" }}>
+        <div>
+          <span>WELCOME TO WOOCER</span>
+          <h1>Easily manage your Woocommerce store</h1>
+          <span>
+            Woocer let's you manage your store from your mobile device.
+          </span>
+        </div>
+        <div>
+          <img src={AwesomeImage} />
+        </div>
       </Col>
     </Row>
   </Container>

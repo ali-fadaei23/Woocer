@@ -6,7 +6,7 @@ import { Component } from "react";
 import "./App.css";
 
 // Add Components
-import NavBar from "./Components/NavBar";
+import NavigationBar from "./Components/NavigationBar";
 import Header from "./Components/Header";
 import Features from "./Components/Features";
 import About from "./Components/About";
@@ -14,6 +14,16 @@ import Subscribe from "./Components/Subscribe";
 import GetApp from "./Components/GetApp";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
+
+// Add Assets
+import GreenBlur from "./Assets/green-blur.png"
+import BlueBlur from "./Assets/blue-blur.png"
+import PinkBlur from "./Assets/pink-blur.png"
+import IconTriangle1 from "./Assets/icon-triangle-1.png"
+import IconTriangle2 from "./Assets/icon-triangle-2.png"
+import GreenBlur from "./Assets/"
+import GreenBlur from "./Assets/"
+import GreenBlur from "./Assets/"
 
 class App extends Component {
   constructor(props) {
@@ -24,7 +34,16 @@ class App extends Component {
     return (
       <>
         <div className="header-container">
-          <NavBar />
+          <div>
+            <span><img src={}/></span>
+            <span><img src={}/></span>
+            <span><img src={}/></span>
+            <span><img src={}/></span>
+            <span><img src={}/></span>
+            <span><img src={} /></span>
+            <span><img src={}/></span>
+          </div>
+          <NavigationBar />
           <Header />
         </div>
         <div className="features-container">
