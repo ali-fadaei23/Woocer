@@ -10,7 +10,7 @@ const NavBar = () => (
           backgroundColor: "#00B12A",
           padding: "20px",
         }}
-        lg={2}
+        lg={4}
       >
         Logo
       </Col>
@@ -19,7 +19,7 @@ const NavBar = () => (
           backgroundColor: "#B1A12F",
           padding: "20px",
         }}
-        lg={10}
+        lg={8}
       >
         Buttons
       </Col>

@@ -1,20 +1,20 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import "./Faq.css";
+import "./Footer.css";
 
-const Faq = () => (
+const Footer = () => (
   <Container style={{ maxWidth: "100%", color: "#fff", fontSize: "20px" }}>
     <Row>
       <Col
         style={{
-          backgroundColor: "#03003C",
-          padding: "180px",
+          backgroundColor: "#FF7F5C",
+          padding: "210px",
         }}
       >
-        Faq Container
+        Footer Container
       </Col>
     </Row>
   </Container>
 );
 
-export default Faq;
+export default Footer;

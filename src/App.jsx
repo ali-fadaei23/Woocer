@@ -13,6 +13,7 @@ import About from "./Components/About";
 import Subscribe from "./Components/Subscribe";
 import GetApp from "./Components/GetApp";
 import Faq from "./Components/Faq";
+import Footer from "./Components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -40,6 +41,9 @@ class App extends Component {
         </div>
         <div className="faq-container">
           <Faq />
+        </div>
+        <div className="footer-container">
+          <Footer />
         </div>
       </>
     );
