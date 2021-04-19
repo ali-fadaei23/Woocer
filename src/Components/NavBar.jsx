@@ -8,13 +8,13 @@ const NavBar = () => (
     <Row>
       <Col
         style={{
-          backgroundColor: "#00B12A",
+          display: "flex",
         }}
         lg={4}
       >
-        <Button className='home-logo'>
-          <img src={Logo} />
-        </Button>
+        <button className="btn-logo">
+          <img src={Logo} className="img-logo" />
+        </button>
       </Col>
       <Col
         style={{
