@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Button, Image } from "react-bootstrap";
 import "./NavBar.css";
+import Logo from "../Assets/woocer.png";
 
 const NavBar = () => (
   <Container style={{ maxWidth: "100%", color: "#fff", fontSize: "20px" }}>
@@ -8,11 +9,12 @@ const NavBar = () => (
       <Col
         style={{
           backgroundColor: "#00B12A",
-          padding: "20px",
         }}
         lg={4}
       >
-        Logo
+        <Button className='home-logo'>
+          <img src={Logo} />
+        </Button>
       </Col>
       <Col
         style={{
