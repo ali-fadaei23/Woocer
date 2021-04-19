@@ -1,0 +1,53 @@
+.text-banner {
+  text-align: start;
+  margin-left: 5%;
+}
+
+.pink-blur {
+  position: absolute;
+  left: 6%;
+  top: 10%;
+}
+
+.blue-blur {
+  position: absolute;
+  top: 74%;
+  right: 83%;
+}
+
+.green-blur {
+  position: absolute;
+  left: 31%;
+  bottom: 68%;
+}
+
+.icon-circle-1 {
+  position: absolute;
+  left: 61%;
+  top: 6%;
+}
+
+.icon-circle-2 {
+  position: absolute;
+  left: 109%;
+  top: 30%;
+  z-index: -1;
+}
+
+.icon-circle-3 {
+  position: absolute;
+  left: 64%;
+  top: 53%;
+}
+
+.icon-triangle-1 {
+  position: absolute;
+  left: 111%;
+  top: 59%;
+}
+
+.icon-triangle-2 {
+  position: absolute;
+  left: 70%;
+  top: 29%;
+}

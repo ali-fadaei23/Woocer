@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Row, Col, Container } from "react-bootstrap";
+// import { Row, Col, Container } from "react-bootstrap";
 import { Component } from "react";
 
 // App - css
@@ -15,16 +15,6 @@ import GetApp from "./Components/GetApp";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 
-// Add Assets
-import GreenBlur from "./Assets/green-blur.png"
-import BlueBlur from "./Assets/blue-blur.png"
-import PinkBlur from "./Assets/pink-blur.png"
-import IconTriangle1 from "./Assets/icon-triangle-1.png"
-import IconTriangle2 from "./Assets/icon-triangle-2.png"
-import GreenBlur from "./Assets/"
-import GreenBlur from "./Assets/"
-import GreenBlur from "./Assets/"
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -34,15 +24,6 @@ class App extends Component {
     return (
       <>
         <div className="header-container">
-          <div>
-            <span><img src={}/></span>
-            <span><img src={}/></span>
-            <span><img src={}/></span>
-            <span><img src={}/></span>
-            <span><img src={}/></span>
-            <span><img src={} /></span>
-            <span><img src={}/></span>
-          </div>
           <NavigationBar />
           <Header />
         </div>

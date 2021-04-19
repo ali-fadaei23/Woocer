@@ -18,9 +18,18 @@ const NavigationBar = () => (
               />
             </Navbar.Brand>
           </Navbar>
-          <Nav style={{ margin: "auto" }}>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#how-to-use">How to use</Nav.Link>
+          <Nav
+            style={{
+              margin: "auto",
+              color: "#4749A0",
+            }}
+          >
+            <Nav.Link href="#home" style={{ color: "#4749A0" }}>
+              Home
+            </Nav.Link>
+            <Nav.Link href="#how-to-use" style={{ color: "#4749A0" }}>
+              How to use
+            </Nav.Link>
           </Nav>
         </div>
       </Col>

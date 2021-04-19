@@ -8,12 +8,10 @@ body {
 body {
   text-align: center;
   background-color: #ffffff;
-}
-
-/* ############################## Main Style ############################# */
-.header-container {
   background-image: url(./Assets/1.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
 }
+
+/* ############################## Main Style ############################# */

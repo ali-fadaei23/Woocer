@@ -7,8 +7,7 @@ const Features = () => (
     <Row>
       <Col
         style={{
-          backgroundColor: "#4749A0",
-          padding: "200px",
+          backgroundColor: "#7478FA",
         }}
       >
         Features Container
