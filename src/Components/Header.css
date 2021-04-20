@@ -15,9 +15,9 @@
   text-align: start;
   margin-left: 5%;
   color: #4c4754;
-  display: "flex";
+  display: flex;
   flex-direction: column;
-  justify-content: "center";
+  justify-content: center;
   align-items: flex-start;
 }
 .txt-1 {

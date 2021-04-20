@@ -17,12 +17,7 @@ const Header = () => (
   <Container style={{ margin: 0 }}>
     <Row>
       <Col style={{ display: "flex", padding: 0 }}>
-        <div
-          className="text-banner"
-          style={{
-            
-          }}
-        >
+        <div className="text-banner">
           <span
             className="txt-1"
             style={{
@@ -39,7 +34,7 @@ const Header = () => (
           <span className="txt-3" style={{ color: "#7A7A7A" }}>
             Woocer let's you manage your store from your mobile device.
           </span>
-         <Button>select</Button>
+          <Button>select</Button>
         </div>
         <span className="pink-blur">
           <img src={PinkBlur} />
