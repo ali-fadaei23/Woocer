@@ -174,19 +174,19 @@
   position: absolute;
   left: 64%;
   top: 53%;
-  animation: icon-circle-3 5s alternate infinite;
+  animation: icon-circle-3 40s alternate infinite;
   transform-origin: 0% 100%;
 }
 
 @keyframes icon-circle-3 {
   0% {
-    transform: translate(-20px, 0px) rotate(0deg);
+    transform: translate(0px, 20px) rotate(0deg);
   }
   50% {
-    transform: translate(0px, 40px) rotate(180deg);
+    transform: translate(20px, -10px) rotate(30deg);
   }
   100% {
-    transform: translate(40px, -50px) rotate(360deg);
+    transform: translate(-10px, 0px) rotate(90deg);
   }
 }
 
@@ -226,6 +226,21 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+.img-wow {
+  animation: image-wow 1200ms;
+}
+@keyframes image-wow {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
