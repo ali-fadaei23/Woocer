@@ -1,4 +1,4 @@
-/* Add Fonts */
+/*############################# Add Fonts ############################################*/
 @font-face {
   font-family: "Poppins";
   src: local("Poppins"),
@@ -9,7 +9,7 @@
   src: local("Nunito"), url(../Assets/Font/Nunito-Medium.ttf) format("truetype");
 }
 
-/* ############################################################################ */
+/* ###################################### Main Style ###################################### */
 
 .text-banner {
   text-align: start;
@@ -20,6 +20,8 @@
   justify-content: center;
   align-items: flex-start;
 }
+
+/* ################################## Animation Style ################################ */
 .txt-1 {
   margin-bottom: 5%;
   visibility: visible;
@@ -150,8 +152,8 @@
 
 .icon-circle-2 {
   position: absolute;
-  left: 107%;
-  top: 30%;
+  left: 108%;
+  top: 22%;
   z-index: -1;
   animation: icon-circle-2 10s linear infinite;
 }
@@ -172,34 +174,62 @@
   position: absolute;
   left: 64%;
   top: 53%;
-  animation: icon-circle-3 30s linear alternate infinite;
-  transform-origin: 0% 80%;
+  animation: icon-circle-3 5s alternate infinite;
+  transform-origin: 0% 100%;
 }
 
 @keyframes icon-circle-3 {
   0% {
-    transform: translate(0px, -40px) rotate(0deg);
+    transform: translate(-20px, 0px) rotate(0deg);
   }
-
   50% {
-    transform: translate(-40px, -10px) rotate(60deg);
+    transform: translate(0px, 40px) rotate(180deg);
   }
   100% {
-    transform: translate(-10px, 0px) rotate(360deg);
+    transform: translate(40px, -50px) rotate(360deg);
   }
 }
 
 .icon-triangle-1 {
   position: absolute;
   left: 109%;
-  top: 59%;
+  top: 56%;
+  z-index: -1;
+  animation: icon-triangle-1 10s linear infinite backwards;
+}
+
+@keyframes icon-triangle-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .icon-triangle-2 {
   position: absolute;
   left: 70%;
   top: 29%;
+  animation: icon-triangle-2 10s linear infinite forwards;
 }
+
+@keyframes icon-triangle-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ################################## Comments ####################################### */
 
 /* 
 0% {

@@ -1,4 +1,4 @@
-/* Add Fonts */
+/*############################# Add Fonts ############################################*/
 @font-face {
   font-family: "Poppins";
   src: local("Poppins"),
@@ -8,7 +8,8 @@
   font-family: "Nunito";
   src: local("Nunito"), url(./Assets/Font/Nunito-Medium.ttf) format("truetype");
 }
-/* Default Style */
+
+/* ###################################### Default Style ###################################### */
 
 html,
 body {
@@ -25,4 +26,4 @@ body {
   font-family: "Nunito";
 }
 
-/* ############################## Main Style ############################# */
+/* ################################### Main Style ####################################### */

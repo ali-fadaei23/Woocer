@@ -67,7 +67,7 @@ const Header = () => (
           <img
             src={AwesomeImage}
             alt="Awesome Image"
-            style={{ width: "300px", marginLeft: "117%" }}
+            style={{ width: "300px", marginLeft: "124%" }}
           />
           <div style={{ marginBottom: "15%" }}></div>
         </div>
