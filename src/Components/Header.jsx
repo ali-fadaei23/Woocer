@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Button } from "react-bootstrap";
 import "./Header.css";
 
 // Add Assets
@@ -20,21 +20,26 @@ const Header = () => (
         <div
           className="text-banner"
           style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
+            
           }}
         >
-          <span style={{ fontSize: "x-large", color: "#8A57DE" }}>
+          <span
+            className="txt-1"
+            style={{
+              fontSize: "x-large",
+              color: "#8A57DE",
+            }}
+          >
             WELCOME TO WOOCER
           </span>
-          <h1 style={{ fontSize: "58px" }}>
+          <h1 className="txt-2">
             Easily manage your <br />
             Woocommerce store
           </h1>
-          <span style={{ color: "#7A7A7A" }}>
+          <span className="txt-3" style={{ color: "#7A7A7A" }}>
             Woocer let's you manage your store from your mobile device.
           </span>
+         <Button>select</Button>
         </div>
         <span className="pink-blur">
           <img src={PinkBlur} />
@@ -53,11 +58,11 @@ const Header = () => (
           <img src={IconCircle2} />
         </span>
         <span className="icon-circle-3">
-          <img src={IconCircle3}  />
+          <img src={IconCircle3} />
         </span>
 
         <span className="icon-triangle-1">
-          <img src={IconTriangle1}  />
+          <img src={IconTriangle1} />
         </span>
         <span className="icon-triangle-2">
           <img src={IconTriangle2} />
@@ -67,7 +72,7 @@ const Header = () => (
           <img
             src={AwesomeImage}
             alt="Awesome Image"
-            style={{ width: "300px", marginLeft: "125%" }}
+            style={{ width: "300px", marginLeft: "117%" }}
           />
           <div style={{ marginBottom: "15%" }}></div>
         </div>

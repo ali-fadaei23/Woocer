@@ -1,3 +1,13 @@
+/* Add Fonts */
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url(./Assets/Font/PoppinsLatin-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"), url(./Assets/Font/Nunito-Medium.ttf) format("truetype");
+}
 /* Default Style */
 
 html,
@@ -12,6 +22,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  font-family: "Nunito";
 }
 
 /* ############################## Main Style ############################# */
