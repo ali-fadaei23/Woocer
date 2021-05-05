@@ -13,18 +13,27 @@
 
 .text-banner {
   text-align: start;
-  margin-left: 5%;
+  padding: 0px 13px;
   color: #4c4754;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 175px;
 }
 
 /* ################################## Animation Style ################################ */
+
 .txt-1 {
-  margin-bottom: 5%;
-  visibility: visible;
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a57de;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
   animation: text-1 400ms;
 }
 
@@ -42,9 +51,11 @@
   }
 }
 .txt-2 {
-  font-family: "Poppins";
+  position: relative;
   font-size: 50px;
-  margin-bottom: 2%;
+  line-height: 64px;
+  margin-bottom: 28px;
+  font-weight: 600;
   visibility: visible;
   animation: text-2 800ms;
 }
@@ -63,10 +74,13 @@
   }
 }
 .txt-3 {
+  position: relative;
   animation: text-3 1200ms;
   visibility: visible;
   font-size: 18px;
-  margin-bottom: 5%;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
 
 @keyframes text-3 {
@@ -152,7 +166,7 @@
 
 .icon-circle-2 {
   position: absolute;
-  left: 108%;
+  left: 39%;
   top: 22%;
   z-index: -1;
   animation: icon-circle-2 10s linear infinite;
@@ -192,10 +206,10 @@
 
 .icon-triangle-1 {
   position: absolute;
-  left: 109%;
+  left: 69%;
   top: 56%;
   z-index: -1;
-  animation: icon-triangle-1 10s linear infinite backwards;
+  animation: icon-triangle-1 15s linear infinite backwards;
 }
 
 @keyframes icon-triangle-1 {
@@ -229,8 +243,13 @@
   }
 }
 
-.img-wow {
+.box-wow {
   animation: image-wow 1200ms;
+}
+
+.img-wow {
+  margin-left: 333px;
+  margin-top: 21px;
 }
 @keyframes image-wow {
   0% {

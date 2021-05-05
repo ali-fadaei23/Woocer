@@ -6,6 +6,7 @@ import { Component } from "react";
 import "./App.css";
 
 // Add Components
+import BgHeader from "./Assets/1.png";
 import NavigationBar from "./Components/NavigationBar";
 import Header from "./Components/Header";
 import Features from "./Components/Features";
@@ -25,6 +26,9 @@ class App extends Component {
       <>
         <div className="header-container">
           <NavigationBar />
+          <div className="box-header-bg">
+            <div className="layer-img"></div>
+          </div>
           <Header />
         </div>
         <div className="features-container">

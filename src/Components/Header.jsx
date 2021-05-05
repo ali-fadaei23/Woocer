@@ -18,19 +18,23 @@ const Header = () => (
     <Row>
       <Col style={{ display: "flex", padding: 0 }}>
         <div className="text-banner">
-          <span
-            className="txt-1"
-            style={{
-              fontSize: "x-large",
-              color: "#8A57DE",
-            }}
-          >
-            WELCOME TO WOOCER
-          </span>
-          <h1 className="txt-2">
-            Easily manage your <br />
-            Woocommerce store
-          </h1>
+          <div style={{ fontFamily: "nunito" }}>
+            <span
+              className="txt-1"
+              style={{
+                fontSize: "16px",
+                color: "#8A57DE",
+              }}
+            >
+              WELCOME TO WOOCER
+            </span>
+          </div>
+          <div style={{ fontFamily: "Poppins" }}>
+            <h1 className="txt-2">
+              Easily manage your <br />
+              Woocommerce store
+            </h1>
+          </div>
           <span className="txt-3" style={{ color: "#7A7A7A" }}>
             Woocer let's you manage your store from your mobile device.
           </span>
@@ -63,13 +67,9 @@ const Header = () => (
           <img src={IconTriangle2} />
         </span>
 
-        <div className="img-wow">
-          <img
-            src={AwesomeImage}
-            alt="Awesome Image"
-            style={{ width: "300px", marginLeft: "124%" }}
-          />
-          <div style={{ marginBottom: "15%" }}></div>
+        <div className="box-wow">
+          <img className="img-wow" src={AwesomeImage} alt="Awesome Image" />
+          <div style={{ marginBottom: "82px" }}></div>
         </div>
       </Col>
     </Row>

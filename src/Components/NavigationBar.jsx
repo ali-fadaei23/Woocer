@@ -4,10 +4,13 @@ import "./NavigationBar.css";
 import Logo from "../Assets/woocer.png";
 
 const NavigationBar = () => (
-  <Container style={{ maxWidth: "100%", color: "#fff", fontSize: "20px" }}>
+  <Container>
     <Row>
-      <Col lg={4} style={{ display: "flex" }}>
-        <div style={{ display: "flex", flexDirection: "row" }}>
+      <Col
+        lg={4}
+        style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
+      >
+        <div>
           <Navbar>
             <Navbar.Brand href="#home">
               <img
@@ -18,22 +21,22 @@ const NavigationBar = () => (
               />
             </Navbar.Brand>
           </Navbar>
-          <Nav
-            style={{
-              margin: "auto",
-              color: "#4749A0",
-            }}
-          >
-            <Nav.Link href="#home" style={{ color: "#4749A0" }}>
-              Home
-            </Nav.Link>
-            <Nav.Link href="#how-to-use" style={{ color: "#4749A0" }}>
-              How to use
-            </Nav.Link>
-          </Nav>
+        </div>
+        <div className="box-ul">
+          <ul className="ul-nav">
+            <li>
+              <a className="home link-nav" href="#">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="how-to-use link-nav" href="#">
+                How to use
+              </a>
+            </li>
+          </ul>
         </div>
       </Col>
-      <Col lg={8}></Col>
     </Row>
   </Container>
 );
