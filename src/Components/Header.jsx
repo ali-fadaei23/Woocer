@@ -18,7 +18,7 @@ const Header = () => (
     <Row>
       <Col style={{ display: "flex", padding: 0 }}>
         <div className="text-banner">
-          <div style={{ fontFamily: "nunito" }}>
+          <div className="box-text-1">
             <span
               className="txt-1"
               style={{
@@ -29,15 +29,17 @@ const Header = () => (
               WELCOME TO WOOCER
             </span>
           </div>
-          <div style={{ fontFamily: "Poppins" }}>
+          <div className="box-text-2">
             <h1 className="txt-2">
               Easily manage your <br />
               Woocommerce store
             </h1>
           </div>
-          <span className="txt-3" style={{ color: "#7A7A7A" }}>
-            Woocer let's you manage your store from your mobile device.
-          </span>
+          <div className="box-text-3">
+            <span className="txt-3" style={{ color: "#7A7A7A" }}>
+              Woocer let's you manage your store from your mobile device.
+            </span>
+          </div>
           <Button>select</Button>
         </div>
         <span className="pink-blur">
@@ -51,13 +53,13 @@ const Header = () => (
         </span>
 
         <span className="icon-circle-1">
-          <img src={IconCircle1} width="170" />
+          <img className="img-circle-1" src={IconCircle1} />
         </span>
         <span className="icon-circle-2">
-          <img src={IconCircle2} />
+          <img className="img-circle-2" src={IconCircle2} />
         </span>
         <span className="icon-circle-3">
-          <img src={IconCircle3} />
+          <img className="img-circle-3" src={IconCircle3} />
         </span>
 
         <span className="icon-triangle-1">

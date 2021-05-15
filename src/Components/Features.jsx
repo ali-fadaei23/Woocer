@@ -6,21 +6,13 @@ import "./Features.css";
 import Forward from "../Assets/forward.png";
 
 const BtnFeature = (props) => (
-  <div
-    style={{
-      backgroundColor: "#7F83FC",
-      marginBottom: "10%",
-      display: "flex",
-      padding: "8px",
-      borderRadius: "10px",
-    }}
-  >
+  <div className="circle">
     <div className="features-box">
       <img
         src={Forward}
         style={{
           filter: "brightness(0) invert(1)",
-          width: "40px",
+          width: "35px",
         }}
       />
     </div>
@@ -43,33 +35,47 @@ const Features = () => (
       backgroundColor: "#7478FA",
       color: "#fff",
       fontSize: "20px",
+      fontFamily: "Poppins",
     }}
   >
-    <div style={{ padding: "60px", fontFamily: "Poppins" }}>
+    <div style={{ padding: "60px" }}>
       <h2 style={{ fontSize: "40px" }}>Some of our features</h2>
     </div>
 
     <Row>
       <Col>
-        <BtnFeature text={"Manage Product"} />
-
-        <BtnFeature text={"Manage Reviews"} />
-
-        <BtnFeature text={"Login with fingerprint"} />
+        <div className="box-features-btn">
+          <BtnFeature text={"Manage Product"} />
+        </div>
+        <div className="box-features-btn">
+          <BtnFeature text={"Manage Orders"} />
+        </div>
+        <div className="box-features-btn">
+          <BtnFeature text={"Manage Customers"} />
+        </div>
       </Col>
       <Col>
-        <BtnFeature text={"Manage Orders"} />
+        <div className="box-features-btn">
+          <BtnFeature text={"Manage Review"} />
+        </div>
 
-        <BtnFeature text={"Manage Tags"} />
-
-        <BtnFeature text={"Customizable Profile"} />
+        <div className="box-features-btn">
+          <BtnFeature text={"Manage Tags"} />
+        </div>
+        <div className="box-features-btn">
+          <BtnFeature text={"Manage Categories"} />
+        </div>
       </Col>
       <Col>
-        <BtnFeature text={"Manage Customers"} />
-
-        <BtnFeature text={"Manage Categories"} />
-
-        <BtnFeature text={"And so much more..."} />
+        <div className="box-features-btn">
+          <BtnFeature text={"Login with fingerprint"} />
+        </div>
+        <div className="box-features-btn">
+          <BtnFeature text={"Customizable Profile"} />
+        </div>
+        <div className="box-features-btn">
+          <BtnFeature text={"And so much more..."} />
+        </div>
       </Col>
     </Row>
     <div className="space-between-features" style={{ padding: "40px" }}></div>

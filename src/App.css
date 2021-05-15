@@ -33,6 +33,7 @@ body {
   right: 0;
   height: 929px;
   width: 866px;
+  z-index: -1;
 }
 
 .layer-img {
@@ -42,4 +43,8 @@ body {
   bottom: 0;
   left: -200px;
   z-index: -1;
+}
+
+.features-container {
+  padding: 0px 75px;
 }
