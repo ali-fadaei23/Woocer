@@ -37,7 +37,7 @@
   letter-spacing: 5px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  animation: text-1 400ms;
+  animation: text-1 800ms 0.5s both;
 }
 
 @keyframes text-1 {
@@ -65,7 +65,7 @@
   margin-bottom: 28px;
   font-weight: 600;
   visibility: visible;
-  animation: text-2 800ms;
+  animation: text-2 800ms 1s both;
 }
 
 @keyframes text-2 {
@@ -89,7 +89,7 @@
   visibility: visible;
   position: relative;
   margin-bottom: 50px;
-  animation: text-3 1200ms;
+  animation: text-3 1200ms 1s both;
 }
 
 .txt-3 {
@@ -264,18 +264,52 @@
   }
 }
 
-.box-wow {
-  animation: image-wow 1200ms;
-}
+/* .box-wow {
+  animation: image-wow 2000ms;
+} */
 
 .img-wow {
   margin-left: 333px;
   margin-top: 21px;
+  animation: image-wow 1200ms 800ms both;
 }
 @keyframes image-wow {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(85px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.box-btn-header {
+  font-family: Poppins;
+}
+.btn-header {
+  background: transparent;
+  color: #8a57de;
+  border-radius: 3px;
+  border: 2px solid #8a57de;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  animation: btn-header 1300ms 1.5s both;
+}
+
+.btn-header:hover {
+  background: #8a57de;
+
+  border: 2px solid #8a57de;
+  transition: all 300ms;
+}
+
+@keyframes btn-header {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
   }
 
   100% {

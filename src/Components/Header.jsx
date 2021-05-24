@@ -14,7 +14,7 @@ import IconCircle2 from "../Assets/icon-circle-2.png";
 import IconCircle3 from "../Assets/icon-circle-3.png";
 
 const Header = () => (
-  <Container style={{ margin: 0 }}>
+  <Container style={{ margin: 0, paddingTop: "125px" }}>
     <Row>
       <Col style={{ display: "flex", padding: 0 }}>
         <div className="text-banner">
@@ -40,7 +40,9 @@ const Header = () => (
               Woocer let's you manage your store from your mobile device.
             </span>
           </div>
-          <Button>select</Button>
+          <div className="box-btn-header">
+            <Button className="btn-header">Manage Product</Button>
+          </div>
         </div>
         <span className="pink-blur">
           <img src={PinkBlur} />
