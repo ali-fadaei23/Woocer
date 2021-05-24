@@ -4,7 +4,7 @@ import "./NavigationBar.css";
 import Logo from "../Assets/woocer.png";
 
 const NavigationBar = () => (
-  <Container>
+  <Container className="nav-container">
     <Row>
       <Col
         lg={4}
