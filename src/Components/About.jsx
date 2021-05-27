@@ -11,7 +11,7 @@ const About = () => (
       maxWidth: "100%",
       color: "#000",
       fontSize: "20px",
-      padding: "60px",
+      paddingTop: "100px",
     }}
   >
     <Row>
