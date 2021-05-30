@@ -39,21 +39,6 @@
   animation: animate-cloud-6 60s linear infinite;
 }
 
-.icon-building {
-  left: 0;
-  bottom: 0px;
-  width: 900px;
-  height: 89px;
-}
-
-.icon-building.left {
-  left: 166px;
-}
-
-.icon-building.right {
-  right: -696px;
-  left: auto;
-}
 @keyframes animate-cloud-1 {
   0% {
     margin-left: -100px;
@@ -152,38 +137,11 @@
   position: absolute;
 }
 
-.box-img-subscribe {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.img-subscribe {
+.iframe {
   position: relative;
-  display: block;
-  background: #202020;
-  border-radius: 5px 5px 0px 0px;
-  z-index: 1;
 }
 
-.video-link {
-  position: absolute;
-  left: 132px;
-  top: 171px;
-  width: 76%;
-  height: 75%;
-  z-index: 1;
-}
-
-.a:hover {
-  color: #0056b3;
-  text-decoration: none;
-  outline: none !important;
-}
-
-.star-icon {
-  background: url(../Assets/star.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.box-iframe {
+  padding: 20px;
+  padding-bottom: 50px;
 }

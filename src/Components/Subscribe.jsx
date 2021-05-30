@@ -9,10 +9,6 @@ import Cloud3 from "../Assets/icon-cloud-3.png";
 import Cloud4 from "../Assets/icon-cloud-4.png";
 import Cloud5 from "../Assets/icon-cloud-2.png";
 import Cloud6 from "../Assets/icon-cloud-4.png";
-import iconBuilding1 from "../Assets/icon-buildings.png";
-import iconBuilding2 from "../Assets/icon-buildings.png";
-import ImageSubscribe from "../Assets/back.jpg";
-import starIcon from "../Assets/star.png";
 
 const Subscribe = () => (
   <Container
@@ -27,16 +23,6 @@ const Subscribe = () => (
       <Col>
         <div className="section-subscribe">
           <div className="animation-icons">
-            <img
-              className="icon icon-building left"
-              src={iconBuilding1}
-              alt=""
-            />
-            <img
-              className="icon icon-building right"
-              src={iconBuilding2}
-              alt=""
-            />
             <img className="icon icon-cloud-1" src={Cloud1} alt="" />
             <img className="icon icon-cloud-2" src={Cloud2} alt="" />
             <img className="icon icon-cloud-3" src={Cloud3} alt="" />
@@ -48,12 +34,17 @@ const Subscribe = () => (
             <span className="text-1-subscribe">How Does It Work?</span>
             <h2 className="text-2-subscribe">How does it work?</h2>
           </div>
-          <div className="box-subscribe">
-            <div className="box-img-subscribe">
-              <img className="img-subscribe" src={ImageSubscribe} />
-              <a className="video-link" href="https://youtu.be/VlOy8-cfjI4"></a>
-              <img className="star-icon" src={starIcon} />
-            </div>
+          <div className="box-iframe">
+            <iframe
+              style={{ zIndex: "1", position: "relative" }}
+              width="680"
+              height="380"
+              src="https://www.youtube.com/embed/VlOy8-cfjI4?controls=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </Col>
