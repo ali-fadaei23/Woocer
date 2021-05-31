@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Button, Navbar } from "react-bootstrap";
+import { Row, Col, Container} from "react-bootstrap";
 import "./Features.css";
 
 // Add Assets
@@ -14,6 +14,7 @@ const BtnFeature = (props) => (
           filter: "brightness(0) invert(1)",
           width: "35px",
         }}
+        alt=""
       />
     </div>
     <button

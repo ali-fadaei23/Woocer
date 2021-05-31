@@ -6,7 +6,6 @@ import { Component } from "react";
 import "./App.css";
 
 // Add Components
-import BgHeader from "./Assets/1.png";
 import NavigationBar from "./Components/NavigationBar";
 import Header from "./Components/Header";
 import Features from "./Components/Features";

@@ -17,7 +17,7 @@ const About = () => (
     <Row>
       <Col>
         <div className="box-img-about">
-          <img className="img-about" src={ImageAbout} />
+          <img className="img-about" src={ImageAbout} alt="" />
         </div>
       </Col>
       <Col>

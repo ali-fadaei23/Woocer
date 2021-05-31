@@ -45,34 +45,34 @@ const Header = () => (
           </div>
         </div>
         <span className="pink-blur">
-          <img src={PinkBlur} />
+          <img src={PinkBlur} alt="" />
         </span>
         <span className="blue-blur">
-          <img src={BlueBlur} />
+          <img src={BlueBlur} alt="" />
         </span>
         <span className="green-blur">
-          <img src={GreenBlur} />
+          <img src={GreenBlur} alt="" />
         </span>
 
         <span className="icon-circle-1">
-          <img className="img-circle-1" src={IconCircle1} />
+          <img className="img-circle-1" src={IconCircle1} alt="" />
         </span>
         <span className="icon-circle-2">
-          <img className="img-circle-2" src={IconCircle2} />
+          <img className="img-circle-2" src={IconCircle2} alt="" />
         </span>
         <span className="icon-circle-3">
-          <img className="img-circle-3" src={IconCircle3} />
+          <img className="img-circle-3" src={IconCircle3} alt="" />
         </span>
 
         <span className="icon-triangle-1">
-          <img src={IconTriangle1} />
+          <img src={IconTriangle1} alt="" />
         </span>
         <span className="icon-triangle-2">
-          <img src={IconTriangle2} />
+          <img src={IconTriangle2} alt="" />
         </span>
 
         <div className="box-wow">
-          <img className="img-wow" src={AwesomeImage} alt="Awesome Image" />
+          <img className="img-wow" src={AwesomeImage} alt="Awesome" />
           <div style={{ marginBottom: "82px" }}></div>
         </div>
       </Col>
