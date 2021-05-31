@@ -25,12 +25,12 @@ const NavigationBar = () => (
         <div className="box-ul">
           <ul className="ul-nav">
             <li>
-              <a className="home link-nav" href="#">
+              <a className="home link-nav" href="#home">
                 Home
               </a>
             </li>
             <li>
-              <a className="how-to-use link-nav" href="#">
+              <a className="how-to-use link-nav" href="#how-to-use">
                 How to use
               </a>
             </li>

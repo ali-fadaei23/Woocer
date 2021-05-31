@@ -17,6 +17,7 @@ const Subscribe = () => (
       color: "#fff",
       fontSize: "20px",
       overflow: "hidden",
+      padding: "0",
     }}
   >
     <Row>
