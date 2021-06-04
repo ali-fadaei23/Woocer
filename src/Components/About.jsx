@@ -4,6 +4,7 @@ import "./About.css";
 
 // Add Assets
 import ImageAbout from "../Assets/Woocer-screenshot-2.png";
+import ImageOrder from "../Assets/Woocer-screenshot-7.png";
 
 const About = () => (
   <Container
@@ -24,16 +25,44 @@ const About = () => (
         <div className="box-title-about">
           <div className="box-main-text-about">
             <div>
-              <span>Manage your products</span>
+              <span>Add & Edit Product</span>
             </div>
             <div className="box-text-about">
               <span className="text-about" placeholder="Text">
-                Woocer let's you manage your store from your mobile device.
+                text
               </span>
             </div>
           </div>
           <div className="box-btn-about">
             <Button className="btn-about">Manage Product</Button>
+          </div>
+        </div>
+      </Col>
+    </Row>
+    <Row style={{ paddingTop: "130px" }}>
+      <Col>
+        <div className="box-add-order">
+          <div className="box-main-text-order">
+            <div>
+              <span>Add & Edit Order </span>
+            </div>
+            <div className="box-text-order">
+              <span className="text-order" placeholder="Text">
+                text
+              </span>
+            </div>
+            <div className="box-btn-order">
+              <Button className="btn-order">Manage Order</Button>
+            </div>
+          </div>
+        </div>
+      </Col>
+      <Col>
+        <div className="box-img-order-about">
+          <div className="circle-1 animate-circle-1"></div>
+          <div className="circle-2 animate-circle-2"></div>
+          <div className="box-img-order">
+            <img className="img-order" src={ImageOrder} alt="" />
           </div>
         </div>
       </Col>

@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 175px;
+  margin-bottom: 285px;
 }
 
 /* ################################## Animation Style ################################ */
@@ -269,7 +269,7 @@
 } */
 
 .img-wow {
-  margin-left: 333px;
+  margin-left: 254px;
   margin-top: 21px;
   animation: image-wow 1200ms 800ms both;
 }

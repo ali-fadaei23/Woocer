@@ -73,7 +73,6 @@ const Header = () => (
 
         <div className="box-wow">
           <img className="img-wow" src={AwesomeImage} alt="Awesome" />
-          <div style={{ marginBottom: "82px" }}></div>
         </div>
       </Col>
     </Row>
