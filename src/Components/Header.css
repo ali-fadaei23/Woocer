@@ -9,6 +9,11 @@
   src: local("Nunito"), url(../Assets/Font/Nunito-Medium.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url(../Assets/Font/Lato-Regular.ttf) format("truetype");
+}
+
 /* ###################################### Main Style ###################################### */
 
 .text-banner {
@@ -145,8 +150,8 @@
 .green-blur {
   position: absolute;
   left: 429px;
-  bottom: 638px;
-  animation: green-blur 1s 8s alternate infinite;
+  bottom: 700px;
+  animation: green-blur 2s 6s alternate infinite;
 }
 
 @keyframes green-blur {
