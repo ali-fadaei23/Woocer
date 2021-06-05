@@ -47,7 +47,11 @@ const About = () => (
               <span>Add & Edit Order </span>
             </div>
             <div className="box-text-order">
-              <span className="text-order" placeholder="Text">
+              <span
+                className="text-order"
+                placeholder="Text"
+                style={{ overflow: "hidden" }}
+              >
                 text
               </span>
             </div>
@@ -58,10 +62,10 @@ const About = () => (
         </div>
       </Col>
       <Col>
-        <div className="box-img-order-about">
+        <div className="box-img-order-about" style={{ overflow: "hidden" }}>
           <div className="circle-1 animate-circle-1"></div>
           <div className="circle-2 animate-circle-2"></div>
-          <div className="box-img-order">
+          <div className="box-img-order animate-img-order">
             <img className="img-order" src={ImageOrder} alt="" />
           </div>
         </div>

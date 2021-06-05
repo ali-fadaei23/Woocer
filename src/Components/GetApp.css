@@ -1,5 +1,7 @@
 .section-get-app {
+  position: relative;
   padding: 125px 0px 30px 61px;
+  z-index: 1;
 }
 
 .box-text-get-app {
@@ -35,6 +37,11 @@
   position: relative;
   display: block;
   font-family: "Nunito";
+}
+
+.box-btn-get-app {
+  position: relative;
+  z-index: 1;
 }
 
 .link {
@@ -87,3 +94,75 @@
   font-size: 25px;
   margin-right: 10px;
 }
+
+.box-img-up {
+  visibility: visible;
+}
+
+.image-up {
+  position: absolute;
+  z-index: 2;
+  top: 69px;
+  right: 70px;
+  animation: img-up 1s both;
+}
+
+@keyframes img-up {
+  0% {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.box-img-down {
+  visibility: visible;
+  animation: box-img-down 1s both;
+}
+
+@keyframes box-img-down {
+  0% {
+    opacity: 0;
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(-500px);
+    opacity: 1;
+  }
+}
+
+.image-down {
+  position: absolute;
+  top: -35px;
+  right: 213px;
+  z-index: 1;
+  animation: image-down 5s infinite linear;
+}
+@keyframes image-down {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(30px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.shape-image {
+  position: relative;
+  left: -120px;
+  top: 132px;
+  transition: transform 200ms linear 0s;
+  will-change: transform;
+}
+
+/* .box-image-shape {
+} */
