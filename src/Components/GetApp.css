@@ -45,6 +45,7 @@
 }
 
 .link-getapp {
+  font-weight: 600;
   transition: all 300ms ease;
 }
 .link-getapp:hover {

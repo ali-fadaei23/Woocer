@@ -62,19 +62,15 @@ const Footer = () => (
             </div>
             <div className="box-btn-footer-download">
               <div className="btn-footer-google-play btn-footer">
-                <a href="#">
-                  <span>
-                    <i className="fab fa-google-play fa-lg"></i>
-                    Google Play
-                  </span>
+                <a href="#" className="google-play-footer btn-download-app">
+                  <i className="fab fa-google-play fa-lg"></i>
+                  Google Play
                 </a>
               </div>
               <div className="btn-footer-apple-store btn-footer">
-                <a href="#">
-                  <span>
-                    <i className="fab fa-apple fa-lg"></i>
-                    Apple Store
-                  </span>
+                <a href="#" className="apple-store-footer btn-download-app">
+                  <i className="fab fa-apple fa-lg"></i>
+                  Apple Store
                 </a>
               </div>
             </div>
