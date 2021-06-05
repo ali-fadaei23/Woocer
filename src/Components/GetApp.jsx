@@ -54,7 +54,7 @@ const GetApp = () => {
             <div className="box-btn-get-app">
               <div className="box-btn-google-play">
                 <span className="button btn-google-play">
-                  <a href="#home" className="link link-google-play">
+                  <a href="#home" className="link-getapp link-google-play">
                     <i className="fab fa-google-play fa-lg"></i>
                     Google Play
                   </a>
@@ -62,7 +62,7 @@ const GetApp = () => {
               </div>
               <div className="box-btn-app-store">
                 <span className="button btn-apple-store">
-                  <a href="#home" className="link link-apple-store">
+                  <a href="#home" className="link-getapp link-apple-store">
                     <i className="fab fa-apple fa-lg"></i>
                     Apple Store
                   </a>

@@ -34,21 +34,21 @@ const Footer = () => (
           </div>
           <div className="section-footer-pages">
             <div className="box-pages">
-              <h1>Pages</h1>
+              <span className="text-title-pages title">Pages</span>
             </div>
             <div className="box-pages-link">
               <ul>
                 <div className="box-link-pages">
-                  <li className="link-home link">
+                  <li className="link-home link-footer">
                     <a Href="#">Home</a>
                   </li>
-                  <li className="link-how-to-use link">
+                  <li className="link-how-to-use link-footer">
                     <a Href="#">How to use</a>
                   </li>
-                  <li className="link-privacy-policy link">
+                  <li className="link-privacy-policy link-footer">
                     <a Href="#">Privacy Policy</a>
                   </li>
-                  <li className="link-terms-and-conditions link">
+                  <li className="link-terms-and-conditions link-footer">
                     <a Href="#">Terms and Conditions</a>
                   </li>
                 </div>
@@ -58,7 +58,7 @@ const Footer = () => (
 
           <div className="section-footer-download">
             <div className="box-download">
-              <h1>Download</h1>
+              <span className="text-title-pages title">Download</span>
             </div>
             <div className="box-btn-footer-download">
               <div className="btn-footer-google-play btn-footer">
