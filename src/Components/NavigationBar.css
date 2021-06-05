@@ -60,3 +60,11 @@ ul {
   position: relative;
   margin: 0px;
 }
+
+.ul-nav {
+  list-style: none;
+}
+
+.box-ul {
+  margin-left: 40px;
+}
