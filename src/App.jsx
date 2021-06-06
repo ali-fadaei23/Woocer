@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-// import { Row, Col, Container } from "react-bootstrap";
 import { Component } from "react";
+
+import ScrollButton from "./Components/ScrollButton";
 
 // App - css
 import "./App.css";
@@ -14,6 +15,7 @@ import Subscribe from "./Components/Subscribe";
 import GetApp from "./Components/GetApp";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
+import { Container } from "react-bootstrap";
 
 class App extends Component {
   // constructor(props) {
@@ -47,6 +49,9 @@ class App extends Component {
         </div>
         <div className="footer-container">
           <Footer />
+        </div>
+        <div className="box-scroll-container">
+          <ScrollButton scrollStepInPx={"40"} delayInMs={"16.66"} />
         </div>
       </>
     );

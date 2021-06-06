@@ -10,11 +10,25 @@
   position: absolute;
 }
 
+@keyframes animation-nav {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .navbar {
   position: relative;
   float: left;
   left: 0px;
-  padding: 39px 0;
+  padding: 39px 0px;
+}
+
+.navbar-nav {
+  padding: 15px 0px;
 }
 
 li > .link-nav {

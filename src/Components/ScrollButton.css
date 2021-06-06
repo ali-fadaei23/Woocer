@@ -1,0 +1,18 @@
+.box-scroll-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #333333;
+  position: fixed;
+  visibility: visible;
+  z-index: 1;
+  right: 23px;
+  bottom: 23px;
+}
+
+.btn-go-to-top {
+  color: #fff;
+}

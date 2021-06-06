@@ -15,6 +15,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  max-height: 100%;
 }
 
 html {
@@ -53,3 +54,22 @@ body {
 .features-container {
   padding: 0px 75px;
 }
+/* 
+.btn-scroll {
+  color: #ffffff;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 44px;
+  height: 44px;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 44px;
+  text-align: center;
+  z-index: 100;
+  cursor: pointer;
+  background: #333333;
+  display: none;
+  transition: all 300ms ease;
+} */
