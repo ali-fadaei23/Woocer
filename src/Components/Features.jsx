@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container} from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import "./Features.css";
 
 // Add Assets
@@ -45,37 +45,43 @@ const Features = () => (
 
     <Row>
       <Col>
-        <div className="box-features-btn">
-          <BtnFeature text={"Manage Product"} />
-        </div>
-        <div className="box-features-btn">
-          <BtnFeature text={"Manage Orders"} />
-        </div>
-        <div className="box-features-btn">
-          <BtnFeature text={"Manage Customers"} />
+        <div className="anim-box-1">
+          <div className="box-features-btn">
+            <BtnFeature text={"Manage Product"} />
+          </div>
+          <div className="box-features-btn">
+            <BtnFeature text={"Manage Orders"} />
+          </div>
+          <div className="box-features-btn">
+            <BtnFeature text={"Manage Customers"} />
+          </div>
         </div>
       </Col>
       <Col>
-        <div className="box-features-btn">
-          <BtnFeature text={"Manage Review"} />
-        </div>
+        <div className="anim-box-2">
+          <div className="box-features-btn">
+            <BtnFeature text={"Manage Review"} />
+          </div>
 
-        <div className="box-features-btn">
-          <BtnFeature text={"Manage Tags"} />
-        </div>
-        <div className="box-features-btn">
-          <BtnFeature text={"Manage Categories"} />
+          <div className="box-features-btn">
+            <BtnFeature text={"Manage Tags"} />
+          </div>
+          <div className="box-features-btn">
+            <BtnFeature text={"Manage Categories"} />
+          </div>
         </div>
       </Col>
       <Col>
-        <div className="box-features-btn">
-          <BtnFeature text={"Login with fingerprint"} />
-        </div>
-        <div className="box-features-btn">
-          <BtnFeature text={"Customizable Profile"} />
-        </div>
-        <div className="box-features-btn">
-          <BtnFeature text={"And so much more..."} />
+        <div className="anim-box-3">
+          <div className="box-features-btn">
+            <BtnFeature text={"Login with fingerprint"} />
+          </div>
+          <div className="box-features-btn">
+            <BtnFeature text={"Customizable Profile"} />
+          </div>
+          <div className="box-features-btn">
+            <BtnFeature text={"And so much more..."} />
+          </div>
         </div>
       </Col>
     </Row>

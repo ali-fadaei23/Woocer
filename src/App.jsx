@@ -51,7 +51,7 @@ class App extends Component {
           <Footer />
         </div>
         <div className="box-scroll-container">
-          <ScrollButton scrollStepInPx={"40"} delayInMs={"16.66"} />
+          <ScrollButton scrollStepInPx={"90"} delayInMs={"16.66"} />
         </div>
       </>
     );

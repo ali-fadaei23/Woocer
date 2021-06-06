@@ -25,3 +25,48 @@
   align-items: center;
   justify-content: center;
 }
+
+.anim-box-1 {
+  animation: anim-box-1 900ms;
+}
+
+@keyframes anim-box-1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.anim-box-2 {
+  animation: anim-box-2 1300ms;
+}
+
+@keyframes anim-box-2 {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.anim-box-3 {
+  animation: anim-box-3 1800ms;
+}
+
+@keyframes anim-box-3 {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
