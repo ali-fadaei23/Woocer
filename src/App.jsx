@@ -18,10 +18,6 @@ import Footer from "./Components/Footer";
 import { Container } from "react-bootstrap";
 
 class App extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
   render() {
     return (
       <>

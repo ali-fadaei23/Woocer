@@ -9,7 +9,6 @@
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  
 }
 .icon-cloud-1 {
   top: 40px;
@@ -138,11 +137,28 @@
   position: absolute;
 }
 
-.iframe {
-  position: relative;
-}
-
 .box-iframe {
   padding: 20px;
   padding-bottom: 80px;
+}
+
+.iframe-video {
+  position: relative;
+  visibility: hidden;
+}
+.animation-iframe-video {
+  visibility: visible;
+  animation: iframe-video 1s;
+}
+
+@keyframes iframe-video {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

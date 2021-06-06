@@ -38,14 +38,19 @@
   transition: all 800ms;
 }
 
-.box-img-about {
+.animation-box-about {
   animation: box-img-about 1000ms;
 }
 
 .img-about {
   position: relative;
   top: 70px;
+  visibility: hidden;
+}
+
+.animation-img-about {
   animation: img-about 3s linear infinite alternate;
+  visibility: visible;
 }
 
 @keyframes box-img-about {
@@ -97,11 +102,13 @@
 
 .box-img-order-about {
   margin-right: 50px;
+  visibility: hidden;
 }
 
 .img-order {
   margin-right: 150px;
 }
+
 .animate-img-order {
   visibility: visible;
   animation: img-order 1000ms both 1500ms;
@@ -129,6 +136,7 @@
   border-radius: 50%;
   background-color: rgba(215, 60, 129, 0.5);
   z-index: -1;
+  visibility: hidden;
 }
 
 .animate-circle-1 {
@@ -162,6 +170,7 @@
     #dd4e54
   );
   z-index: -1;
+  visibility: hidden;
 }
 
 .animate-circle-2 {

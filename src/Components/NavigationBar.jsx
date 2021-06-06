@@ -27,7 +27,8 @@ const NavigationBar = () => {
         show
           ? {
               position: "fixed",
-              backgroundColor: "#fbfbfe",
+              background:
+                "linear-gradient(90deg, rgba(255,255,255,0.8743872549019608) 8%, rgba(238,238,242,0.896796218487395) 55%)",
               zIndex: "3",
               animation: "animation-nav 0.4s",
             }
