@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col, Container, Navbar } from "react-bootstrap";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./NavigationBar.css";
 import Logo from "../Assets/woocer.png";
 
@@ -43,7 +43,6 @@ const NavigationBar = () => {
     >
       <Row>
         <Col
-          lg={4}
           style={{
             display: "flex",
             flexDirection: "row",
@@ -52,7 +51,7 @@ const NavigationBar = () => {
         >
           <div>
             <Navbar className={show ? "navbar navbar-nav " : null}>
-              <Navbar.Brand href="#home">
+              <Navbar.Brand href="/">
                 <img
                   src={Logo}
                   width="130"
@@ -62,17 +61,18 @@ const NavigationBar = () => {
               </Navbar.Brand>
             </Navbar>
           </div>
+
           <div className="box-ul">
             <ul className="ul-nav">
               <li>
-                <a className="home link-nav" href="#home">
+                <a className="home link-nav" href="/">
                   Home
                 </a>
               </li>
               <li>
-                <a className="how-to-use link-nav" href="/how-to-use">
+                <Link className="how-to-use link-nav" to="/how-to-use">
                   How to use
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
