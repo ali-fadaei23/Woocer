@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col, Container, Navbar } from "react-bootstrap";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import "./NavigationBar.css";
 import Logo from "../Assets/woocer.png";
 
@@ -69,7 +70,7 @@ const NavigationBar = () => {
                 </a>
               </li>
               <li>
-                <a className="how-to-use link-nav" href="#how-to-use">
+                <a className="how-to-use link-nav" href="/how-to-use">
                   How to use
                 </a>
               </li>
