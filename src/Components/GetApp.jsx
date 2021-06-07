@@ -10,14 +10,19 @@ const GetApp = () => {
   var [value, setValue] = useState(0);
   var [show, setShow] = useState(false);
   useEffect(() => {
+    var position = document.body.scrollTop;
     var handleScroll = () => {
-      if (window.pageYOffset >= 3900) {
+      var scroll = window.pageYOffset;
+      if ((scroll > position) & (window.pageYOffset >= 3415)) {
         setShow(true);
-        setValue(window.pageYOffset - 1500);
-      } else if (window.pageYOffset >= 5050) {
+        setValue((window.pageXOffset += 2));
+      } else if ((scroll < position) & (window.pageYOffset >= 3415)) {
+        setValue((window.pageXOffset -= 2));
+      } else {
         setShow(false);
         setValue(0);
       }
+      position = scroll;
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -25,7 +30,17 @@ const GetApp = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  console.log(window.pageYOffset);
+  const [show2, setShow2] = useState(false);
+  useEffect(() => {
+    const ShowAnimationStart = function () {
+      if (window.pageYOffset >= 4400) {
+        setShow2(true);
+      }
+    };
+    window.addEventListener("scroll", ShowAnimationStart);
+    return () => window.removeEventListener("scroll", ShowAnimationStart);
+  }, []);
   return (
     <Container
       style={{
@@ -39,12 +54,16 @@ const GetApp = () => {
         <Col>
           <div className="section-get-app">
             <div className="box-text-get-app">
-              <div className="box-text-1">
+              <div
+                className={show2 ? "box-text-1 animate-txt-1" : "box-text-1"}
+              >
                 <span className="text-1-get-app">
                   Available for your smartphone.
                 </span>
               </div>
-              <div className="box-text-2">
+              <div
+                className={show2 ? "box-text-2 animate-txt-2" : "box-text-2"}
+              >
                 <span className="text-2-get-app">
                   All the power of lconosquare in your pocker. Schedule, publish
                   and monitor your accounts with ease.
@@ -52,7 +71,13 @@ const GetApp = () => {
               </div>
             </div>
             <div className="box-btn-get-app">
-              <div className="box-btn-google-play">
+              <div
+                className={
+                  show2
+                    ? "box-btn-google-play animate-btn-google-play"
+                    : "box-btn-google-play"
+                }
+              >
                 <span className="button btn-google-play">
                   <a href="#home" className="link-getapp link-google-play">
                     <i className="fab fa-google-play fa-lg"></i>
@@ -60,7 +85,13 @@ const GetApp = () => {
                   </a>
                 </span>
               </div>
-              <div className="box-btn-app-store">
+              <div
+                className={
+                  show2
+                    ? "box-btn-app-store animate-btn-apple-store"
+                    : "box-btn-app-store"
+                }
+              >
                 <span className="button btn-apple-store">
                   <a href="#home" className="link-getapp link-apple-store">
                     <i className="fab fa-apple fa-lg"></i>
@@ -77,9 +108,7 @@ const GetApp = () => {
             <img
               className="shape-image"
               style={{
-                transform: show
-                  ? `translateX(-${Math.round(value - 2800)}px)`
-                  : null,
+                transform: show ? `translateX(-${value}px)` : null,
               }}
               src={ShapeImage}
               alt=""

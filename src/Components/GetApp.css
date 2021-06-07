@@ -16,6 +16,7 @@
 .box-text-1 {
   font-size: 40px;
   font-weight: 600;
+  visibility: hidden;
 }
 
 .text-1-get-app {
@@ -25,12 +26,30 @@
   font-family: "Poppins";
 }
 
+.animate-txt-1 {
+  visibility: visible;
+  animation: animate-txt-1 1s;
+}
+
+@keyframes animate-txt-1 {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .box-text-2 {
   margin-top: 30px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 500;
   color: #75717b;
+  visibility: hidden;
 }
 
 .text-2-get-app {
@@ -39,9 +58,62 @@
   font-family: "Nunito";
 }
 
+.animate-txt-2 {
+  visibility: visible;
+  animation: animate-txt-2 2s;
+}
+
+@keyframes animate-txt-2 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .box-btn-get-app {
   position: relative;
   z-index: 1;
+}
+
+.box-btn-google-play {
+  visibility: hidden;
+}
+.animate-btn-google-play {
+  visibility: visible;
+  animation: animate-google-play 1.9s;
+}
+@keyframes animate-google-play {
+  0% {
+    opacity: 0;
+
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.box-btn-app-store {
+  visibility: hidden;
+}
+
+.animate-btn-apple-store {
+  visibility: visible;
+  animation: animate-apple-store 1.5s;
+}
+@keyframes animate-apple-store {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .link-getapp {
@@ -105,7 +177,7 @@
   z-index: 2;
   top: 69px;
   right: 70px;
-  animation: img-up 1s both;
+  animation: img-up 1s 3s both;
 }
 
 @keyframes img-up {
@@ -120,7 +192,7 @@
 
 .box-img-down {
   visibility: visible;
-  animation: box-img-down 1s both;
+  animation: box-img-down 3s both;
 }
 
 @keyframes box-img-down {
@@ -161,7 +233,7 @@
   position: relative;
   left: -120px;
   top: 132px;
-  transition: transform 200ms linear 0s;
+  transition: transform 0s linear 0s;
   will-change: transform;
 }
 

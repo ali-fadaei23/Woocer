@@ -148,7 +148,7 @@
 }
 .animation-iframe-video {
   visibility: visible;
-  animation: iframe-video 1s;
+  animation: iframe-video 2s;
 }
 
 @keyframes iframe-video {

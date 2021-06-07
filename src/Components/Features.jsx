@@ -36,7 +36,7 @@ const Features = () => {
   const [show, setShow] = useState(false);
   useEffect(() => {
     const ShowAnimationStart = function () {
-      if (window.pageYOffset >= 500) {
+      if (window.pageYOffset >= 800) {
         setShow(true);
       }
     };
