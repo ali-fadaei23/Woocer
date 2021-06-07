@@ -62,13 +62,19 @@ const Footer = () => (
             </div>
             <div className="box-btn-footer-download">
               <div className="btn-footer-google-play btn-footer">
-                <a href="#" className="google-play-footer btn-download-app">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.woocer.woocommerceapp&hl=en_US&gl=US"
+                  className="google-play-footer btn-download-app"
+                >
                   <i className="fab fa-google-play fa-lg"></i>
                   Google Play
                 </a>
               </div>
               <div className="btn-footer-apple-store btn-footer">
-                <a href="#" className="apple-store-footer btn-download-app">
+                <a
+                  href="https://apps.apple.com/us/app/woocer-woocommerce-admin/id1534385320#?platform=iphone"
+                  className="apple-store-footer btn-download-app"
+                >
                   <i className="fab fa-apple fa-lg"></i>
                   Apple Store
                 </a>

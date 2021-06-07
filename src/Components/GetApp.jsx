@@ -20,7 +20,6 @@ const GetApp = () => {
         setValue((window.pageXOffset -= 2));
       } else {
         setShow(false);
-        setValue(0);
       }
       position = scroll;
     };
@@ -30,7 +29,6 @@ const GetApp = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(window.pageYOffset);
   const [show2, setShow2] = useState(false);
   useEffect(() => {
     const ShowAnimationStart = function () {
@@ -79,7 +77,10 @@ const GetApp = () => {
                 }
               >
                 <span className="button btn-google-play">
-                  <a href="#home" className="link-getapp link-google-play">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.woocer.woocommerceapp&hl=en_US&gl=US"
+                    className="link-getapp link-google-play"
+                  >
                     <i className="fab fa-google-play fa-lg"></i>
                     Google Play
                   </a>
@@ -93,7 +94,10 @@ const GetApp = () => {
                 }
               >
                 <span className="button btn-apple-store">
-                  <a href="#home" className="link-getapp link-apple-store">
+                  <a
+                    href="https://apps.apple.com/us/app/woocer-woocommerce-admin/id1534385320#?platform=iphone"
+                    className="link-getapp link-apple-store"
+                  >
                     <i className="fab fa-apple fa-lg"></i>
                     Apple Store
                   </a>
@@ -108,7 +112,7 @@ const GetApp = () => {
             <img
               className="shape-image"
               style={{
-                transform: show ? `translateX(-${value}px)` : null,
+                transform: show ? `translateX(-${value}px)` : "translateX(0px)",
               }}
               src={ShapeImage}
               alt=""
