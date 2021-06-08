@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./Subscribe.css";
 
+
 // Add Assets
 import Cloud1 from "../Assets/icon-cloud-1.png";
 import Cloud2 from "../Assets/icon-cloud-2.png";
@@ -58,9 +59,9 @@ const Subscribe = () => {
                 height="380"
                 src="https://www.youtube.com/embed/VlOy8-cfjI4?controls=0"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>

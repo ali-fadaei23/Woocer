@@ -142,7 +142,7 @@ const HowToUse = () => {
                   </a>
                 </li>
                 <li className="li-how-to-use li-style">
-                  <a>How to use</a>
+                  <li>How to use</li>
                 </li>
               </div>
             </div>

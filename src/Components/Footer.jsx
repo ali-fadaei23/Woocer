@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Footer.css";
+import { scrollToTop } from "./ScrollButton";
 
 import Cloud1 from "../Assets/icon-cloud-1.png";
 import Cloud2 from "../Assets/icon-cloud-2.png";
@@ -40,16 +42,16 @@ const Footer = () => (
               <ul>
                 <div className="box-link-pages">
                   <li className="link-home link-footer">
-                    <a Href="#">Home</a>
+                    <a href="#top">Home</a>
                   </li>
                   <li className="link-how-to-use link-footer">
-                    <a Href="#">How to use</a>
+                    <Link to="/how-to-use">How to use</Link>
                   </li>
                   <li className="link-privacy-policy link-footer">
-                    <a Href="#">Privacy Policy</a>
+                    <a href="#home">Privacy Policy</a>
                   </li>
                   <li className="link-terms-and-conditions link-footer">
-                    <a Href="#">Terms and Conditions</a>
+                    <a href="#home">Terms and Conditions</a>
                   </li>
                 </div>
               </ul>

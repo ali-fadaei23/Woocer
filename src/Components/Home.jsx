@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import ScrollButton from "../Components/ScrollButton";
 
 // App - css
@@ -19,7 +19,7 @@ class Home extends Component {
   render() {
     return (
       <>
-        <div className="header-container">
+        <div className="header-container" id="top">
           <NavigationBar />
           <div className="box-header-bg">
             <div className="layer-img"></div>
