@@ -3,6 +3,8 @@ import { Row, Col, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./HowToUse.css";
 
+import ScrollButton from "./ScrollButton";
+
 // Add Assets
 import Logo from "../Assets/woocer.png";
 import GreenBlur from "../Assets/green-blur.png";
@@ -178,6 +180,27 @@ const HowToUse = () => {
                 <strong>Read/Write</strong> access.
               </p>
               <p>Now add them in the app.</p>
+            </div>
+          </div>
+        </div>
+        <div className="box-btn-scroll-how-to-use">
+          <ScrollButton scrollStepInPx={"40"} delayInMs={"16.66"} />
+        </div>
+      </Row>
+      <Row>
+        <div className="section-footer-how-to-use">
+          <div className="footer-how-to-use">
+            <div className="box-layer-footer">
+              <span className="layer-footer-1 animation-layer-footer"></span>
+              <span className="layer-footer-2 animation-layer-footer"></span>
+
+            </div>
+            <div className="box-text-footer-bottom-v2">
+              <div className="text-footer">
+                <span className="text-footer-bottom-v2">
+                  © 2020 Woocer. All rights reserved.
+                </span>
+              </div>
             </div>
           </div>
         </div>

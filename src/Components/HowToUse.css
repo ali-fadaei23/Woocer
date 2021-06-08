@@ -282,3 +282,53 @@ ul {
 .img-step {
   padding: 20px 0px;
 }
+
+.section-footer-how-to-use {
+  background-color: #37396f;
+  width: 100%;
+}
+
+.footer-how-to-use {
+  padding: 150px 0 90px;
+}
+
+.box-text-footer-bottom-v2 {
+  position: relative;
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.text-footer {
+  height: 30px;
+}
+
+.text-footer-bottom-v2 {
+  padding-left: 85px;
+}
+
+.layer-footer-1 {
+  background: url(../Assets/footer-shape-1.png);
+  position: absolute;
+  left: 0;
+  top: 1944px;
+  height: 285px;
+  width: 1343px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.layer-footer-2 {
+  background: url(../Assets/footer-bg-1.png);
+  position: absolute;
+  left: 0;
+  top: 1944px;
+  height: 285px;
+  width: 1343px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
