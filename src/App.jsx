@@ -8,13 +8,15 @@ import "./App.css";
 // Add Components
 import Home from "./Components/Home";
 import HowToUse from "./Components/HowToUse";
+import PrivacyPolicy from "./Components/PrivacyPolicy";
 
 class App extends Component {
   render() {
     return (
       <Router>
         <Route exact path="/" component={Home} />
-        <Route exact path="/how-to-use" component={HowToUse} />
+        <Route path="/how-to-use" component={HowToUse} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
       </Router>
     );
   }

@@ -48,7 +48,7 @@ const Footer = () => (
                     <Link to="/how-to-use">How to use</Link>
                   </li>
                   <li className="link-privacy-policy link-footer">
-                    <a href="#home">Privacy Policy</a>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li className="link-terms-and-conditions link-footer">
                     <a href="#home">Terms and Conditions</a>

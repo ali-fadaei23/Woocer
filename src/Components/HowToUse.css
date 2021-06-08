@@ -45,7 +45,7 @@
   padding: 15px 0px;
 }
 
-.li-style > .link-nav-v2 {
+li > .link-nav-v2 {
   position: relative;
   text-decoration: none;
   text-align: center;
@@ -55,11 +55,11 @@
   color: #454789;
 }
 
-.li-style > .link-nav-v2:hover {
+li > .link-nav-v2:hover {
   color: #454789;
 }
 
-.li-style > .link-nav-v2::before {
+li > .link-nav-v2::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -72,7 +72,7 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-.li-style > .link-nav-v2:hover::before {
+li > .link-nav-v2:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }

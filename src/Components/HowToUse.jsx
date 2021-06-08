@@ -193,7 +193,6 @@ const HowToUse = () => {
             <div className="box-layer-footer">
               <span className="layer-footer-1 animation-layer-footer"></span>
               <span className="layer-footer-2 animation-layer-footer"></span>
-
             </div>
             <div className="box-text-footer-bottom-v2">
               <div className="text-footer">
