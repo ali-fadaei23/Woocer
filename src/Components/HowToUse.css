@@ -3,7 +3,7 @@
   color: #fff;
   position: static;
   max-width: 1590px;
-  padding: 0px 30px;
+  padding: 0px 15px;
   margin: 0 auto;
 }
 
@@ -101,10 +101,64 @@ ul {
 }
 
 /* ############################### Main Style ############################ */
+.section-header-how-to-use {
+  position: relative;
+  padding: 250px 0px 140px;
+  background-color: #edf1ff;
+  text-align: center;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.layer-1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 230px;
+  background-image: url(../Assets/shape-12.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  animation: layer-1 2s 1 linear;
+}
+
+@keyframes layer-1 {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.layer-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 534px;
+  background-image: url(../Assets/shape-13.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  animation: layer-1 2s 1 linear;
+}
+
+@keyframes layer-2 {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
 
 .pink-blur-v2 {
   position: absolute;
-  left: 497px;
+  left: 372px;
   top: 79px;
   animation: pink-blur-v2 3s 5s alternate infinite;
 }
@@ -120,8 +174,8 @@ ul {
 
 .blue-blur-v2 {
   position: absolute;
-  top: 234px;
-  right: 80px;
+  top: 346px;
+  right: 108px;
   animation: blue-blur-v2 2s 1s alternate infinite;
 }
 
@@ -205,4 +259,26 @@ ul {
 .link-home-how-to-use:hover {
   color: #4c4754;
   text-decoration: none;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  position: relative;
+  padding: 120px 80px 70px;
+  overflow: hidden;
+}
+
+.content-sidebar {
+  padding: 0px 30px;
+  font-family: "Nunito";
+  font-size: 16px;
+  color: #777777;
+}
+
+.img-step {
+  padding: 20px 0px;
 }

@@ -8,6 +8,8 @@ import Logo from "../Assets/woocer.png";
 import GreenBlur from "../Assets/green-blur.png";
 import BlueBlur from "../Assets/blue-blur.png";
 import PinkBlur from "../Assets/pink-blur.png";
+import ApiImage1 from "../Assets/Woocer-Woocommerce-API-1.jpg";
+import ApiImage2 from "../Assets/Woocer-Woocommerce-API-2.jpg";
 
 const NavBarV2 = () => {
   const [show, setShow] = useState(false);
@@ -105,46 +107,77 @@ const HowToUse = () => {
   //   }, []);
 
   return (
-    <Container
-      style={{
-        position: "relative",
-        padding: "250px 0px 140px",
-        backgroundColor: "#edf1ff",
-        textAlign: "center",
-        overflow: " hidden",
-      }}
-    >
+    <Container>
       <Row>
-        <div className="box-nav-bar-v2">
-          <NavBarV2 />
-        </div>
-        <div className="animation-icon-v2">
-          <span className="pink-blur-v2">
-            <img src={PinkBlur} width="100" alt="PinkBlur" />
-          </span>
-          <span className="blue-blur-v2">
-            <img src={BlueBlur} width="110" alt="BlueBlur" />
-          </span>
-          <span className="green-blur-v2">
-            <img src={GreenBlur} width="80" alt="GreenBlur" />
-          </span>
-        </div>
-        <div className="box-title-how-to-use">
-          <div className="title-how-to-use">
-            <h1 className="text-title">
-              How to use Woocer - WooCommerce Mobile App for iOS & Android
-            </h1>
-            <div className="box-links-how-to-use">
-              <div className="links-how-to-use">
-                <li className="li-home li-style">
-                  <a href="/" className="link-home-how-to-use">
-                    Home
-                  </a>
-                </li>
-                <li className="li-how-to-use li-style">
-                  <li>How to use</li>
-                </li>
+        <div className="section-header-how-to-use">
+          <div className="box-nav-bar-v2">
+            <NavBarV2 />
+          </div>
+          <div className="layer-image">
+            <span className="layer-1 animation-layer"></span>
+            <span className="layer-2 animation-layer"></span>
+          </div>
+          <div className="animation-icon-v2">
+            <span className="pink-blur-v2">
+              <img src={PinkBlur} width="100" alt="PinkBlur" />
+            </span>
+            <span className="blue-blur-v2">
+              <img src={BlueBlur} width="110" alt="BlueBlur" />
+            </span>
+            <span className="green-blur-v2">
+              <img src={GreenBlur} width="80" alt="GreenBlur" />
+            </span>
+          </div>
+          <div className="box-title-how-to-use">
+            <div className="title-how-to-use">
+              <h1 className="text-title">
+                How to use Woocer - WooCommerce Mobile App for iOS & Android
+              </h1>
+              <div className="box-links-how-to-use">
+                <div className="links-how-to-use">
+                  <li className="li-home li-style">
+                    <a href="/" className="link-home-how-to-use">
+                      Home
+                    </a>
+                  </li>
+                  <li className="li-how-to-use li-style">
+                    <li>How to use</li>
+                  </li>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="sidebar-container">
+          <div className="box-content-sidebar">
+            <div className="content-sidebar">
+              <p>Using Woocer is easy.</p>
+              <p>
+                Go to:
+                <strong>
+                  {" "}
+                  WooCommerce{">"} Settings {">"} Advanced {">"} REST API
+                </strong>
+                .
+              </p>
+              <img
+                className="img-step-1 img-step"
+                src={ApiImage1}
+                width="570"
+                height="377"
+              />
+              <img
+                className="img-step-2 img-step"
+                src={ApiImage2}
+                width="996"
+                height="675"
+              />
+              <p>
+                Select <strong>Add Key</strong>. Add a{" "}
+                <strong>Description</strong>. Make sure you give{" "}
+                <strong>Read/Write</strong> access.
+              </p>
+              <p>Now add them in the app.</p>
             </div>
           </div>
         </div>
