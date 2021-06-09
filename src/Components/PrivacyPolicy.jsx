@@ -326,20 +326,20 @@ const PrivacyPolicy = () => {
             </div>
           </div>
         </div>
-        <div className="box-btn-scroll-how-to-use">
+        <div className="box-btn-scroll-privacy-policy">
           <ScrollButton scrollStepInPx={"40"} delayInMs={"16.66"} />
         </div>
       </Row>
       <Row>
-        <div className="section-footer-how-to-use">
-          <div className="footer-how-to-use">
-            <div className="box-layer-footer">
-              <span className="layer-footer-1 animation-layer-footer"></span>
-              <span className="layer-footer-2 animation-layer-footer"></span>
+        <div className="section-footer-privacy-policy">
+          <div className="footer-privacy-policy">
+            <div className="box-layer-footer-privacy-policy">
+              <span className="layer-footer-privacy-policy-1 animation-layer-footer"></span>
+              <span className="layer-footer-privacy-policy-2 animation-layer-footer"></span>
             </div>
-            <div className="box-text-footer-bottom-v2">
-              <div className="text-footer">
-                <span className="text-footer-bottom-v2">
+            <div className="box-text-footer-bottom-privacy-policy-v2">
+              <div className="text-footer-privacy-policy">
+                <span className="text-footer-bottom-privacy-policy-v2">
                   © 2020 Woocer. All rights reserved.
                 </span>
               </div>

@@ -283,16 +283,16 @@ ul {
   padding: 20px 0px;
 }
 
-.section-footer-how-to-use {
+.section-footer-privacy-policy {
   background-color: #37396f;
   width: 100%;
 }
 
-.footer-how-to-use {
+.footer-privacy-policy {
   padding: 150px 0 90px;
 }
 
-.box-text-footer-bottom-v2 {
+.box-text-footer-bottom-privacy-policy-v2 {
   position: relative;
   color: #ffffff;
   font-size: 16px;
@@ -300,15 +300,15 @@ ul {
   text-align: left;
 }
 
-.text-footer {
+.text-footer-privacy-policy {
   height: 30px;
 }
 
-.text-footer-bottom-v2 {
+.text-footer-bottom-privacy-policy-v2 {
   padding-left: 85px;
 }
 
-.layer-footer-1 {
+.layer-footer-privacy-policy-1 {
   background: url(../Assets/footer-shape-1.png);
   position: absolute;
   left: 0;
@@ -321,7 +321,7 @@ ul {
   z-index: -1;
 }
 
-.layer-footer-2 {
+.layer-footer-privacy-policy-2 {
   background: url(../Assets/footer-bg-1.png);
   position: absolute;
   left: 0;

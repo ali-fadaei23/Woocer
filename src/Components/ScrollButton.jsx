@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./ScrollButton.css";
 
 const ScrollButton = (props) => {
   const intervalId = useRef(0);
