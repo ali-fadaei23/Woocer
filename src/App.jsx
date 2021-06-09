@@ -11,6 +11,7 @@ import "./App.css";
 import Home from "./Components/Home";
 import HowToUse from "./Components/HowToUse";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
+import TermsAndConditions from "./Components/Terms";
 import ScrollToTop from "./Components/Scroll";
 
 const history = createHistory();
@@ -24,6 +25,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/how-to-use" component={HowToUse} />
           <Route path="/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/terms-conditions" component={TermsAndConditions} />
         </Switch>
       </Router>
     );
