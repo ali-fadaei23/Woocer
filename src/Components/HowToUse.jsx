@@ -92,21 +92,28 @@ const NavBarV2 = () => {
 };
 
 const HowToUse = () => {
-  //   const [show, setShow] = useState(false);
-  //   const [show2, setShow2] = useState(false);
+  const [animationStart, setAnimationStart] = useState(false);
+  useEffect(() => {
+    var position = document.body.scrollTop;
+    var handleAnimation = () => {
+      var scroll = window.pageYOffset;
+      if (
+        (scroll > position) & (window.pageYOffset >= 0) ||
+        (scroll < position) & (window.pageYOffset <= 400)
+      ) {
+        setAnimationStart(true);
+      } else {
+        setAnimationStart(false);
+      }
 
-  //   useEffect(() => {
-  //     const ShowAnimationStart = function () {
-  //       if (window.pageYOffset >= 1670) {
-  //         setShow(true);
-  //       }
-  //       if (window.pageYOffset >= 2810) {
-  //         setShow2(true);
-  //       }
-  //     };
-  //     window.addEventListener("scroll", ShowAnimationStart);
-  //     return () => window.removeEventListener("scroll", ShowAnimationStart);
-  //   }, []);
+      position = scroll;
+    };
+
+    window.addEventListener("scroll", handleAnimation);
+    return () => {
+      window.removeEventListener("scroll", handleAnimation);
+    };
+  }, []);
 
   return (
     <Container>
@@ -116,8 +123,16 @@ const HowToUse = () => {
             <NavBarV2 />
           </div>
           <div className="layer-image">
-            <span className="layer-1 animation-layer"></span>
-            <span className="layer-2 animation-layer"></span>
+            <span
+              className={
+                animationStart ? "layer-1 animation-layer-1" : "layer-1"
+              }
+            ></span>
+            <span
+              className={
+                animationStart ? "layer-2 animation-layer-2" : "layer-2"
+              }
+            ></span>
           </div>
           <div className="animation-icon-v2">
             <span className="pink-blur-v2">

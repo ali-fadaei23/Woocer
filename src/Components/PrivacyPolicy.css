@@ -120,13 +120,17 @@ ul {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
+  visibility: hidden;
+}
+
+.animation-layer-privacy-policy-1 {
+  visibility: visible;
   animation: layer-1 2s 1 linear;
 }
 
 @keyframes layer-1 {
   0% {
     transform: translate3d(0, 100%, 0);
-    visibility: visible;
   }
   100% {
     transform: translate3d(0, 0, 0);
@@ -143,13 +147,17 @@ ul {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  animation: layer-1 2s 1 linear;
+  visibility: hidden;
+}
+
+.animation-layer-privacy-policy-2 {
+  visibility: visible;
+  animation: layer-2 2s 1 linear;
 }
 
 @keyframes layer-2 {
   0% {
     transform: translate3d(0, 100%, 0);
-    visibility: visible;
   }
   100% {
     transform: translate3d(0, 0, 0);

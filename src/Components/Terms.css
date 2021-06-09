@@ -120,6 +120,12 @@ ul {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
+  visibility: hidden;
+}
+
+.animation-layer-terms-1 {
+  visibility: visible;
+  animation: layer-1 2s 1 linear;
 }
 
 @keyframes layer-1 {
@@ -141,6 +147,12 @@ ul {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
+  visibility: hidden;
+}
+
+.animation-layer-terms-2 {
+  visibility: visible;
+  animation: layer-2 2s 1 linear;
 }
 
 @keyframes layer-2 {

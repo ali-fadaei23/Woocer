@@ -65,10 +65,12 @@
 
 @keyframes animate-txt-2 {
   0% {
+    transform: translateX(200px);
     opacity: 0;
   }
 
   100% {
+    transform: translateX(0px);
     opacity: 1;
   }
 }
@@ -169,7 +171,7 @@
 }
 
 .box-img-up {
-  visibility: visible;
+  visibility: hidden;
 }
 
 .image-up {
@@ -177,7 +179,12 @@
   z-index: 2;
   top: 69px;
   right: 70px;
-  animation: img-up 1s 3s both;
+  visibility: hidden;
+}
+
+.animate-image-up {
+  visibility: visible;
+  animation: img-up 1.5s both;
 }
 
 @keyframes img-up {
@@ -191,8 +198,12 @@
 }
 
 .box-img-down {
+  visibility: hidden;
+}
+
+.animate-box-img-down {
   visibility: visible;
-  animation: box-img-down 3s both;
+  animation: box-img-down 2s 1 both;
 }
 
 @keyframes box-img-down {
@@ -211,8 +222,15 @@
   top: -35px;
   right: 213px;
   z-index: 1;
+
+  visibility: hidden;
+}
+
+.animate-image-down {
+  visibility: visible;
   animation: image-down 5s infinite linear;
 }
+
 @keyframes image-down {
   0% {
     transform: translateY(0px);
@@ -236,6 +254,3 @@
   transition: transform 0s linear 0s;
   will-change: transform;
 }
-
-/* .box-image-shape {
-} */

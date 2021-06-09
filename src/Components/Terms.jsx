@@ -123,19 +123,17 @@ const TermsAndConditions = () => {
           </div>
           <div className="layer-image">
             <span
-              className="layer-terms-1 animation-layer"
-              style={
+              className={
                 animationStart
-                  ? { animation: "layer-1 2s 1 linear", visibility: "visible" }
-                  : { visibility: "hidden" }
+                  ? "layer-terms-1 animation-layer-terms-1"
+                  : "layer-terms-1"
               }
             ></span>
             <span
-              className="layer-terms-2 animation-layer"
-              style={
+              className={
                 animationStart
-                  ? { animation: "layer-2 2s 1 linear", visibility: "visible" }
-                  : { visibility: "hidden" }
+                  ? "layer-terms-2 animation-layer-terms-2"
+                  : "layer-terms-2"
               }
             ></span>
           </div>
