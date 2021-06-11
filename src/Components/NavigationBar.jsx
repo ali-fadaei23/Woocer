@@ -70,7 +70,10 @@ const NavigationBar = () => {
                 </a>
               </li>
               <li>
-                <Link className="how-to-use link-nav" to="/how-to-use">
+                <Link
+                  className="how-to-use link-nav"
+                  to={{ pathname: "/how-to-use" }}
+                >
                   How to use
                 </Link>
               </li>

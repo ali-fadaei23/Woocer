@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { Component, createRef } from "react";
 // import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import ScrollButton from "../Components/ScrollButton";
 
@@ -16,6 +16,25 @@ import Faq from "../Components/Faq";
 import Footer from "../Components/Footer";
 
 class Home extends Component {
+  // state = {
+  //   scroll: window.scrollY,
+  // };
+
+  // constructor() {
+  //   super();
+
+  //   this.handleScrollHeight = this.handleScrollHeight.bind(this);
+  // }
+
+  // handleScrollHeight() {
+  //   const prevLocation = createRef();
+  //   if (prevLocation.current !== window.location.pathname) {
+  //     this.setState({ scroll: window.scrollTo(0, 0) });
+  //   } else {
+  //     this.setState({ scroll: window.scrollY });
+  //   }
+  // }
+
   render() {
     return (
       <>

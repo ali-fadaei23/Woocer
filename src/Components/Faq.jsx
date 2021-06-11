@@ -5,7 +5,6 @@ import "./Faq.css";
 const Faq = () => {
   const [open, setOpen] = useState(false);
   const [open2, setOpen2] = useState(false);
-
   return (
     <Container
       style={{

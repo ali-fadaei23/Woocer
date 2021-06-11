@@ -20,7 +20,8 @@ class App extends Component {
   render() {
     return (
       <Router history={history}>
-        <ScrollToTop />
+        {/* <ScrollToTop>
+        </ScrollToTop> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/how-to-use" component={HowToUse} />

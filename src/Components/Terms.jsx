@@ -114,6 +114,8 @@ const TermsAndConditions = () => {
     };
   }, []);
 
+  console.log(window.location);
+
   return (
     <Container>
       <Row style={{ flexDirection: "column" }}>
@@ -154,9 +156,9 @@ const TermsAndConditions = () => {
               <div className="box-links-terms">
                 <div className="links-terms">
                   <li className="li-home li-style">
-                    <a href="/" className="link-home-terms">
+                    <Link to="/" className="link-home-terms">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="li-terms li-style">
                     <li>Terms and Conditions</li>

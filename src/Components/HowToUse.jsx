@@ -79,7 +79,10 @@ const NavBarV2 = () => {
                 </a>
               </li>
               <li>
-                <Link className="how-to-use-v2 link-nav-v2" to="/how-to-use">
+                <Link
+                  className="how-to-use-v2 link-nav-v2"
+                  to={{ pathname: "/how-to-use", state: "4" }}
+                >
                   How to use
                 </Link>
               </li>

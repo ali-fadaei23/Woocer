@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./Subscribe.css";
 
-
 // Add Assets
 import Cloud1 from "../Assets/icon-cloud-1.png";
 import Cloud2 from "../Assets/icon-cloud-2.png";
@@ -23,7 +22,6 @@ const Subscribe = () => {
     return () => window.removeEventListener("scroll", ShowAnimationStart);
   }, []);
 
-  console.log(window.pageYOffset);
   return (
     <Container
       style={{

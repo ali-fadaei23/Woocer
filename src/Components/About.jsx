@@ -22,7 +22,6 @@ const About = () => {
     window.addEventListener("scroll", ShowAnimationStart);
     return () => window.removeEventListener("scroll", ShowAnimationStart);
   }, []);
-  console.log(window.pageYOffset);
   return (
     <Container
       style={{
