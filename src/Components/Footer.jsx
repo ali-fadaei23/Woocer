@@ -14,23 +14,6 @@ import Cloud6 from "../Assets/icon-cloud-4.png";
 import IconBuilding from "../Assets/icon-buildings.png";
 
 const Footer = () => {
-  // const ScrollHandle = () => {
-  //   let prevLocation = useRef();
-  //   const [scroll, setScroll] = useState(window.scrollY);
-  //   useEffect(() => {
-  //     if (prevLocation.current !== window.location.pathname) {
-  //       setScroll(window.scrollTo(0, 0));
-  //       prevLocation.current = window.location.pathname;
-  //     }
-  //     window.addEventListener("scroll", ScrollHandle);
-  //     return () => {
-  //       window.removeEventListener("scroll", ScrollHandle);
-  //     };
-  //   }, [window.location]);
-  // };
-
-  // console.log(window.location.pathname);
-
   const prevLocation = useRef();
   const [scrollTop, setScrollTop] = useState(window.scrollY);
   useEffect(() => {
@@ -41,6 +24,8 @@ const Footer = () => {
       ) {
         setScrollTop(window.scrollTo(0, 0));
         prevLocation.current = window.location.pathname;
+      } else if (prevLocation.current) {
+        setScrollTop(window.scrollY);
       }
     };
 
@@ -48,9 +33,7 @@ const Footer = () => {
     return () => {
       window.removeEventListener("click", ScrollHandleTop);
     };
-  }, [window.location]);
-
-  console.log(window.location);
+  }, [window.location.pathname]);
 
   return (
     <Container

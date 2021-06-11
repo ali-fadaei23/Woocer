@@ -114,8 +114,6 @@ const TermsAndConditions = () => {
     };
   }, []);
 
-  console.log(window.location);
-
   return (
     <Container>
       <Row style={{ flexDirection: "column" }}>

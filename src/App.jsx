@@ -12,7 +12,6 @@ import Home from "./Components/Home";
 import HowToUse from "./Components/HowToUse";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import TermsAndConditions from "./Components/Terms";
-import ScrollToTop from "./Components/Scroll";
 
 const history = createHistory();
 
@@ -20,8 +19,6 @@ class App extends Component {
   render() {
     return (
       <Router history={history}>
-        {/* <ScrollToTop>
-        </ScrollToTop> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/how-to-use" component={HowToUse} />
