@@ -185,12 +185,14 @@ const HowToUse = () => {
                 src={ApiImage1}
                 width="570"
                 height="377"
+                alt="Api 1"
               />
               <img
                 className="img-step-2 img-step"
                 src={ApiImage2}
                 width="996"
                 height="675"
+                alt="Api 2"
               />
               <p>
                 Select <strong>Add Key</strong>. Add a{" "}

@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import createHistory from "history/createBrowserHistory";
 import "./Footer.css";
-import { scrollToTop } from "./ScrollButton";
 
 import Cloud1 from "../Assets/icon-cloud-1.png";
 import Cloud2 from "../Assets/icon-cloud-2.png";
@@ -14,18 +12,19 @@ import Cloud6 from "../Assets/icon-cloud-4.png";
 import IconBuilding from "../Assets/icon-buildings.png";
 
 const Footer = () => {
-  const prevLocation = useRef();
   const [scrollTop, setScrollTop] = useState(window.scrollY);
+  const prevLocation = useRef();
+
   useEffect(() => {
     const ScrollHandleTop = () => {
       if (
         (prevLocation.current !== window.location.pathname) &
         (window.location.pathname !== "/")
       ) {
-        setScrollTop(window.scrollTo(0, 0));
         prevLocation.current = window.location.pathname;
-      } else if (prevLocation.current) {
-        setScrollTop(window.scrollY);
+        setScrollTop(window.scrollTo(0, 0));
+      } else {
+        setScrollTop(scrollTop);
       }
     };
 
@@ -33,7 +32,7 @@ const Footer = () => {
     return () => {
       window.removeEventListener("click", ScrollHandleTop);
     };
-  }, [window.location.pathname]);
+  }, []);
 
   return (
     <Container

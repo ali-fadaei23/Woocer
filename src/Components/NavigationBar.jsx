@@ -5,6 +5,29 @@ import "./NavigationBar.css";
 import Logo from "../Assets/woocer.png";
 
 const NavigationBar = () => {
+  const [showEl, setShowEl] = useState(false);
+
+  const MoreBtn = function () {
+    if (!showEl) {
+      setShowEl(true);
+    } else if (showEl) {
+      setShowEl(false);
+    }
+  };
+
+  useEffect(() => {
+    const Reset = function () {
+      if (window.innerWidth > 900) {
+        setShowEl(false);
+      }
+    };
+
+    window.addEventListener("resize", Reset);
+    return () => {
+      window.removeEventListener("resize", Reset);
+    };
+  }, []);
+
   const [show, setShow] = useState(false);
   useEffect(() => {
     const stickyNav = function () {
@@ -23,7 +46,7 @@ const NavigationBar = () => {
 
   return (
     <Container
-      className="nav-container"
+      className="nav-container bg-nav"
       style={
         show
           ? {
@@ -42,13 +65,7 @@ const NavigationBar = () => {
       }
     >
       <Row>
-        <Col
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-          }}
-        >
+        <Col className={showEl ? "col-nav" : "col-nav display-col-nav"}>
           <div>
             <Navbar className={show ? "navbar navbar-nav " : null}>
               <Navbar.Brand href="/">
@@ -62,8 +79,11 @@ const NavigationBar = () => {
             </Navbar>
           </div>
 
-          <div className="box-ul">
-            <ul className="ul-nav">
+          <div
+            className="box-ul"
+            className={showEl ? "box-ul" : "box-ul hide-box-ul"}
+          >
+            <ul className={!showEl ? "ul-nav" : "ul-nav pad-ul-nav"}>
               <li>
                 <a className="home link-nav" href="/">
                   Home
@@ -78,6 +98,14 @@ const NavigationBar = () => {
                 </Link>
               </li>
             </ul>
+          </div>
+          <div className="box-more-icon">
+            <button
+              className={showEl ? "more-icon" : "more-icon hide-more-icon"}
+              onClick={MoreBtn}
+            >
+              <i class="fas fa-bars"></i>
+            </button>
           </div>
         </Col>
       </Row>
