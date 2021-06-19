@@ -1,5 +1,5 @@
 /* ########################## Responsive ########################### */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1250px) {
   .container {
     color: #fff;
     position: static;
@@ -123,7 +123,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1200px) {
+@media only screen and (min-width: 900px) and (max-width: 1250px) {
   .container {
     color: #fff;
     position: static;
@@ -224,7 +224,7 @@
     position: relative;
     float: left;
     padding: 30px 0px;
-    margin-right: 35px;
+    margin-right: 10%;
   }
 
   ul {
@@ -234,12 +234,14 @@
 
   .ul-nav {
     list-style: none;
+    margin-left: 55%;
   }
 
   .box-ul {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    flex-direction: column;
   }
 }
 
