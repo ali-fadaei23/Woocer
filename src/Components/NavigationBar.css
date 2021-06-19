@@ -123,7 +123,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1250px) {
+@media only screen and (min-width: 900px) and (max-width: 1249px) {
   .container {
     color: #fff;
     position: static;
@@ -245,7 +245,7 @@
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 900px) {
+@media only screen and (min-width: 700px) and (max-width: 899px) {
   .bg-nav {
     background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.14);

@@ -29,28 +29,81 @@ body {
 }
 
 /* ################################### Main Style ####################################### */
-.box-header-bg {
-  background: url(../Assets/1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left bottom;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 929px;
-  width: 866px;
-  z-index: -1;
+
+@media only screen and (min-width: 1250px) {
+  .box-header-bg {
+    background: url(../Assets/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 929px;
+    width: 866px;
+    z-index: -1;
+  }
+
+  .layer-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -200px;
+    z-index: -1;
+  }
+
+  .features-container {
+    padding: 0px 75px;
+  }
 }
 
-.layer-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: -200px;
-  z-index: -1;
+@media only screen and (min-width: 900px) and (max-width: 1249px) {
+  .box-header-bg {
+    background: url(../Assets/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 687px;
+    width: 51.5%;
+    z-index: -1;
+  }
+
+  .layer-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -200px;
+    z-index: -1;
+  }
+
+  .features-container {
+    padding: 0px 75px;
+  }
 }
 
-.features-container {
-  padding: 0px 75px;
+@media only screen and (min-width: 700px) and (max-width: 899px) {
+  .box-header-bg {
+    display: none;
+  }
+
+  .layer-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -200px;
+    z-index: -1;
+  }
+
+  .features-container {
+    padding: 0px 75px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
 }

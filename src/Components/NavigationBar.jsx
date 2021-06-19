@@ -88,10 +88,7 @@ const NavigationBar = () => {
           </div>
         </Col>
         <Col className="col-ul">
-          <div
-            className="box-ul"
-            className={showEl ? "box-ul" : "box-ul hide-box-ul"}
-          >
+          <div className={showEl ? "box-ul" : "box-ul hide-box-ul"}>
             <ul className={!showEl ? "ul-nav" : "ul-nav pad-ul-nav"}>
               <li>
                 <a className="home link-nav" href="/">

@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <Container style={{ margin: 0, paddingTop: "125px" }}>
       <Row>
-        <Col style={{ display: "flex", padding: 0 }}>
+        <Col className="col-header" style={{ padding: "0", display: "flex" }}>
           <div className="text-banner">
             <div className="box-text-1">
               <span
@@ -54,24 +54,27 @@ const Header = () => {
           <span className="green-blur">
             <img src={GreenBlur} alt="" />
           </span>
+          <div className="icons-wow">
+            <span className="icon-circle-1">
+              <img className="img-circle-1" src={IconCircle1} alt="" />
+            </span>
+            <span className="icon-circle-2">
+              <img className="img-circle-2" src={IconCircle2} alt="" />
+            </span>
+            <span className="icon-circle-3">
+              <img className="img-circle-3" src={IconCircle3} alt="" />
+            </span>
 
-          <span className="icon-circle-1">
-            <img className="img-circle-1" src={IconCircle1} alt="" />
-          </span>
-          <span className="icon-circle-2">
-            <img className="img-circle-2" src={IconCircle2} alt="" />
-          </span>
-          <span className="icon-circle-3">
-            <img className="img-circle-3" src={IconCircle3} alt="" />
-          </span>
-
-          <span className="icon-triangle-1">
-            <img src={IconTriangle1} alt="" />
-          </span>
-          <span className="icon-triangle-2">
-            <img src={IconTriangle2} alt="" />
-          </span>
-
+            <span className="icon-triangle-1">
+              <img src={IconTriangle1} alt="" width="60" />
+            </span>
+            <span className="icon-triangle-2">
+              <img src={IconTriangle2} alt="" />
+            </span>
+            <span className="icon-triangle-4">
+              <img src={IconTriangle1} alt="" width="50" />
+            </span>
+          </div>
           <div className="box-wow">
             <img className="img-wow" src={AwesomeImage} alt="Awesome" />
           </div>
