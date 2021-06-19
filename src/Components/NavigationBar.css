@@ -42,6 +42,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex: 0;
+  }
+
+  .col-ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .navbar {
@@ -110,6 +117,10 @@
   .box-ul {
     margin-left: 40px;
   }
+
+  .box-more-icon {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
@@ -149,6 +160,11 @@
       opacity: 1;
       transform: translateX(0px);
     }
+  }
+
+  .display-row-nav {
+    flex-direction: row;
+    align-items: center;
   }
 
   .col-nav {
@@ -221,7 +237,6 @@
   }
 
   .box-ul {
-    margin-left: 40px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -271,6 +286,10 @@
     }
   }
 
+  .row-nav {
+    flex-direction: column;
+  }
+
   .col-nav {
     display: flex;
     flex-direction: row;
@@ -323,8 +342,6 @@
   li {
     position: relative;
     float: left;
-    padding: 30px 0px;
-    margin-right: 35px;
   }
 
   ul {
@@ -337,26 +354,26 @@
   }
 
   .pad-ul-nav {
-    padding: 10px 0px;
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-top: 15%;
   }
 
   .box-ul {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    visibility: visible;
+  }
+
+  .hide-box-ul {
+    visibility: hidden;
+    display: none;
   }
 
   .box-more-icon {
     position: relative;
-    left: 0.1%;
     z-index: 4;
     display: flex;
     align-self: flex-start;
@@ -376,10 +393,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .hide-box-ul {
-    visibility: hidden;
   }
 }
 
@@ -426,6 +439,10 @@
     }
   }
 
+  .row-nav {
+    flex-direction: column;
+  }
+
   .col-nav {
     display: flex;
     flex-direction: row;
@@ -478,8 +495,6 @@
   li {
     position: relative;
     float: left;
-    padding: 30px 0px;
-    margin-right: 35px;
   }
 
   ul {
@@ -492,26 +507,30 @@
   }
 
   .pad-ul-nav {
-    padding: 10px 0px;
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-top: 25%;
   }
 
   .box-ul {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    visibility: visible;
+  }
+
+  .hide-box-ul {
+    visibility: hidden;
+    display: none;
+  }
+
+  .hide-box-ul {
+    display: none;
   }
 
   .box-more-icon {
     position: relative;
-    left: 0.1%;
     z-index: 4;
     display: flex;
     align-self: flex-start;

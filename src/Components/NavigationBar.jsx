@@ -64,9 +64,9 @@ const NavigationBar = () => {
             }
       }
     >
-      <Row>
+      <Row className={showEl ? "row-nav" : "row-nav display-row-nav"}>
         <Col className={showEl ? "col-nav" : "col-nav display-col-nav"}>
-          <div>
+          <div className="size-nav" style={{ width: "100%" }}>
             <Navbar className={show ? "navbar navbar-nav " : null}>
               <Navbar.Brand href="/">
                 <img
@@ -78,7 +78,16 @@ const NavigationBar = () => {
               </Navbar.Brand>
             </Navbar>
           </div>
-
+          <div className="box-more-icon">
+            <button
+              className={showEl ? "more-icon" : "more-icon hide-more-icon"}
+              onClick={MoreBtn}
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </Col>
+        <Col className="col-ul">
           <div
             className="box-ul"
             className={showEl ? "box-ul" : "box-ul hide-box-ul"}
@@ -98,14 +107,6 @@ const NavigationBar = () => {
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="box-more-icon">
-            <button
-              className={showEl ? "more-icon" : "more-icon hide-more-icon"}
-              onClick={MoreBtn}
-            >
-              <i class="fas fa-bars"></i>
-            </button>
           </div>
         </Col>
       </Row>
