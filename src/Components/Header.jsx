@@ -19,24 +19,23 @@ const Header = () => {
       <Row>
         <Col className="col-header" style={{ padding: "0", display: "flex" }}>
           <div className="text-banner">
-            <div className="box-text-1">
+            <div className="box-text-h-1">
               <span
                 className="txt-1"
                 style={{
-                  fontSize: "16px",
                   color: "#8A57DE",
                 }}
               >
                 WELCOME TO WOOCER
               </span>
             </div>
-            <div className="box-text-2">
+            <div className="box-text-h-2">
               <h1 className="txt-2">
                 Easily manage your <br />
                 Woocommerce store
               </h1>
             </div>
-            <div className="box-text-3">
+            <div className="box-text-h-3">
               <span className="txt-3" style={{ color: "#7A7A7A" }}>
                 Woocer let's you manage your store from your mobile device.
               </span>

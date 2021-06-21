@@ -29,17 +29,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 285px;
+    margin-bottom: 47vh;
   }
 
-  .box-text-1 {
+  .box-text-h-1 {
     font-family: "nunito";
   }
 
   .txt-1 {
     position: relative;
     display: block;
-    font-size: 16px;
+    font-size: 1.2vw;
     line-height: 26px;
     color: #8a57de;
     font-weight: 600;
@@ -63,15 +63,15 @@
     }
   }
 
-  .box-text-2 {
+  .box-text-h-2 {
     font-family: "Poppins";
   }
 
   .txt-2 {
     position: relative;
-    font-size: 50px;
-    line-height: 64px;
-    margin-bottom: 28px;
+    font-size: 3.8vw;
+    line-height: 11.7vh;
+    margin-bottom: 4vh;
     font-weight: 600;
     visibility: visible;
     animation: text-2 800ms 1s both;
@@ -91,14 +91,14 @@
     }
   }
 
-  .box-text-3 {
-    font-size: 18px;
-    line-height: 30px;
+  .box-text-h-3 {
     font-weight: 500;
     visibility: visible;
     position: relative;
-    margin-bottom: 50px;
     animation: text-3 1200ms 1s both;
+    font-size: 1.3vw;
+    line-height: 4.8vh;
+    margin-bottom: 6.8vh;
   }
 
   .txt-3 {
@@ -121,8 +121,8 @@
 
   .pink-blur {
     position: absolute;
-    left: 41px;
-    top: 56px;
+    left: 7vw;
+    top: 15vh;
     animation: pink-blur 3s 5s alternate infinite;
   }
 
@@ -137,8 +137,8 @@
 
   .blue-blur {
     position: absolute;
-    top: 582px;
-    right: 952px;
+    top: 73vh;
+    right: 66vw;
     animation: blue-blur 2s 1s alternate infinite;
   }
 
@@ -153,8 +153,8 @@
 
   .green-blur {
     position: absolute;
-    left: 467px;
-    bottom: 840px;
+    left: 36vw;
+    bottom: 149vh;
     animation: green-blur 2s 6s alternate infinite;
   }
 
@@ -169,8 +169,8 @@
 
   .icon-circle-1 {
     position: absolute;
-    left: 618px;
-    top: 68px;
+    left: 46vw;
+    top: 10vh;
     animation: icon-circle-1 15s linear infinite;
     height: 144px;
     width: 147px;
@@ -190,8 +190,8 @@
 
   .icon-circle-2 {
     position: absolute;
-    left: 1211px;
-    top: 232px;
+    left: 89vw;
+    top: 34vh;
     z-index: -1;
     height: 88px;
     width: 88px;
@@ -212,8 +212,8 @@
 
   .icon-circle-3 {
     position: absolute;
-    left: 665px;
-    top: 388px;
+    left: 49vw;
+    top: 60vh;
     animation: icon-circle-3 15s linear infinite;
   }
 
@@ -233,8 +233,8 @@
 
   .icon-triangle-1 {
     position: absolute;
-    left: 1219px;
-    top: 413px;
+    left: 89vw;
+    top: 68vh;
     animation: icon-triangle-1 15s linear infinite backwards;
     height: 76px;
     width: 75px;
@@ -256,8 +256,8 @@
 
   .icon-triangle-2 {
     position: absolute;
-    left: 696px;
-    top: 186px;
+    left: 52vw;
+    top: 30vh;
     animation: icon-triangle-2 15s linear infinite forwards;
   }
 
@@ -308,7 +308,7 @@
     border: 2px solid #4749a0;
     display: flex;
     justify-content: center;
-    font-size: 18px;
+    font-size: 1.4vw;
     animation: btn-header 1300ms 1.5s both;
   }
 
@@ -345,17 +345,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 285px;
+    margin-top: 19vh;
   }
 
-  .box-text-1 {
+  .box-text-h-1 {
     font-family: "nunito";
   }
 
   .txt-1 {
     position: relative;
     display: block;
-    font-size: 16px;
+    font-size: 1.4vw;
     line-height: 26px;
     color: #8a57de;
     font-weight: 600;
@@ -379,15 +379,15 @@
     }
   }
 
-  .box-text-2 {
+  .box-text-h-2 {
     font-family: "Poppins";
   }
 
   .txt-2 {
     position: relative;
-    font-size: 50px;
-    line-height: 64px;
-    margin-bottom: 28px;
+    font-size: 4.1vw;
+    line-height: 11.8vh;
+    margin-bottom: 4.3vh;
     font-weight: 600;
     visibility: visible;
     animation: text-2 800ms 1s both;
@@ -407,13 +407,13 @@
     }
   }
 
-  .box-text-3 {
-    font-size: 18px;
-    line-height: 30px;
+  .box-text-h-3 {
+    font-size: 1.5vw;
+    line-height: 5vh;
+    margin-bottom: 7vh;
     font-weight: 500;
     visibility: visible;
     position: relative;
-    margin-bottom: 50px;
     animation: text-3 1200ms 1s both;
   }
 
@@ -437,8 +437,8 @@
 
   .pink-blur {
     position: absolute;
-    left: 15%;
-    top: 4%;
+    left: 7vw;
+    top: 15vh;
     animation: pink-blur 3s 5s alternate infinite;
   }
 
@@ -453,8 +453,8 @@
 
   .blue-blur {
     position: absolute;
-    top: 370px;
-    right: 727px;
+    top: 73vh;
+    right: 66vw;
     animation: blue-blur 2s 1s alternate infinite;
   }
 
@@ -469,8 +469,8 @@
 
   .green-blur {
     position: absolute;
-    left: 544px;
-    bottom: 627px;
+    left: 36vw;
+    bottom: 149vh;
     animation: green-blur 2s 6s alternate infinite;
   }
 
@@ -480,112 +480,6 @@
     }
     to {
       opacity: 0;
-    }
-  }
-
-  .icon-circle-1 {
-    position: absolute;
-    left: 608px;
-    top: 116px;
-    animation: icon-circle-1 15s linear infinite;
-    height: 144px;
-    width: 147px;
-  }
-
-  @keyframes icon-circle-1 {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(180deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  .icon-circle-2 {
-    position: absolute;
-    left: 1222px;
-    top: 284px;
-    z-index: -1;
-    height: 88px;
-    width: 88px;
-    animation: icon-circle-2 10s linear infinite;
-  }
-
-  @keyframes icon-circle-2 {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(180deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  .icon-circle-3 {
-    position: absolute;
-    left: 614px;
-    top: 399px;
-    animation: icon-circle-3 15s linear infinite;
-  }
-
-  @keyframes icon-circle-3 {
-    0% {
-      transform: rotate(0deg);
-      opacity: 1;
-    }
-    50% {
-      transform: rotate(180deg);
-    }
-    100% {
-      transform: rotate(360deg);
-      opacity: 1;
-    }
-  }
-
-  .icon-triangle-1 {
-    position: absolute;
-    left: 1225px;
-    top: 487px;
-    animation: icon-triangle-1 15s linear infinite backwards;
-    height: 76px;
-    width: 75px;
-    opacity: 0.5;
-    z-index: -1;
-  }
-
-  @keyframes icon-triangle-1 {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(180deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  .icon-triangle-2 {
-    position: absolute;
-    left: 698px;
-    top: 233px;
-    animation: icon-triangle-2 15s linear infinite forwards;
-  }
-
-  @keyframes icon-triangle-2 {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(180deg);
-    }
-    100% {
-      transform: rotate(360deg);
     }
   }
 
@@ -601,23 +495,6 @@
     display: none;
   }
 
-  .img-wow {
-    margin-left: 254px;
-    margin-top: 21px;
-    animation: image-wow 1200ms 800ms both;
-  }
-  @keyframes image-wow {
-    0% {
-      opacity: 0;
-      transform: translateX(85px);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
   .box-btn-header {
     font-family: Poppins;
   }
@@ -628,7 +505,7 @@
     border: 2px solid #4749a0;
     display: flex;
     justify-content: center;
-    font-size: 18px;
+    font-size: 1.5vw;
     animation: btn-header 1300ms 1.5s both;
   }
 
@@ -672,15 +549,15 @@
     z-index: 1;
   }
 
-  .box-text-1 {
+  .box-text-h-1 {
     font-family: "nunito";
   }
 
   .txt-1 {
     position: relative;
     display: block;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 2.8vw;
+    line-height: 10vh;
     color: #8a57de;
     font-weight: 600;
     letter-spacing: 5px;
@@ -703,15 +580,15 @@
     }
   }
 
-  .box-text-2 {
+  .box-text-h-2 {
     font-family: "Poppins";
   }
 
   .txt-2 {
     position: relative;
-    font-size: 50px;
-    line-height: 64px;
-    margin-bottom: 28px;
+    font-size: 6.4vw;
+    line-height: 12vh;
+    margin-bottom: 4.2vh;
     font-weight: 600;
     visibility: visible;
     animation: text-2 800ms 1s both;
@@ -731,13 +608,13 @@
     }
   }
 
-  .box-text-3 {
-    font-size: 18px;
-    line-height: 30px;
+  .box-text-h-3 {
+    font-size: 2.2vw;
+    line-height: 5.6vh;
+    margin-bottom: 8.4vh;
     font-weight: 500;
     visibility: visible;
     position: relative;
-    margin-bottom: 50px;
     animation: text-3 1200ms 1s both;
   }
 
@@ -809,8 +686,8 @@
 
   .icon-circle-1 {
     position: absolute;
-    left: 82%;
-    top: 1%;
+    left: 79vw;
+    top: 1vh;
     animation: icon-circle-1 15s linear infinite;
     height: 120px;
     width: 120px;
@@ -976,7 +853,7 @@
     border: 2px solid #4749a0;
     display: flex;
     justify-content: center;
-    font-size: 18px;
+    font-size: 2.2vw;
     animation: btn-header 1300ms 1.5s both;
   }
 
@@ -1000,75 +877,198 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .col-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .text-banner {
+    position: relative;
+    text-align: center;
+    padding: 0px 13px;
+    color: #4c4754;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 285px;
+    z-index: 1;
+  }
+
+  .box-text-h-1 {
+    font-family: "nunito";
+  }
+
+  .txt-1 {
+    position: relative;
+    display: block;
+    font-size: 2.8vw;
+    line-height: 7vh;
+    color: #8a57de;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    animation: text-1 800ms 0.5s both;
+  }
+
+  @keyframes text-1 {
+    0% {
+      opacity: 0;
+
+      transform: translateY(90px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateY(0);
+    }
+  }
+
+  .box-text-h-2 {
+    font-family: "Poppins";
+  }
+
+  .txt-2 {
+    position: relative;
+    font-size: 7.6vw;
+    line-height: 11.6vh;
+    margin-bottom: 3vh;
+    font-weight: 600;
+    visibility: visible;
+    animation: text-2 800ms 1s both;
+  }
+
+  @keyframes text-2 {
+    0% {
+      opacity: 0;
+
+      transform: translateY(90px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateY(0);
+    }
+  }
+
+  .box-text-h-3 {
+    font-size: 2.7vw;
+    line-height: 6.1vh;
+    font-weight: 500;
+    visibility: visible;
+    position: relative;
+    margin-bottom: 8vh;
+    animation: text-3 1200ms 1s both;
+  }
+
+  .txt-3 {
+    font-family: "nunito";
+  }
+
+  @keyframes text-3 {
+    0% {
+      opacity: 0;
+
+      transform: translateY(90px);
+    }
+
+    100% {
+      opacity: 1;
+
+      transform: translateY(0);
+    }
+  }
+
+  .pink-blur {
+    position: absolute;
+    left: 8%;
+    top: 2%;
+    animation: pink-blur 3s 5s alternate infinite;
+  }
+
+  @keyframes pink-blur {
+    from {
+      opacity: 100%;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .blue-blur {
+    position: absolute;
+    top: 54%;
+    right: 68%;
+    animation: blue-blur 2s 1s alternate infinite;
+  }
+
+  @keyframes blue-blur {
+    from {
+      opacity: 100%;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .green-blur {
+    position: absolute;
+    left: 64%;
+    bottom: 92%;
+    animation: green-blur 2s 6s alternate infinite;
+  }
+
+  @keyframes green-blur {
+    from {
+      opacity: 100%;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .icons-wow {
+    display: none;
+  }
+
+  .box-wow {
+    display: none;
+  }
+
+  .box-btn-header {
+    font-family: Poppins;
+  }
+  .btn-header {
+    background: transparent;
+    color: #4749a0;
+    border-radius: 3px;
+    border: 2px solid #4749a0;
+    display: flex;
+    justify-content: center;
+    font-size: 2.8vw;
+    animation: btn-header 1300ms 1.5s both;
+  }
+
+  .btn-header:hover {
+    background: #8a57de;
+    border: 2px solid #8a57de;
+    transition: all 300ms;
+  }
+
+  @keyframes btn-header {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 }
-
-/* ################################## Comments ####################################### */
-
-/* 
-0% {
-    transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  100% {
-    visibility: hidden;
-    transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  } */
-
-/* 40% {
-    opacity: 1;
-    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
-    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  }
-
-  100% {
-    opacity: 0;
-    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
-    transform-origin: center bottom;
-    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-  } */
-
-/* 0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
-    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
-  } */
-
-/* 0% {
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-  }
-
-  20%,
-  60% {
-    -webkit-transform: rotate3d(0, 0, 1, 80deg);
-    transform: rotate3d(0, 0, 1, 80deg);
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-  }
-
-  40%,
-  80% {
-    -webkit-transform: rotate3d(0, 0, 1, 60deg);
-    transform: rotate3d(0, 0, 1, 60deg);
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    opacity: 1;
-  }
-
-  100% {
-    -webkit-transform: translate3d(0, 700px, 0);
-    transform: translate3d(0, 700px, 0);
-    opacity: 0;
-  } */

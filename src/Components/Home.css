@@ -39,8 +39,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    height: 929px;
-    width: 866px;
+    height: 160vh;
+    width: 64vw;
     z-index: -1;
   }
 
@@ -67,8 +67,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    height: 687px;
-    width: 51.5%;
+    height: 140vh;
+    width: 56vw;
     z-index: -1;
   }
 
