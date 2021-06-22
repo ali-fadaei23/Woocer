@@ -64,7 +64,14 @@ const NavigationBar = () => {
             }
       }
     >
-      <Row className={showEl ? "row-nav" : "row-nav display-row-nav"}>
+      <Row
+        style={{
+          background: showEl
+            ? "linear-gradient(90deg, rgba(255,255,255,0.8743872549019608) 8%, rgba(238,238,242,0.896796218487395) 55%)"
+            : null,
+        }}
+        className={showEl ? "row-nav" : "row-nav display-row-nav"}
+      >
         <Col className={showEl ? "col-nav" : "col-nav display-col-nav"}>
           <div className="size-nav" style={{ width: "100%" }}>
             <Navbar className={show ? "navbar navbar-nav " : null}>

@@ -438,7 +438,7 @@
   .pink-blur {
     position: absolute;
     left: 7vw;
-    top: 15vh;
+    top: 9vh;
     animation: pink-blur 3s 5s alternate infinite;
   }
 
@@ -453,8 +453,8 @@
 
   .blue-blur {
     position: absolute;
-    top: 73vh;
-    right: 66vw;
+    top: 67vh;
+    right: 63vw;
     animation: blue-blur 2s 1s alternate infinite;
   }
 
@@ -469,8 +469,8 @@
 
   .green-blur {
     position: absolute;
-    left: 36vw;
-    bottom: 149vh;
+    left: 42vw;
+    bottom: 70vh;
     animation: green-blur 2s 6s alternate infinite;
   }
 
@@ -545,7 +545,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 285px;
+    margin-bottom: 14vh;
     z-index: 1;
   }
 
@@ -556,8 +556,8 @@
   .txt-1 {
     position: relative;
     display: block;
-    font-size: 2.8vw;
-    line-height: 10vh;
+    font-size: 3.2vw;
+    line-height: 9vh;
     color: #8a57de;
     font-weight: 600;
     letter-spacing: 5px;
@@ -638,8 +638,8 @@
 
   .pink-blur {
     position: absolute;
-    left: 8%;
-    top: 2%;
+    left: 6vw;
+    top: 0.1vh;
     animation: pink-blur 3s 5s alternate infinite;
   }
 
@@ -654,8 +654,8 @@
 
   .blue-blur {
     position: absolute;
-    top: 54%;
-    right: 68%;
+    top: 55vh;
+    right: 77vw;
     animation: blue-blur 2s 1s alternate infinite;
   }
 
@@ -670,8 +670,8 @@
 
   .green-blur {
     position: absolute;
-    left: 64%;
-    bottom: 92%;
+    left: 66vw;
+    bottom: 73vh;
     animation: green-blur 2s 6s alternate infinite;
   }
 
@@ -711,8 +711,8 @@
 
   .icon-circle-2 {
     position: absolute;
-    left: 23%;
-    top: 1%;
+    left: 18vw;
+    top: 2vh;
     z-index: -1;
     height: 70px;
     width: 70px;
@@ -737,8 +737,8 @@
 
   .icon-circle-3 {
     position: absolute;
-    left: 77%;
-    top: 53%;
+    left: 70vw;
+    top: 50vh;
     animation: icon-circle-3 15s linear infinite;
   }
 
@@ -762,8 +762,8 @@
 
   .icon-triangle-1 {
     position: absolute;
-    left: 31%;
-    top: 39%;
+    left: 43vw;
+    top: 30vh;
     animation: icon-triangle-1 15s linear infinite backwards;
     height: 76px;
     width: 75px;
@@ -785,8 +785,8 @@
 
   .icon-triangle-2 {
     position: absolute;
-    left: 48%;
-    top: 16%;
+    left: 26vw;
+    top: 19vh;
     animation: icon-triangle-2 15s linear infinite forwards;
   }
 
@@ -804,8 +804,8 @@
 
   .icon-triangle-4 {
     position: absolute;
-    left: 63%;
-    top: 34%;
+    left: 63vw;
+    top: 8vh;
     opacity: 0.7;
     animation: icon-triangle-4 15s linear infinite forwards;
   }
@@ -893,7 +893,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 285px;
+    margin-bottom: 14vh;
     z-index: 1;
   }
 
@@ -986,8 +986,8 @@
 
   .pink-blur {
     position: absolute;
-    left: 8%;
-    top: 2%;
+    left: 3vw;
+    top: 0.1vh;
     animation: pink-blur 3s 5s alternate infinite;
   }
 
@@ -1002,8 +1002,8 @@
 
   .blue-blur {
     position: absolute;
-    top: 54%;
-    right: 68%;
+    top: 53vh;
+    right: 71vw;
     animation: blue-blur 2s 1s alternate infinite;
   }
 
@@ -1018,8 +1018,8 @@
 
   .green-blur {
     position: absolute;
-    left: 64%;
-    bottom: 92%;
+    left: 80vw;
+    bottom: 64vh;
     animation: green-blur 2s 6s alternate infinite;
   }
 

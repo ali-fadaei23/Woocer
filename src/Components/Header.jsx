@@ -13,11 +13,17 @@ import IconCircle1 from "../Assets/icon-circle-1.png";
 import IconCircle2 from "../Assets/icon-circle-2.png";
 import IconCircle3 from "../Assets/icon-circle-3.png";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <Container style={{ margin: 0, paddingTop: "125px" }}>
       <Row>
-        <Col className="col-header" style={{ padding: "0", display: "flex" }}>
+        <Col
+          className="col-header"
+          style={{
+            padding: "0",
+            display: "flex",
+          }}
+        >
           <div className="text-banner">
             <div className="box-text-h-1">
               <span
