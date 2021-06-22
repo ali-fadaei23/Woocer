@@ -24,7 +24,7 @@ const Footer = () => {
         prevLocation.current = window.location.pathname;
         setScrollTop(window.scrollTo(0, 0));
       } else {
-        setScrollTop(scrollTop);
+        setScrollTop(window.scrollY);
       }
     };
 
@@ -32,7 +32,7 @@ const Footer = () => {
     return () => {
       window.removeEventListener("click", ScrollHandleTop);
     };
-  }, []);
+  }, [scrollTop]);
 
   return (
     <Container
