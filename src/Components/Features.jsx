@@ -13,7 +13,7 @@ const BtnFeature = (props) => {
           src={Forward}
           style={{
             filter: "brightness(0) invert(1)",
-            width: "35px",
+            width: "2.7vw",
           }}
           alt=""
         />
@@ -23,7 +23,7 @@ const BtnFeature = (props) => {
           backgroundColor: "transparent",
           border: 0,
           color: "#fff",
-          padding: "20px",
+          padding: "2vw",
         }}
       >
         {props.text}
@@ -45,18 +45,15 @@ const Features = () => {
   }, []);
   return (
     <Container
+      className="container-features"
       style={{
-        backgroundColor: "#7478FA",
-        color: "#fff",
-        fontSize: "20px",
-        fontFamily: "Poppins",
         animation: show ? "bg-animate 1500ms" : null,
         visibility: show ? "visible" : "hidden",
       }}
     >
-      <div style={{ padding: "60px" }}>
+      <div style={{ padding: "3vw" }}>
         <h2
-          style={{ fontSize: "40px" }}
+          style={{ fontSize: "3.6vw" }}
           className={
             show
               ? "text-title-features animation-title-features"
@@ -67,8 +64,8 @@ const Features = () => {
         </h2>
       </div>
 
-      <Row>
-        <Col>
+      <Row className="row-features" style={{ width: "89vw" }}>
+        <Col className="col-features-1 col-features">
           <div className={show ? "anim-box-1 animation-1" : "anim-box-1"}>
             <div className="box-features-btn">
               <BtnFeature text={"Manage Product"} />
@@ -81,7 +78,7 @@ const Features = () => {
             </div>
           </div>
         </Col>
-        <Col>
+        <Col className="col-features-2 col-features">
           <div className={show ? "anim-box-2 animation-2" : "anim-box-2"}>
             <div className="box-features-btn">
               <BtnFeature text={"Manage Review"} />
@@ -95,7 +92,7 @@ const Features = () => {
             </div>
           </div>
         </Col>
-        <Col>
+        <Col className="col-features-3 col-features">
           <div className={show ? "anim-box-3 animation-3" : "anim-box-3"}>
             <div className="box-features-btn">
               <BtnFeature text={"Login with fingerprint"} />
@@ -109,8 +106,7 @@ const Features = () => {
           </div>
         </Col>
       </Row>
-
-      <div className="space-between-features" style={{ padding: "40px" }}></div>
+      <div className="space-between-features" style={{ padding: "3vw" }}></div>
     </Container>
   );
 };

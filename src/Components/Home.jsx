@@ -19,12 +19,13 @@ class Home extends Component {
   render() {
     return (
       <>
-        <div className="header-container" id="top"></div>
-        <NavigationBar />
-        <div className="box-header-bg">
-          <div className="layer-img"></div>
+        <div className="header-container" id="top">
+          <NavigationBar />
+          <div className="box-header-bg">
+            <div className="layer-img"></div>
+          </div>
+          <Header />
         </div>
-        <Header />
         <div className="features-container">
           <Features />
         </div>
