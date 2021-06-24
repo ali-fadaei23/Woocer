@@ -1,19 +1,15 @@
 /* ########################## Responsive ########################### */
 @media only screen and (min-width: 1250px) {
-  .container {
+  .nav-container {
     color: #fff;
     position: static;
     max-width: 1590px;
-    padding: 0px 30px;
+    padding: 0vh 1.8vw;
     margin: 0 auto;
   }
 
   .navbar-brand {
     padding-right: 0;
-  }
-
-  .nav-container {
-    position: absolute;
   }
 
   @keyframes animation-nav {
@@ -124,16 +120,12 @@
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1249px) {
-  .container {
+  .nav-container {
     color: #fff;
     position: static;
     max-width: 1590px;
-    padding: 0px 30px;
+    padding: 0vh 1.8vw;
     margin: 0 auto;
-  }
-
-  .nav-container {
-    position: absolute;
   }
 
   .navbar-brand {
@@ -250,16 +242,12 @@
     background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   }
-  .container {
+  .nav-container {
     color: #fff;
     position: static;
     max-width: 1590px;
-    padding: 0px 30px;
+    padding: 0vh 1.8vw;
     margin: 0 auto;
-  }
-
-  .nav-container {
-    position: absolute;
   }
 
   .navbar-brand {
@@ -403,16 +391,12 @@
     background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   }
-  .container {
+  .nav-container {
     color: #fff;
     position: static;
     max-width: 1590px;
-    padding: 0px 30px;
+    padding: 0vh 1.8vw;
     margin: 0 auto;
-  }
-
-  .nav-container {
-    position: absolute;
   }
 
   .navbar-brand {

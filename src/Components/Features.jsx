@@ -9,21 +9,14 @@ const BtnFeature = (props) => {
   return (
     <div className="circle">
       <div className="features-box">
-        <img
-          src={Forward}
-          style={{
-            filter: "brightness(0) invert(1)",
-            width: "2.7vw",
-          }}
-          alt=""
-        />
+        <img className="img-forward" src={Forward} alt="" />
       </div>
       <button
+        className="btns-features"
         style={{
           backgroundColor: "transparent",
           border: 0,
           color: "#fff",
-          padding: "2vw",
         }}
       >
         {props.text}
@@ -53,7 +46,6 @@ const Features = () => {
     >
       <div style={{ padding: "3vw" }}>
         <h2
-          style={{ fontSize: "3.6vw" }}
           className={
             show
               ? "text-title-features animation-title-features"
@@ -64,7 +56,7 @@ const Features = () => {
         </h2>
       </div>
 
-      <Row className="row-features" style={{ width: "89vw" }}>
+      <Row className="row-features">
         <Col className="col-features-1 col-features">
           <div className={show ? "anim-box-1 animation-1" : "anim-box-1"}>
             <div className="box-features-btn">

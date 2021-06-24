@@ -38,9 +38,9 @@ class Home extends Component {
         <div className="get-app-container">
           <GetApp />
         </div>
-        <div className="faq-container">
+        {/* <div className="faq-container">
           <Faq />
-        </div>
+        </div> */}
         <div className="footer-container">
           <Footer />
         </div>

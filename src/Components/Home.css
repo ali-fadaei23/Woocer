@@ -104,7 +104,7 @@ body {
   }
 
   .features-container {
-    padding: 0px 75px;
+    padding: 0;
   }
 }
 
@@ -123,6 +123,6 @@ body {
   }
 
   .features-container {
-    padding: 0px 75px;
+    padding: 0px;
   }
 }

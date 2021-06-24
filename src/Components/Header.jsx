@@ -15,7 +15,10 @@ import IconCircle3 from "../Assets/icon-circle-3.png";
 
 const Header = (props) => {
   return (
-    <Container style={{ margin: 0, paddingTop: "125px" }}>
+    <Container
+      className="h-container"
+      style={{ margin: 0, paddingTop: "125px" }}
+    >
       <Row>
         <Col
           className="col-header"
