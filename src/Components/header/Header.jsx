@@ -3,20 +3,20 @@ import { Row, Col, Container, Button } from "react-bootstrap";
 import "./Header.css";
 
 // Add Assets
-import AwesomeImage from "../Assets/Woocer-screenshot-5.png";
-import GreenBlur from "../Assets/green-blur.png";
-import BlueBlur from "../Assets/blue-blur.png";
-import PinkBlur from "../Assets/pink-blur.png";
-import IconTriangle1 from "../Assets/icon-triangle-1.png";
-import IconTriangle2 from "../Assets/icon-triangle-2.png";
-import IconCircle1 from "../Assets/icon-circle-1.png";
-import IconCircle2 from "../Assets/icon-circle-2.png";
-import IconCircle3 from "../Assets/icon-circle-3.png";
+import AwesomeImage from "../../Assets/Woocer-screenshot-5.png";
+import GreenBlur from "../../Assets/green-blur.png";
+import BlueBlur from "../../Assets/blue-blur.png";
+import PinkBlur from "../../Assets/pink-blur.png";
+import IconTriangle1 from "../../Assets/icon-triangle-1.png";
+import IconTriangle2 from "../../Assets/icon-triangle-2.png";
+import IconCircle1 from "../../Assets/icon-circle-1.png";
+import IconCircle2 from "../../Assets/icon-circle-2.png";
+import IconCircle3 from "../../Assets/icon-circle-3.png";
 
 const Header = (props) => {
   return (
     <Container
-      className="h-container"
+      className="header-container"
       style={{ margin: 0, paddingTop: "125px" }}
     >
       <Row>

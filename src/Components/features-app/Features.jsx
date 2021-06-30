@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import "./Features.css";
 
 // Add Assets
-import Forward from "../Assets/forward.png";
+import Forward from "../../Assets/forward.png";
 
 const BtnFeature = (props) => {
   return (

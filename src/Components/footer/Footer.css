@@ -3,7 +3,7 @@
   position: absolute;
   opacity: 0.7;
 }
-.animation-icons {
+.animation-footer-icons {
   position: absolute;
   left: -1299px;
   top: 0;
@@ -20,36 +20,36 @@
   left: 868px;
 }
 
-.icon-cloud-1 {
+.icon-cloud-footer-1 {
   top: 40px;
 
-  animation: animate-cloud-1 15s linear infinite;
+  animation: animate-cloud-footer-1 15s linear infinite;
 }
-.icon-cloud-2 {
+.icon-cloud-footer-2 {
   top: 60px;
 
-  animation: animate-cloud-2 30s linear infinite;
+  animation: animate-cloud-footer-2 30s linear infinite;
 }
-.icon-cloud-3 {
+.icon-cloud-footer-3 {
   top: 140px;
 
-  animation: animate-cloud-3 45s linear infinite;
+  animation: animate-cloud-footer-3 45s linear infinite;
 }
-.icon-cloud-4 {
+.icon-cloud-footer-4 {
   top: 120px;
-  animation: animate-cloud-4 25s linear infinite;
+  animation: animate-cloud-footer-4 25s linear infinite;
 }
-.icon-cloud-5 {
+.icon-cloud-footer-5 {
   top: 170px;
-  animation: animate-cloud-5 35s linear infinite;
+  animation: animate-cloud-footer-5 35s linear infinite;
 }
 
-.icon-cloud-6 {
+.icon-cloud-footer-6 {
   top: 220px;
-  animation: animate-cloud-6 60s linear infinite;
+  animation: animate-cloud-footer-6 60s linear infinite;
 }
 
-@keyframes animate-cloud-1 {
+@keyframes animate-cloud-footer-1 {
   0% {
     margin-left: -100px;
   }
@@ -59,7 +59,7 @@
   }
 }
 
-@keyframes animate-cloud-2 {
+@keyframes animate-cloud-footer-2 {
   0% {
     margin-left: -140px;
   }
@@ -68,7 +68,7 @@
     margin-left: 120%;
   }
 }
-@keyframes animate-cloud-3 {
+@keyframes animate-cloud-footer-3 {
   0% {
     margin-left: -100px;
   }
@@ -77,7 +77,7 @@
     margin-left: 120%;
   }
 }
-@keyframes animate-cloud-4 {
+@keyframes animate-cloud-footer-4 {
   0% {
     margin-left: -140px;
   }
@@ -86,7 +86,7 @@
     margin-left: 120%;
   }
 }
-@keyframes animate-cloud-5 {
+@keyframes animate-cloud-footer-5 {
   0% {
     margin-left: -140px;
   }
@@ -95,7 +95,7 @@
     margin-left: 120%;
   }
 }
-@keyframes animate-cloud-6 {
+@keyframes animate-cloud-footer-6 {
   0% {
     margin-left: -140px;
   }

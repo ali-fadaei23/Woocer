@@ -1,38 +1,37 @@
 import { Component } from "react";
-// import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
-import ScrollButton from "../Components/ScrollButton";
+import ScrollButton from "../scroll-button/ScrollButton";
 
 // App - css
 import "./Home.css";
 
 // Add Components
-import NavigationBar from "../Components/NavigationBar";
-import Header from "../Components/Header";
-import Features from "../Components/Features";
-import About from "../Components/About";
-import Subscribe from "../Components/Subscribe";
-import GetApp from "../Components/GetApp";
-import Faq from "../Components/Faq";
-import Footer from "../Components/Footer";
+import NavigationBar from "../header/NavigationBar";
+import Header from "../header/Header";
+import Features from "../features-app/Features";
+import About from "../add-edit/About";
+import Subscribe from "../subscribe/Subscribe";
+import GetApp from "../download-app/GetApp";
+// import Faq from "../faq-section/Faq";
+import Footer from "../footer/Footer";
 
 class Home extends Component {
   render() {
     return (
       <>
-        <div className="header-container" id="top">
+        <div className="h-container" id="top">
           <NavigationBar />
           <div className="box-header-bg">
             <div className="layer-img"></div>
           </div>
           <Header />
         </div>
-        <div className="features-container">
+        <div className="f-container">
           <Features />
         </div>
-        <div className="about-container">
+        <div className="a-container">
           <About />
         </div>
-        <div className="subscribe-container">
+        <div className="s-container">
           <Subscribe />
         </div>
         <div className="get-app-container">

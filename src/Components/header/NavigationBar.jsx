@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Row, Col, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./NavigationBar.css";
-import Logo from "../Assets/woocer.png";
+import Logo from "../../Assets/woocer.png";
 
 const NavigationBar = () => {
   const [showEl, setShowEl] = useState(false);

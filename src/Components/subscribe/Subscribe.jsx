@@ -3,12 +3,12 @@ import { Row, Col, Container } from "react-bootstrap";
 import "./Subscribe.css";
 
 // Add Assets
-import Cloud1 from "../Assets/icon-cloud-1.png";
-import Cloud2 from "../Assets/icon-cloud-2.png";
-import Cloud3 from "../Assets/icon-cloud-3.png";
-import Cloud4 from "../Assets/icon-cloud-4.png";
-import Cloud5 from "../Assets/icon-cloud-2.png";
-import Cloud6 from "../Assets/icon-cloud-4.png";
+import Cloud1 from "../../Assets/icon-cloud-1.png";
+import Cloud2 from "../../Assets/icon-cloud-2.png";
+import Cloud3 from "../../Assets/icon-cloud-3.png";
+import Cloud4 from "../../Assets/icon-cloud-4.png";
+import Cloud5 from "../../Assets/icon-cloud-2.png";
+import Cloud6 from "../../Assets/icon-cloud-4.png";
 
 const Subscribe = () => {
   const [show, setShow] = useState(false);
@@ -27,7 +27,6 @@ const Subscribe = () => {
       style={{
         maxWidth: "100%",
         color: "#fff",
-        fontSize: "20px",
         overflow: "hidden",
         padding: "0",
       }}
@@ -53,8 +52,6 @@ const Subscribe = () => {
                   show ? "iframe-video animation-iframe-video" : "iframe-video"
                 }
                 style={{ zIndex: "1", position: "relative" }}
-                width="680"
-                height="380"
                 src="https://www.youtube.com/embed/VlOy8-cfjI4?controls=0"
                 title="YouTube video player"
                 frameBorder="0"

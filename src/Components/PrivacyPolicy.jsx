@@ -3,7 +3,7 @@ import { Row, Col, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./PrivacyPolicy.css";
 
-import ScrollButton from "./ScrollButton";
+import ScrollButton from "./scroll-button/ScrollButton";
 
 // Add Assets
 import Logo from "../Assets/woocer.png";
@@ -115,7 +115,7 @@ const PrivacyPolicy = () => {
     };
   }, []);
   return (
-    <Container>
+    <Container className="privacy-container">
       <Row style={{ flexDirection: "column" }}>
         <div className="section-header-privacy-policy">
           <div className="box-nav-bar-v2">

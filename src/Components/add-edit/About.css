@@ -1,0 +1,1008 @@
+@media only screen and (min-width: 1250px) {
+  .about-container {
+    color: #fff;
+    position: static;
+    max-width: 1590px;
+    margin: 0 auto;
+    padding-top: 10vw;
+    color: #000;
+  }
+
+  /* ########################### Product ################################# */
+  .box-title-about {
+    font-size: 3vw;
+    line-height: 9vh;
+    padding-top: 11vh;
+    font-family: "Poppins";
+    position: relative;
+    color: #4c4754;
+    font-weight: 600;
+    text-align: left;
+  }
+  .box-text-about {
+    font-family: "Nunito";
+  }
+  .text-about {
+    color: #7a7a7a;
+    font-size: 2.5vw;
+  }
+
+  .box-btn-about {
+    margin-top: 6vh;
+  }
+
+  .btn-about {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #4749a0;
+    color: #4749a0;
+    font-size: 1.3vw;
+    width: 13.3vw;
+    padding: 0.7vw;
+  }
+
+  .btn-about:hover {
+    background: #4749a0;
+    border-color: #4749a0;
+    transition: all 800ms;
+  }
+
+  .animation-box-about {
+    animation: box-img-about 1000ms;
+  }
+
+  .img-about {
+    position: relative;
+    top: 0.1vh;
+    visibility: hidden;
+  }
+
+  .img-about-shape {
+    display: none;
+  }
+
+  .animation-img-about {
+    animation: img-about 3s linear infinite alternate;
+    visibility: visible;
+  }
+
+  @keyframes box-img-about {
+    0% {
+      opacity: 0;
+      transform: translateY(-160px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes img-about {
+    0% {
+      transform: translateY(-100px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  /* ################################ Order ##################################### */
+  .box-main-text-order {
+    padding: 0.1vh 0 2vw 5vw;
+  }
+
+  .box-text-order {
+    font-family: "Nunito";
+  }
+
+  .box-add-order {
+    font-size: 3vw;
+    line-height: 9vh;
+    padding-top: 11vh;
+    font-family: "Poppins";
+    position: relative;
+    color: #4c4754;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .text-order {
+    color: #7a7a7a;
+    font-size: 2.5vw;
+  }
+
+  .box-img-order-about {
+    margin-right: 3vw;
+    visibility: hidden;
+  }
+
+  .img-order {
+    margin-right: 10vw;
+  }
+
+  .img-order-2 {
+    display: none;
+  }
+
+  .animate-img-order {
+    visibility: visible;
+    animation: img-order 1000ms both 1500ms;
+  }
+
+  @keyframes img-order {
+    0% {
+      opacity: 0;
+      transform: translate3d(1900px, 0, 0);
+    }
+
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .circle-1 {
+    position: absolute;
+    right: 3vw;
+    top: 22vh;
+    width: 29.4vw;
+    height: 29.4vw;
+    opacity: 0.5;
+    border-radius: 50%;
+    background-color: rgba(215, 60, 129, 0.5);
+    z-index: -1;
+    visibility: hidden;
+  }
+
+  .animate-circle-1 {
+    visibility: visible;
+    animation: circle-1 1s both 0ms;
+  }
+
+  @keyframes circle-1 {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .circle-2 {
+    position: absolute;
+    right: 3.1vw;
+    top: 23vh;
+    width: 44vw;
+    height: 44vw;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      to bottom,
+      #d53590,
+      #db3780,
+      #df3c70,
+      #df4461,
+      #dd4e54
+    );
+    z-index: -1;
+    visibility: hidden;
+  }
+
+  .animate-circle-2 {
+    visibility: visible;
+    animation: circle-2 1s both 500ms;
+  }
+
+  @keyframes circle-2 {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .box-btn-order {
+    margin-top: 6vh;
+  }
+
+  .btn-order {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #4749a0;
+    color: #4749a0;
+    font-size: 18px;
+    width: 180px;
+    padding: 10px;
+  }
+
+  .btn-order:hover {
+    background: #4749a0;
+    border-color: #4749a0;
+    transition: all 800ms;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1249px) {
+  .about-container {
+    color: #fff;
+    position: static;
+    max-width: 1590px;
+    margin: 0 auto;
+    padding-top: 10vw;
+    color: #000;
+  }
+
+  /* ########################### Product ################################# */
+
+  .row-about-product {
+    flex-direction: row-reverse;
+  }
+
+  .box-title-about {
+    font-size: 3.3vw;
+    line-height: 10vh;
+    padding: 8.1vh 0 2vw 5vw;
+    font-family: "Poppins";
+    position: relative;
+    color: #4c4754;
+    font-weight: 600;
+    text-align: left;
+  }
+  .box-text-about {
+    font-family: "Nunito";
+  }
+  .text-about {
+    color: #7a7a7a;
+    font-size: 2.6vw;
+  }
+
+  .box-btn-about {
+    margin-top: 6vh;
+  }
+
+  .btn-about {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #4749a0;
+    color: #4749a0;
+    font-size: 1.4vw;
+    width: 14.4vw;
+    padding: 0.8vw;
+  }
+
+  .btn-about:hover {
+    background: #4749a0;
+    border-color: #4749a0;
+    transition: all 800ms;
+  }
+
+  .animation-box-about {
+    animation: box-img-about 1000ms;
+  }
+
+  .img-about-shape {
+    display: none;
+  }
+
+  .img-about {
+    position: relative;
+    top: 0.1vh;
+    visibility: hidden;
+  }
+
+  .animation-img-about {
+    animation: img-about 3s linear infinite alternate;
+    visibility: visible;
+  }
+
+  @keyframes box-img-about {
+    0% {
+      opacity: 0;
+      transform: translateY(-160px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes img-about {
+    0% {
+      transform: translateY(-100px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+  /* ################################ Order ##################################### */
+  .row-about-order {
+    padding-top: 15vh;
+  }
+
+  .box-main-text-order {
+    padding: 8.1vh 0 2vw 5vw;
+  }
+
+  .box-text-order {
+    font-family: "Nunito";
+  }
+
+  .box-add-order {
+    font-size: 3.3vw;
+    line-height: 10vh;
+    padding-top: 12vh;
+    font-family: "Poppins";
+    position: relative;
+    color: #4c4754;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .text-order {
+    color: #7a7a7a;
+    font-size: 2.6vw;
+  }
+
+  .box-img-order-about {
+    margin-right: 3vw;
+    visibility: hidden;
+  }
+
+  .img-order {
+    margin-right: 7vw;
+  }
+
+  .img-order-2 {
+    display: none;
+  }
+
+  .animate-img-order {
+    visibility: visible;
+    animation: img-order 1000ms both 1500ms;
+  }
+
+  @keyframes img-order {
+    0% {
+      opacity: 0;
+      transform: translate3d(1900px, 0, 0);
+    }
+
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .circle-1 {
+    position: absolute;
+    right: 3vw;
+    top: 22vh;
+    width: 29.4vw;
+    height: 29.4vw;
+    opacity: 0.5;
+    border-radius: 50%;
+    background-color: rgba(215, 60, 129, 0.5);
+    z-index: -1;
+    visibility: hidden;
+  }
+
+  .animate-circle-1 {
+    visibility: visible;
+    animation: circle-1 1s both 0ms;
+  }
+
+  @keyframes circle-1 {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .circle-2 {
+    position: absolute;
+    right: 3.1vw;
+    top: 23vh;
+    width: 44vw;
+    height: 44vw;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      to bottom,
+      #d53590,
+      #db3780,
+      #df3c70,
+      #df4461,
+      #dd4e54
+    );
+    z-index: -1;
+    visibility: hidden;
+  }
+
+  .animate-circle-2 {
+    visibility: visible;
+    animation: circle-2 1s both 500ms;
+  }
+
+  @keyframes circle-2 {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .box-btn-order {
+    margin-top: 6vh;
+  }
+
+  .btn-order {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #4749a0;
+    color: #4749a0;
+    font-size: 1.4vw;
+    width: 14.4vw;
+    padding: 0.8vw;
+  }
+
+  .btn-order:hover {
+    background: #4749a0;
+    border-color: #4749a0;
+    transition: all 800ms;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 899px) {
+  .about-container {
+    color: #fff;
+    position: static;
+    max-width: 1590px;
+    margin: 0 auto;
+    padding-top: 10vw;
+    color: #000;
+  }
+
+  /* ########################### Product ################################# */
+
+  .row-about-product {
+    flex-direction: column-reverse;
+  }
+
+  .col-about-product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20vh;
+  }
+
+  .col-about-product-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-title-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4.5vw;
+    line-height: 11vh;
+    padding-top: 1vh;
+    font-family: "Poppins";
+    position: relative;
+    color: #4c4754;
+    font-weight: 600;
+    text-align: center;
+  }
+  .box-text-about {
+    font-family: "Nunito";
+  }
+  .text-about {
+    color: #7a7a7a;
+    font-size: 3.5vw;
+  }
+
+  .box-btn-about {
+    margin-top: 6vh;
+  }
+
+  .btn-about {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #4749a0;
+    color: #4749a0;
+    font-size: 2.1vw;
+    width: 20vw;
+    padding: 0.8vw;
+  }
+
+  .btn-about:hover {
+    background: #4749a0;
+    border-color: #4749a0;
+    transition: all 800ms;
+  }
+
+  .animation-box-about {
+    animation: box-img-about 1000ms;
+  }
+
+  .img-about-shape {
+    display: none;
+  }
+
+  .img-about {
+    position: relative;
+    top: 0.1vh;
+    visibility: hidden;
+  }
+
+  .animation-img-about {
+    animation: img-about 3s linear infinite alternate;
+    visibility: visible;
+  }
+
+  @keyframes box-img-about {
+    0% {
+      opacity: 0;
+      transform: translateY(-160px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes img-about {
+    0% {
+      transform: translateY(-100px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  /* ################################ Order ##################################### */
+
+  .row-about-order {
+    flex-direction: column;
+  }
+
+  .col-about-order-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20vh;
+  }
+
+  .col-about-order-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-main-text-order {
+    padding-top: 1vh;
+  }
+
+  .box-text-order {
+    font-family: "Nunito";
+  }
+
+  .box-add-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4.5vw;
+    line-height: 11vh;
+    font-family: "Poppins";
+    position: relative;
+    color: #4c4754;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .text-order {
+    color: #7a7a7a;
+    font-size: 3.5vw;
+  }
+
+  .box-img-order-about {
+    margin-right: 3vw;
+    visibility: hidden;
+  }
+
+  .img-order {
+    margin-right: 0vw;
+  }
+
+  .img-order-2 {
+    display: none;
+  }
+
+  .animate-img-order {
+    visibility: visible;
+    animation: img-order 1000ms both 1500ms;
+  }
+
+  @keyframes img-order {
+    0% {
+      opacity: 0;
+      transform: translate3d(1900px, 0, 0);
+    }
+
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .circle-1 {
+    position: absolute;
+    right: 8vw;
+    top: 23vh;
+    width: 43vw;
+    height: 43vw;
+    opacity: 0.5;
+    border-radius: 50%;
+    background-color: rgba(215, 60, 129, 0.5);
+    z-index: -1;
+    visibility: hidden;
+  }
+
+  .animate-circle-1 {
+    visibility: visible;
+    animation: circle-1 1s both 0ms;
+  }
+
+  @keyframes circle-1 {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .circle-2 {
+    position: absolute;
+    right: 12vw;
+    top: 20vh;
+    width: 63vw;
+    height: 63vw;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      to bottom,
+      #d53590,
+      #db3780,
+      #df3c70,
+      #df4461,
+      #dd4e54
+    );
+    z-index: -1;
+    visibility: hidden;
+  }
+
+  .animate-circle-2 {
+    visibility: visible;
+    animation: circle-2 1s both 500ms;
+  }
+
+  @keyframes circle-2 {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .box-btn-order {
+    margin-top: 6vh;
+  }
+
+  .btn-order {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #4749a0;
+    color: #4749a0;
+    font-size: 2.1vw;
+    width: 20vw;
+    padding: 0.8vw;
+  }
+
+  .btn-order:hover {
+    background: #4749a0;
+    border-color: #4749a0;
+    transition: all 800ms;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about-container {
+    color: #fff;
+    position: static;
+    max-width: 1590px;
+    margin: 0 auto;
+    padding-top: 10vw;
+    color: #000;
+  }
+
+  /* ########################### Product ################################# */
+
+  .row-about-product {
+    flex-direction: column-reverse;
+  }
+
+  .col-about-product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20vh;
+  }
+
+  .col-about-product-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1vh;
+  }
+
+  .box-title-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5vw;
+    line-height: 12vh;
+    font-family: "Poppins";
+    position: relative;
+    color: #4c4754;
+    font-weight: 600;
+    text-align: center;
+  }
+  .box-text-about {
+    font-family: "Nunito";
+  }
+  .text-about {
+    color: #7a7a7a;
+    font-size: 4.5vw;
+  }
+
+  .box-btn-about {
+    margin-top: 1vh;
+  }
+
+  .btn-about {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #4749a0;
+    color: #4749a0;
+    font-size: 2.5vw;
+    width: 24vw;
+    padding: 1vw;
+  }
+
+  .btn-about:hover {
+    background: #4749a0;
+    border-color: #4749a0;
+    transition: all 800ms;
+  }
+
+  .animation-box-about {
+    animation: box-img-about 1000ms;
+  }
+
+  .img-about-shape {
+    display: block;
+    width: 68vw;
+  }
+
+  .img-about {
+    position: relative;
+    top: 0.1vh;
+    visibility: hidden;
+  }
+
+  /* .box-img-about {
+   
+  } */
+
+  .animation-img-about {
+    animation: img-about 3s linear infinite alternate;
+    visibility: visible;
+  }
+
+  @keyframes box-img-about {
+    0% {
+      opacity: 0;
+      transform: translateY(-160px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes img-about {
+    0% {
+      transform: translateY(-100px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  /* ################################ Order ##################################### */
+
+  .row-about-order {
+    flex-direction: column;
+  }
+
+  .col-about-order-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20vh;
+  }
+
+  .col-about-order-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-main-text-order {
+    padding-top: 1vh;
+  }
+
+  .box-text-order {
+    font-family: "Nunito";
+  }
+
+  .box-add-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5.5vw;
+    line-height: 12vh;
+    font-family: "Poppins";
+    position: relative;
+    color: #4c4754;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .text-order {
+    color: #7a7a7a;
+    font-size: 4.5vw;
+  }
+
+  .box-img-order-about {
+    margin-right: 3vw;
+    visibility: hidden;
+  }
+
+  .img-order {
+    margin-right: 0vw;
+  }
+
+  .img-order-2 {
+    width: 68vw;
+  }
+
+  .animate-img-order {
+    visibility: visible;
+    animation: img-order 1000ms both 1500ms;
+  }
+
+  @keyframes img-order {
+    0% {
+      opacity: 0;
+      transform: translate3d(1900px, 0, 0);
+    }
+
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .circle-1 {
+    position: absolute;
+    right: 68vw;
+    top: -45vw;
+    width: 26vw;
+    height: 26vw;
+    opacity: 0.5;
+    border-radius: 50%;
+    background-color: rgba(215, 60, 129, 0.5);
+    z-index: -1;
+    visibility: hidden;
+    display: none;
+  }
+
+  .animate-circle-1 {
+    visibility: visible;
+    animation: circle-1 1s both 0ms;
+  }
+
+  @keyframes circle-1 {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .circle-2 {
+    position: absolute;
+    right: 55vw;
+    top: -44vh;
+    width: 36vw;
+    height: 36vw;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      to bottom,
+      #d53590,
+      #db3780,
+      #df3c70,
+      #df4461,
+      #dd4e54
+    );
+    z-index: -1;
+    visibility: hidden;
+    display: none;
+  }
+
+  .animate-circle-2 {
+    visibility: visible;
+    animation: circle-2 1s both 500ms;
+  }
+
+  @keyframes circle-2 {
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .box-btn-order {
+    margin-top: 1vh;
+  }
+
+  .btn-order {
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid #4749a0;
+    color: #4749a0;
+    font-size: 2.5vw;
+    width: 24vw;
+    padding: 1vw;
+  }
+
+  .btn-order:hover {
+    background: #4749a0;
+    border-color: #4749a0;
+    transition: all 800ms;
+  }
+}

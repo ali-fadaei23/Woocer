@@ -3,12 +3,12 @@ import { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import createHistory from "history/createBrowserHistory";
 
-// App - css
+// add CSS
 import "./App.css";
 
 // Add Components
 
-import Home from "./Components/Home";
+import Home from "./Components/home/Home";
 import HowToUse from "./Components/HowToUse";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import TermsAndConditions from "./Components/Terms";

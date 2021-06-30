@@ -1,4 +1,12 @@
 /* ######################## NavBar V2 ########################## */
+.terms-container {
+  color: #fff;
+  position: static;
+  max-width: 1590px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
 .nav-v2-container {
   color: #fff;
   position: static;

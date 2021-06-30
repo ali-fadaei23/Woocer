@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./GetApp.css";
 
-import UpImage from "../Assets/Woocer-screenshot-6.png";
-import DownImage from "../Assets/Woocer-screenshot-7.png";
-import ShapeImage from "../Assets/shape-7.png";
+import UpImage from "../../Assets/Woocer-screenshot-6.png";
+import DownImage from "../../Assets/Woocer-screenshot-7.png";
+import ShapeImage from "../../Assets/shape-7.png";
 
 const GetApp = () => {
   var [value, setValue] = useState(0);
@@ -14,10 +14,10 @@ const GetApp = () => {
     var position = document.body.scrollTop;
     var handleScroll = () => {
       var scroll = window.pageYOffset;
-      if ((scroll > position) & (window.pageYOffset >= 4115)) {
+      if ((scroll > position) & (window.pageYOffset >= 3150)) {
         setShow(true);
         setValue((window.pageXOffset += 2));
-      } else if ((scroll < position) & (window.pageYOffset >= 4115)) {
+      } else if ((scroll < position) & (window.pageYOffset >= 3150)) {
         setValue((window.pageXOffset -= 2));
       } else {
         setShow(false);
@@ -41,16 +41,9 @@ const GetApp = () => {
     return () => window.removeEventListener("scroll", ShowAnimationStart);
   }, []);
   return (
-    <Container
-      style={{
-        maxWidth: "100%",
-        backgroundColor: "#fbfbfe",
-        paddingBottom: "350px",
-        overflow: "hidden",
-      }}
-    >
-      <Row style={{ padding: "60px 0px" }}>
-        <Col>
+    <Container className="get-app-container">
+      <Row className="row-get-app">
+        <Col className="col-text">
           <div className="section-get-app">
             <div className="box-text-get-app">
               <div
@@ -108,7 +101,7 @@ const GetApp = () => {
           </div>
         </Col>
 
-        <Col>
+        <Col className="col-images">
           <div className="box-image-shape">
             <img
               className="shape-image"

@@ -1,0 +1,1110 @@
+@media only screen and (min-width: 1250px) {
+  .get-app-container {
+    position: static;
+    max-width: 1590px;
+    margin: 0 auto;
+    color: #000;
+    background-color: #fbfbfe;
+    padding-bottom: 34vh;
+    overflow: "hidden";
+  }
+
+  .row-get-app {
+    padding: 4vw 0vw;
+  }
+
+  .section-get-app {
+    position: relative;
+    padding: 5vw 0 6vw 3vw;
+    z-index: 1;
+  }
+
+  .box-text-get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-right: 1vw;
+    padding-bottom: 12vh;
+  }
+
+  .box-text-1 {
+    font-size: 3vw;
+    font-weight: 600;
+    visibility: hidden;
+  }
+
+  .text-1-get-app {
+    position: relative;
+    line-height: 7vh;
+    color: #4c4754;
+    font-family: "Poppins";
+  }
+
+  .animate-txt-1 {
+    visibility: visible;
+    animation: animate-txt-1 1s;
+  }
+
+  @keyframes animate-txt-1 {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-text-2 {
+    margin-top: 6vh;
+    line-height: 6.4vh;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: #75717b;
+    visibility: hidden;
+  }
+
+  .text-2-get-app {
+    position: relative;
+    display: block;
+    font-family: "Nunito";
+  }
+
+  .animate-txt-2 {
+    visibility: visible;
+    animation: animate-txt-2 2s;
+  }
+
+  @keyframes animate-txt-2 {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-btn-get-app {
+    position: relative;
+    z-index: 1;
+  }
+
+  .box-btn-google-play {
+    visibility: hidden;
+  }
+  .animate-btn-google-play {
+    visibility: visible;
+    animation: animate-google-play 1.9s;
+  }
+  @keyframes animate-google-play {
+    0% {
+      opacity: 0;
+
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .box-btn-app-store {
+    visibility: hidden;
+  }
+
+  .animate-btn-apple-store {
+    visibility: visible;
+    animation: animate-apple-store 1.5s;
+  }
+  @keyframes animate-apple-store {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .link-getapp {
+    font-weight: 600;
+    transition: all 300ms ease;
+  }
+  .link-getapp:hover {
+    background-color: #8a57de;
+    color: #ffffff;
+    border-color: #8a57de;
+    text-decoration: none;
+  }
+
+  .button {
+    color: #4c4754;
+  }
+
+  .link-google-play {
+    position: relative;
+    float: left;
+    margin-right: 2.4vw;
+    margin-bottom: 3vh;
+    font-size: 1.4vw;
+    line-height: 4.5vh;
+    color: #4c4754;
+    padding: 2vh 2vw;
+    min-width: 14vw;
+    text-align: center;
+    border: 2px solid #4c4754;
+    border-radius: 3px;
+  }
+  .link-apple-store {
+    position: relative;
+    float: left;
+    margin-right: 2.4vw;
+    margin-bottom: 3vh;
+    font-size: 1.4vw;
+    line-height: 4.5vh;
+    color: #4c4754;
+    padding: 2vh 2vw;
+    min-width: 14vw;
+    text-align: center;
+    border: 2px solid #4c4754;
+    border-radius: 3px;
+  }
+
+  .fab {
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .box-img-up {
+    visibility: hidden;
+  }
+
+  .image-up {
+    position: absolute;
+    z-index: 2;
+    top: 16vh;
+    right: 4vw;
+    visibility: hidden;
+  }
+
+  .animate-image-up {
+    visibility: visible;
+    animation: img-up 1.5s both;
+  }
+
+  @keyframes img-up {
+    0% {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .box-img-down {
+    visibility: hidden;
+  }
+
+  .animate-box-img-down {
+    visibility: visible;
+    animation: box-img-down 2s 1 both;
+  }
+
+  @keyframes box-img-down {
+    0% {
+      opacity: 0;
+      transform: translateY(500px);
+    }
+    100% {
+      transform: translateY(-500px);
+      opacity: 1;
+    }
+  }
+
+  .image-down {
+    position: absolute;
+    top: -2vw;
+    right: 15.5vw;
+    z-index: 1;
+    visibility: hidden;
+  }
+
+  .animate-image-down {
+    visibility: visible;
+    animation: image-down 5s infinite linear;
+  }
+
+  @keyframes image-down {
+    0% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(30px);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .shape-image {
+    position: relative;
+    left: -4vw;
+    top: 23vh;
+    transition: transform 0s linear 0s;
+    will-change: transform;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1249px) {
+  .get-app-container {
+    position: static;
+    max-width: 1590px;
+    margin: 0 auto;
+    color: #000;
+    background-color: #fbfbfe;
+    padding-bottom: 34vh;
+    overflow: "hidden";
+  }
+
+  .row-get-app {
+    padding: 4vw 0vw;
+  }
+
+  .section-get-app {
+    position: relative;
+    padding: 6vw 1.4vw 6vw 2vw;
+    z-index: 1;
+  }
+
+  .box-text-get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-right: 1vw;
+    padding-bottom: 12vh;
+  }
+
+  .box-text-1 {
+    font-size: 4vw;
+    font-weight: 600;
+    visibility: hidden;
+  }
+
+  .text-1-get-app {
+    position: relative;
+    line-height: 7vh;
+    color: #4c4754;
+    font-family: "Poppins";
+  }
+
+  .animate-txt-1 {
+    visibility: visible;
+    animation: animate-txt-1 1s;
+  }
+
+  @keyframes animate-txt-1 {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-text-2 {
+    margin-top: 7vh;
+    line-height: 6.4vh;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #75717b;
+    visibility: hidden;
+  }
+
+  .text-2-get-app {
+    position: relative;
+    display: block;
+    font-family: "Nunito";
+  }
+
+  .animate-txt-2 {
+    visibility: visible;
+    animation: animate-txt-2 2s;
+  }
+
+  @keyframes animate-txt-2 {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-btn-get-app {
+    position: relative;
+    z-index: 1;
+  }
+
+  .box-btn-google-play {
+    visibility: hidden;
+  }
+  .animate-btn-google-play {
+    visibility: visible;
+    animation: animate-google-play 1.9s;
+  }
+  @keyframes animate-google-play {
+    0% {
+      opacity: 0;
+
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .box-btn-app-store {
+    visibility: hidden;
+  }
+
+  .animate-btn-apple-store {
+    visibility: visible;
+    animation: animate-apple-store 1.5s;
+  }
+  @keyframes animate-apple-store {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .link-getapp {
+    font-weight: 600;
+    transition: all 300ms ease;
+  }
+  .link-getapp:hover {
+    background-color: #8a57de;
+    color: #ffffff;
+    border-color: #8a57de;
+    text-decoration: none;
+  }
+
+  .button {
+    color: #4c4754;
+  }
+
+  .link-google-play {
+    position: relative;
+    float: left;
+    margin-right: 2.4vw;
+    margin-bottom: 3vh;
+    font-size: 1.4vw;
+    line-height: 4.5vh;
+    color: #4c4754;
+    padding: 2vh 2vw;
+    min-width: 14vw;
+    text-align: center;
+    border: 2px solid #4c4754;
+    border-radius: 3px;
+  }
+  .link-apple-store {
+    position: relative;
+    float: left;
+    margin-right: 2.4vw;
+    margin-bottom: 3vh;
+    font-size: 1.4vw;
+    line-height: 4.5vh;
+    color: #4c4754;
+    padding: 2vh 2vw;
+    min-width: 14vw;
+    text-align: center;
+    border: 2px solid #4c4754;
+    border-radius: 3px;
+  }
+
+  .fab {
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .box-img-up {
+    visibility: hidden;
+    display: none;
+  }
+
+  .image-up {
+    position: absolute;
+    z-index: 2;
+    top: 18vh;
+    left: 11vw;
+    visibility: hidden;
+  }
+
+  .animate-image-up {
+    visibility: visible;
+    animation: img-up 1.5s both;
+  }
+
+  @keyframes img-up {
+    0% {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .box-img-down {
+    visibility: hidden;
+  }
+
+  .animate-box-img-down {
+    visibility: visible;
+    animation: box-img-down 2s 1 both;
+  }
+
+  @keyframes box-img-down {
+    0% {
+      opacity: 0;
+      transform: translateY(500px);
+    }
+    100% {
+      transform: translateY(-500px);
+      opacity: 1;
+    }
+  }
+
+  .image-down {
+    position: absolute;
+    top: -2vw;
+    right: 2vw;
+    z-index: 1;
+    visibility: hidden;
+  }
+
+  .animate-image-down {
+    visibility: visible;
+    animation: image-down 5s infinite linear;
+  }
+
+  @keyframes image-down {
+    0% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(30px);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-image-shape {
+    margin-left: -10vw;
+  }
+
+  .shape-image {
+    position: relative;
+    left: 7vw;
+    top: 27vh;
+    transition: transform 0s linear 0s;
+    will-change: transform;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 899px) {
+  .get-app-container {
+    position: static;
+    max-width: 1590px;
+    margin: 0 auto;
+    color: #000;
+    background-color: #fbfbfe;
+    padding-bottom: 74vh;
+    overflow: "hidden";
+  }
+
+  .row-get-app {
+    flex-direction: column;
+    padding: 4vw 0vw;
+  }
+
+  .section-get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 6vw 1.4vw 6vw 2vw;
+    z-index: 1;
+  }
+
+  .box-text-get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 9vh;
+  }
+
+  .box-text-1 {
+    font-size: 5vw;
+    font-weight: 600;
+    visibility: hidden;
+  }
+
+  .text-1-get-app {
+    position: relative;
+    line-height: 7vh;
+    color: #4c4754;
+    font-family: "Poppins";
+  }
+
+  .animate-txt-1 {
+    visibility: visible;
+    animation: animate-txt-1 1s;
+  }
+
+  @keyframes animate-txt-1 {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-text-2 {
+    margin-top: 5vh;
+    line-height: 6vh;
+    padding: 0 13vw;
+    font-size: 2.3vw;
+    font-weight: 500;
+    color: #75717b;
+    visibility: hidden;
+  }
+
+  .text-2-get-app {
+    position: relative;
+    display: block;
+    font-family: "Nunito";
+  }
+
+  .animate-txt-2 {
+    visibility: visible;
+    animation: animate-txt-2 2s;
+  }
+
+  @keyframes animate-txt-2 {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-btn-get-app {
+    display: inline-flex;
+    position: relative;
+    z-index: 1;
+  }
+
+  .box-btn-google-play {
+    visibility: hidden;
+  }
+  .animate-btn-google-play {
+    visibility: visible;
+    animation: animate-google-play 1.9s;
+  }
+  @keyframes animate-google-play {
+    0% {
+      opacity: 0;
+
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .box-btn-app-store {
+    visibility: hidden;
+  }
+
+  .animate-btn-apple-store {
+    visibility: visible;
+    animation: animate-apple-store 1.5s;
+  }
+  @keyframes animate-apple-store {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .link-getapp {
+    font-weight: 600;
+    transition: all 300ms ease;
+  }
+  .link-getapp:hover {
+    background-color: #8a57de;
+    color: #ffffff;
+    border-color: #8a57de;
+    text-decoration: none;
+  }
+
+  .button {
+    color: #4c4754;
+  }
+
+  .link-google-play {
+    position: relative;
+    float: left;
+    margin-bottom: 4vh;
+    font-size: 2.2vw;
+    line-height: 5.5vh;
+    margin-right: 4vw;
+    color: #4c4754;
+    padding: 2vh 3vw;
+    min-width: 20vw;
+    text-align: center;
+    border: 2px solid #4c4754;
+    border-radius: 3px;
+  }
+  .link-apple-store {
+    position: relative;
+    float: left;
+    margin-bottom: 4vh;
+    font-size: 2.2vw;
+    line-height: 5.5vh;
+    color: #4c4754;
+    padding: 2vh 3vw;
+    min-width: 20vw;
+    text-align: center;
+    border: 2px solid #4c4754;
+    border-radius: 3px;
+  }
+
+  .fab {
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .box-img-up {
+    visibility: hidden;
+    display: none;
+  }
+
+  .image-up {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 18vh;
+    left: 11vw;
+    visibility: hidden;
+  }
+
+  .animate-image-up {
+    visibility: visible;
+    animation: img-up 1.5s both;
+  }
+
+  @keyframes img-up {
+    0% {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .box-img-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+  }
+
+  .animate-box-img-down {
+    visibility: visible;
+    animation: box-img-down 2s 1 both;
+  }
+
+  @keyframes box-img-down {
+    0% {
+      opacity: 0;
+      transform: translateY(500px);
+    }
+    100% {
+      transform: translateY(-500px);
+      opacity: 1;
+    }
+  }
+
+  .image-down {
+    position: absolute;
+    top: 85vh;
+    z-index: 1;
+    visibility: hidden;
+  }
+
+  .animate-image-down {
+    visibility: visible;
+    animation: image-down 5s infinite linear;
+  }
+
+  @keyframes image-down {
+    0% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(30px);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-image-shape {
+    display: none;
+    margin-left: -10vw;
+  }
+
+  .shape-image {
+    position: relative;
+    left: 7vw;
+    top: 27vh;
+    transition: transform 0s linear 0s;
+    will-change: transform;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .get-app-container {
+    position: static;
+    max-width: 1590px;
+    margin: 0 auto;
+    color: #000;
+    background-color: #fbfbfe;
+    padding-bottom: 74vh;
+    overflow: "hidden";
+  }
+
+  .row-get-app {
+    flex-direction: column;
+    padding: 4vw 0vw;
+  }
+
+  .section-get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 6vw 1.4vw 6vw 2vw;
+    z-index: 1;
+  }
+
+  .box-text-get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 9vh;
+  }
+
+  .box-text-1 {
+    font-size: 5vw;
+    font-weight: 600;
+    visibility: hidden;
+  }
+
+  .text-1-get-app {
+    position: relative;
+    line-height: 7vh;
+    color: #4c4754;
+    font-family: "Poppins";
+  }
+
+  .animate-txt-1 {
+    visibility: visible;
+    animation: animate-txt-1 1s;
+  }
+
+  @keyframes animate-txt-1 {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-text-2 {
+    margin-top: 5vh;
+    line-height: 6vh;
+    padding: 0 13vw;
+    font-size: 2.3vw;
+    font-weight: 500;
+    color: #75717b;
+    visibility: hidden;
+  }
+
+  .text-2-get-app {
+    position: relative;
+    display: block;
+    font-family: "Nunito";
+  }
+
+  .animate-txt-2 {
+    visibility: visible;
+    animation: animate-txt-2 2s;
+  }
+
+  @keyframes animate-txt-2 {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-btn-get-app {
+    display: inline-flex;
+    position: relative;
+    z-index: 1;
+  }
+
+  .box-btn-google-play {
+    visibility: hidden;
+  }
+  .animate-btn-google-play {
+    visibility: visible;
+    animation: animate-google-play 1.9s;
+  }
+  @keyframes animate-google-play {
+    0% {
+      opacity: 0;
+
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .box-btn-app-store {
+    visibility: hidden;
+  }
+
+  .animate-btn-apple-store {
+    visibility: visible;
+    animation: animate-apple-store 1.5s;
+  }
+  @keyframes animate-apple-store {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .link-getapp {
+    font-weight: 600;
+    transition: all 300ms ease;
+  }
+  .link-getapp:hover {
+    background-color: #8a57de;
+    color: #ffffff;
+    border-color: #8a57de;
+    text-decoration: none;
+  }
+
+  .button {
+    color: #4c4754;
+  }
+
+  .link-google-play {
+    position: relative;
+    float: left;
+    margin-bottom: 4vh;
+    font-size: 2.2vw;
+    line-height: 5.5vh;
+    margin-right: 4vw;
+    color: #4c4754;
+    padding: 2vh 3vw;
+    min-width: 20vw;
+    text-align: center;
+    border: 2px solid #4c4754;
+    border-radius: 3px;
+  }
+  .link-apple-store {
+    position: relative;
+    float: left;
+    margin-bottom: 4vh;
+    font-size: 2.2vw;
+    line-height: 5.5vh;
+    color: #4c4754;
+    padding: 2vh 3vw;
+    min-width: 20vw;
+    text-align: center;
+    border: 2px solid #4c4754;
+    border-radius: 3px;
+  }
+
+  .fab {
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .box-img-up {
+    visibility: hidden;
+    display: none;
+  }
+
+  .image-up {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 18vh;
+    left: 11vw;
+    visibility: hidden;
+  }
+
+  .animate-image-up {
+    visibility: visible;
+    animation: img-up 1.5s both;
+  }
+
+  @keyframes img-up {
+    0% {
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .box-img-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+  }
+
+  .animate-box-img-down {
+    visibility: visible;
+    animation: box-img-down 2s 1 both;
+  }
+
+  @keyframes box-img-down {
+    0% {
+      opacity: 0;
+      transform: translateY(500px);
+    }
+    100% {
+      transform: translateY(-500px);
+      opacity: 1;
+    }
+  }
+
+  .image-down {
+    position: absolute;
+    top: 85vh;
+    z-index: 1;
+    visibility: hidden;
+  }
+
+  .animate-image-down {
+    visibility: visible;
+    animation: image-down 5s infinite linear;
+  }
+
+  @keyframes image-down {
+    0% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(30px);
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .box-image-shape {
+    display: none;
+    margin-left: -10vw;
+  }
+
+  .shape-image {
+    position: relative;
+    left: 7vw;
+    top: 27vh;
+    transition: transform 0s linear 0s;
+    will-change: transform;
+  }
+}

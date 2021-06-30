@@ -3,7 +3,7 @@ import { Row, Col, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./HowToUse.css";
 
-import ScrollButton from "./ScrollButton";
+import ScrollButton from "./scroll-button/ScrollButton";
 
 // Add Assets
 import Logo from "../Assets/woocer.png";
@@ -119,7 +119,7 @@ const HowToUse = () => {
   }, []);
 
   return (
-    <Container>
+    <Container className="how-to-use-container">
       <Row>
         <div className="section-header-how-to-use">
           <div className="box-nav-bar-v2">
