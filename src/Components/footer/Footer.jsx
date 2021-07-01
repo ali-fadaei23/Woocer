@@ -86,18 +86,29 @@ const Footer = () => {
                 <ul>
                   <div className="box-link-pages">
                     <li className="link-home link-footer">
-                      <a href="#top">Home</a>
+                      <a className="links-style" href="#top">
+                        Home
+                      </a>
                     </li>
                     <li className="link-how-to-use link-footer">
-                      <Link to={{ pathname: "/how-to-use" }}>How to use</Link>
+                      <Link
+                        className="links-style"
+                        to={{ pathname: "/how-to-use" }}
+                      >
+                        How to use
+                      </Link>
                     </li>
                     <li className="link-privacy-policy link-footer">
-                      <Link to={{ pathname: "/privacy-policy" }}>
+                      <Link
+                        className="links-style"
+                        to={{ pathname: "/privacy-policy" }}
+                      >
                         Privacy Policy
                       </Link>
                     </li>
                     <li className="link-terms-and-conditions link-footer">
                       <Link
+                        className="links-style"
                         to={{
                           pathname: "/terms-conditions",
                         }}
