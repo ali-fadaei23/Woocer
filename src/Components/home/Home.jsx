@@ -11,7 +11,7 @@ import Features from "../features-app/Features";
 import About from "../add-edit/About";
 import Subscribe from "../subscribe/Subscribe";
 import GetApp from "../download-app/GetApp";
-// import Faq from "../faq-section/Faq";
+import Faq from "../faq-section/Faq";
 import Footer from "../footer/Footer";
 
 class Home extends Component {
@@ -37,9 +37,9 @@ class Home extends Component {
         <div className="get-app-container">
           <GetApp />
         </div>
-        {/* <div className="faq-container">
+        <div className="fq-container">
           <Faq />
-        </div> */}
+        </div>
         <div className="footer-container">
           <Footer />
         </div>

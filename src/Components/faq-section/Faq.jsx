@@ -6,16 +6,9 @@ const Faq = () => {
   const [open, setOpen] = useState(false);
   const [open2, setOpen2] = useState(false);
   return (
-    <Container
-      style={{
-        position: "relative",
-        padding: "100px 0 100px",
-        backgroundColor: "#fbfbfd",
-        maxWidth: "100%",
-      }}
-    >
-      <Row>
-        <Col>
+    <Container className="faq-container">
+      <Row className="row-faq">
+        <Col className="col-faq">
           <div className="section-faq">
             <div className="box-text-faq">
               <span className="text-faq">Frequently asked questions</span>

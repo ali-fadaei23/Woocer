@@ -1,172 +1,318 @@
-/* ############################# Default Button ########################################## */
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: none;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
-  color: #4c4754;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-.btn-primary:not(:disabled):not(.disabled).focus,
-.btn-primary:not(:disabled):not(.disabled):focus,
-.show > .btn-primary.dropdown-toggle {
-  box-shadow: none;
-}
-
-.btn-collapse-1:focus {
-  box-shadow: none;
-  background-color: transparent;
-  color: #4c4754;
-}
-
-.btn-collapse-1:active {
-  border-color: transparent;
-  background-color: transparent;
-}
-.btn-collapse-2:focus {
-  box-shadow: none;
-  background-color: transparent;
-  color: #4c4754;
-}
-
-.btn-collapse-2:active {
-  border-color: transparent;
-  background-color: transparent;
-}
-
-/* ########################### Main Style ############################################### */
 @media only screen and (min-width: 1250px) {
+  /* ############################# Default Button ########################################## */
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #4c4754;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .btn-primary:not(:disabled):not(.disabled).focus,
+  .btn-primary:not(:disabled):not(.disabled):focus,
+  .show > .btn-primary.dropdown-toggle {
+    box-shadow: none;
+  }
+  .btn-collapse-1:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #4c4754;
+  }
+  .btn-collapse-1:active {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .btn-collapse-2:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #4c4754;
+  }
+  .btn-collapse-2:active {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  /* ########################### Main Style ############################################### */
+  .faq-container {
+    position: relative;
+    padding: 9vw 0;
+    background-color: #fbfbfd;
+    max-width: 100%;
+  }
+  .section-faq {
+    padding: 0 5vw;
+  }
+
+  .box-text-faq {
+    font-family: "Poppins";
+    margin-bottom: 10vh;
+  }
+
+  .text-faq {
+    font-size: 3vw;
+    line-height: 6vh;
+    color: #4c4754;
+    font-weight: 600;
+  }
+
+  .section-faq-content {
+    color: #4c4754;
+    display: flex;
+    place-content: center;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .box-content-1 {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin-bottom: 8vh;
+    margin: 0 2vw;
+  }
+  .box-content-2 {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin-bottom: 8vh;
+    margin: 0 2vw;
+  }
+
+  .btn-collapse-1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 39.707vw;
+    padding: 3.1vh 2.9vw;
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    position: relative;
+    font-size: 1.47vw;
+    line-height: 5vh;
+    color: #4c4754;
+  }
+  .btn-collapse-1:hover {
+    background: transparent;
+    border: transparent;
+    color: #4c4754;
+  }
+  .icon-plus-1 {
+    color: #7478fa;
+    margin-left: 8.9vw;
+  }
+  .btn-collapse-2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 39.707vw;
+    padding: 3.1vh 2.9vw;
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    position: relative;
+    font-size: 1.47vw;
+    line-height: 5vh;
+    color: #4c4754;
+  }
+  .btn-collapse-2:hover {
+    background: transparent;
+    border: transparent;
+    color: #4c4754;
+    background-color: transparent;
+  }
+
+  #example-collapse-text {
+    width: 39.707vw;
+  }
+
+  .icon-plus-2 {
+    color: #7478fa;
+    margin-left: 8.9vw;
+  }
+  .text-1 {
+    padding: 2.574vw;
+    text-align: left;
+    position: relative;
+    display: block;
+    font-size: 1.3vw;
+    line-height: 4.9vh;
+    color: #75717b;
+    font-weight: 400;
+  }
+  .text-2 {
+    padding: 2.4vw;
+    text-align: left;
+    position: relative;
+    display: block;
+    font-size: 1.3vw;
+    line-height: 4.9vh;
+    color: #75717b;
+    font-weight: 400;
+  }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1249px) {
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #4c4754;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .btn-primary:not(:disabled):not(.disabled).focus,
+  .btn-primary:not(:disabled):not(.disabled):focus,
+  .show > .btn-primary.dropdown-toggle {
+    box-shadow: none;
+  }
+  .btn-collapse-1:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #4c4754;
+  }
+  .btn-collapse-1:active {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .btn-collapse-2:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #4c4754;
+  }
+  .btn-collapse-2:active {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  /* ########################### Main Style ############################################### */
+  .faq-container {
+    position: relative;
+    padding: 9vw 0;
+    background-color: #fbfbfd;
+    max-width: 100%;
+  }
+  .section-faq {
+    padding: 0 5vw;
+  }
+
+  .box-text-faq {
+    font-family: "Poppins";
+    margin-bottom: 10vh;
+  }
+
+  .text-faq {
+    font-size: 2.7vw;
+    line-height: 6vh;
+    color: #4c4754;
+    font-weight: 600;
+  }
+
+  .section-faq-content {
+    color: #4c4754;
+    display: flex;
+    place-content: center;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .box-content-1 {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin-bottom: 8vh;
+    margin: 0 2vw;
+  }
+  .box-content-2 {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin-bottom: 8vh;
+    margin: 0 2vw;
+  }
+
+  .btn-collapse-1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 39.707vw;
+    padding: 3.1vh 2.9vw;
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    position: relative;
+    font-size: 1.67vw;
+    line-height: 5vh;
+    color: #4c4754;
+  }
+  .btn-collapse-1:hover {
+    background: transparent;
+    border: transparent;
+    color: #4c4754;
+  }
+  .icon-plus-1 {
+    color: #7478fa;
+    margin-left: 8.9vw;
+  }
+  .btn-collapse-2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 39.707vw;
+    padding: 3.1vh 2.9vw;
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    position: relative;
+    font-size: 1.67vw;
+    line-height: 5vh;
+    color: #4c4754;
+  }
+  .btn-collapse-2:hover {
+    background: transparent;
+    border: transparent;
+    color: #4c4754;
+    background-color: transparent;
+  }
+
+  #example-collapse-text {
+    width: 39.707vw;
+  }
+
+  .icon-plus-2 {
+    color: #7478fa;
+    margin-left: 8.9vw;
+  }
+  .text-1 {
+    padding: 2.574vw;
+    text-align: left;
+    position: relative;
+    display: block;
+    font-size: 1.4vw;
+    line-height: 4.9vh;
+    color: #75717b;
+    font-weight: 400;
+  }
+  .text-2 {
+    padding: 2.4vw;
+    text-align: left;
+    position: relative;
+    display: block;
+    font-size: 1.4vw;
+    line-height: 4.9vh;
+    color: #75717b;
+    font-weight: 400;
+  }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 899px) {
 }
 
 @media only screen and (max-width: 700px) {
-}
-
-.section-faq {
-  position: static;
-  max-width: 1200px;
-  padding: 0px 15px;
-  margin: 0 auto;
-}
-
-.section-faq-content {
-  color: #4c4754;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: left;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.box-content-1 {
-  position: relative;
-  background-color: #ffffff;
-  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
-  margin-bottom: 40px;
-}
-
-.box-content-2 {
-  position: relative;
-  background-color: #ffffff;
-  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
-  margin-bottom: 40px;
-  margin-left: 35px;
-}
-
-.box-text-faq {
-  font-family: "Poppins";
-  margin-bottom: 70px;
-}
-
-.text-faq {
-  font-size: 34px;
-  line-height: 1.2em;
-  color: #4c4754;
-  font-weight: 500;
-}
-
-.btn-collapse-1 {
-  display: flex;
-  align-items: center;
-  text-align: inherit;
-  width: 540px;
-  padding: 20px 40px;
-  cursor: pointer;
-  border: transparent;
-  background: transparent;
-  position: relative;
-  font-size: 20px;
-  line-height: 30px;
-  color: #4c4754;
-}
-
-.btn-collapse-1:hover {
-  background: transparent;
-  border: transparent;
-  color: #4c4754;
-}
-
-.icon-plus-1 {
-  color: #7478fa;
-  margin-left: 122px;
-}
-
-.btn-collapse-2 {
-  display: flex;
-  align-items: center;
-  text-align: inherit;
-  padding: 20px 40px;
-  cursor: pointer;
-  border: transparent;
-  background: transparent;
-  position: relative;
-  font-size: 20px;
-  line-height: 30px;
-  color: #4c4754;
-}
-
-.btn-collapse-2:hover {
-  background: transparent;
-  border: transparent;
-  color: #4c4754;
-  background-color: transparent;
-}
-
-.icon-plus-2 {
-  color: #7478fa;
-  margin-left: 122px;
-}
-
-.text-1 {
-  padding: 35px;
-  text-align: left;
-  position: relative;
-  display: block;
-  font-size: 18px;
-  line-height: 30px;
-  color: #75717b;
-  font-weight: 400;
-}
-
-.text-2 {
-  padding: 35px;
-  text-align: left;
-  position: relative;
-  display: block;
-  font-size: 18px;
-  line-height: 30px;
-  color: #75717b;
-  font-weight: 400;
 }
