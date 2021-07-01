@@ -47,14 +47,36 @@ const Footer = () => {
         <Col>
           <div className="footer">
             <div className="animation-footer-icons">
-              <img className="icon icon-cloud-footer-1" src={Cloud1} alt="" />
-              <img className="icon icon-cloud-footer-2" src={Cloud2} alt="" />
-              <img className="icon icon-cloud-footer-3" src={Cloud3} alt="" />
-              <img className="icon icon-cloud-footer-4" src={Cloud4} alt="" />
-              <img className="icon icon-cloud-footer-5" src={Cloud5} alt="" />
-              <img className="icon icon-cloud-footer-6" src={Cloud6} alt="" />
-
-              <img className="icon icon-building" src={IconBuilding} alt="" />
+              <img
+                className="icon-footer icon-cloud-footer-1"
+                src={Cloud1}
+                alt=""
+              />
+              <img
+                className="icon-footer icon-cloud-footer-2"
+                src={Cloud2}
+                alt=""
+              />
+              <img
+                className="icon-footer icon-cloud-footer-3"
+                src={Cloud3}
+                alt=""
+              />
+              <img
+                className="icon-footer icon-cloud-footer-4"
+                src={Cloud4}
+                alt=""
+              />
+              <img
+                className="icon-footer icon-cloud-footer-5"
+                src={Cloud5}
+                alt=""
+              />
+              <img
+                className="icon-footer icon-cloud-footer-6"
+                src={Cloud6}
+                alt=""
+              />
             </div>
             <div className="section-footer-pages">
               <div className="box-pages">
@@ -113,6 +135,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="building">
+            <img className="icon icon-building" src={IconBuilding} alt="" />
           </div>
           <div className="footer-bottom-padding">
             <div className="footer-bottom">
