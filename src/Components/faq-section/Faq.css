@@ -312,7 +312,317 @@
 }
 
 @media only screen and (min-width: 700px) and (max-width: 899px) {
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #4c4754;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .btn-primary:not(:disabled):not(.disabled).focus,
+  .btn-primary:not(:disabled):not(.disabled):focus,
+  .show > .btn-primary.dropdown-toggle {
+    box-shadow: none;
+  }
+  .btn-collapse-1:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #4c4754;
+  }
+  .btn-collapse-1:active {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .btn-collapse-2:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #4c4754;
+  }
+  .btn-collapse-2:active {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  /* ########################### Main Style ############################################### */
+  .faq-container {
+    position: relative;
+    padding: 9vw 0;
+    background-color: #fbfbfd;
+    max-width: 100%;
+  }
+  .section-faq {
+    padding: 0 5vw;
+  }
+
+  .box-text-faq {
+    font-family: "Poppins";
+    margin-bottom: 11vh;
+  }
+
+  .text-faq {
+    font-size: 4.5vw;
+    line-height: 11vh;
+    color: #4c4754;
+    font-weight: 600;
+  }
+
+  .section-faq-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4c4754;
+    text-align: left;
+  }
+
+  .box-content-1 {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin: 0 2vw;
+    margin-bottom: 8vh;
+  }
+  .box-content-2 {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin: 0 2vw;
+    margin-top: 3vh;
+  }
+
+  .btn-collapse-1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 85vw;
+    height: 17vh;
+    padding: 0 3vw;
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    position: relative;
+    font-size: 2.5vw;
+    line-height: 5vh;
+    color: #4c4754;
+  }
+  .btn-collapse-1:hover {
+    background: transparent;
+    border: transparent;
+    color: #4c4754;
+  }
+  .icon-plus-1 {
+    color: #7478fa;
+    margin-left: 35vw;
+  }
+  .btn-collapse-2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 85vw;
+    height: 17vh;
+    padding: 0 3vw;
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    position: relative;
+    font-size: 2.5vw;
+    line-height: 5vh;
+    color: #4c4754;
+  }
+  .btn-collapse-2:hover {
+    background: transparent;
+    border: transparent;
+    color: #4c4754;
+    background-color: transparent;
+  }
+
+  #example-collapse-text {
+    width: 85vw;
+  }
+
+  .icon-plus-2 {
+    color: #7478fa;
+    margin-left: 11vw;
+  }
+  .text-1 {
+    padding: 2.7vw;
+    text-align: left;
+    position: relative;
+    display: block;
+    font-size: 2.1vw;
+    line-height: 6vh;
+    color: #75717b;
+    font-weight: 400;
+  }
+  .text-2 {
+    padding: 2.7vw;
+    text-align: left;
+    position: relative;
+    display: block;
+    font-size: 2.1vw;
+    line-height: 6vh;
+    color: #75717b;
+    font-weight: 400;
+  }
 }
 
 @media only screen and (max-width: 700px) {
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #4c4754;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .btn-primary:not(:disabled):not(.disabled).focus,
+  .btn-primary:not(:disabled):not(.disabled):focus,
+  .show > .btn-primary.dropdown-toggle {
+    box-shadow: none;
+  }
+  .btn-collapse-1:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #4c4754;
+  }
+  .btn-collapse-1:active {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .btn-collapse-2:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: #4c4754;
+  }
+  .btn-collapse-2:active {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  /* ########################### Main Style ############################################### */
+  .faq-container {
+    position: relative;
+    padding: 9vw 0;
+    background-color: #fbfbfd;
+    max-width: 100%;
+  }
+  .section-faq {
+    padding: 0 5vw;
+  }
+
+  .box-text-faq {
+    font-family: "Poppins";
+    margin-bottom: 6vh;
+  }
+
+  .text-faq {
+    font-size: 4.5vw;
+    line-height: 11vh;
+    color: #4c4754;
+    font-weight: 600;
+  }
+
+  .section-faq-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4c4754;
+    text-align: left;
+  }
+
+  .box-content-1 {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin: 0 2vw;
+    margin-bottom: 5vh;
+  }
+  .box-content-2 {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin: 0 2vw;
+    margin-top: 2vh;
+  }
+
+  .btn-collapse-1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 85vw;
+    height: 15vh;
+    padding: 0 3vw;
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    position: relative;
+    font-size: 2.7vw;
+    line-height: 5vh;
+    color: #4c4754;
+  }
+  .btn-collapse-1:hover {
+    background: transparent;
+    border: transparent;
+    color: #4c4754;
+  }
+  .icon-plus-1 {
+    color: #7478fa;
+    margin-left: 35vw;
+  }
+  .btn-collapse-2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 85vw;
+    height: 15vh;
+    padding: 0 3vw;
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    position: relative;
+    font-size: 2.7vw;
+    line-height: 5vh;
+    color: #4c4754;
+  }
+  .btn-collapse-2:hover {
+    background: transparent;
+    border: transparent;
+    color: #4c4754;
+    background-color: transparent;
+  }
+
+  #example-collapse-text {
+    width: 85vw;
+  }
+
+  .icon-plus-2 {
+    color: #7478fa;
+    margin-left: 11vw;
+  }
+  .text-1 {
+    padding: 2.7vw;
+    text-align: left;
+    position: relative;
+    display: block;
+    font-size: 2.4vw;
+    line-height: 5vh;
+    color: #75717b;
+    font-weight: 400;
+  }
+  .text-2 {
+    padding: 2.7vw;
+    text-align: left;
+    position: relative;
+    display: block;
+    font-size: 2.4vw;
+    line-height: 5vh;
+    color: #75717b;
+    font-weight: 400;
+  }
 }
