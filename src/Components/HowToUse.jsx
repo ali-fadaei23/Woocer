@@ -14,6 +14,29 @@ import ApiImage1 from "../Assets/Woocer-Woocommerce-API-1.jpg";
 import ApiImage2 from "../Assets/Woocer-Woocommerce-API-2.jpg";
 
 const NavBarV2 = () => {
+  const [showEl, setShowEl] = useState(false);
+
+  const MoreBtn = function () {
+    if (!showEl) {
+      setShowEl(true);
+    } else if (showEl) {
+      setShowEl(false);
+    }
+  };
+
+  useEffect(() => {
+    const Reset = function () {
+      if (window.innerWidth > 900) {
+        setShowEl(false);
+      }
+    };
+
+    window.addEventListener("resize", Reset);
+    return () => {
+      window.removeEventListener("resize", Reset);
+    };
+  }, []);
+
   const [show, setShow] = useState(false);
   useEffect(() => {
     const stickyNav = function () {
@@ -32,7 +55,7 @@ const NavBarV2 = () => {
 
   return (
     <Container
-      className="nav-v2-container"
+      className="nav-v2-container container-nav-v2-pos bg-nav-v2"
       style={
         show
           ? {
@@ -40,26 +63,23 @@ const NavBarV2 = () => {
               background:
                 "linear-gradient(90deg, rgba(255,255,255,0.8743872549019608) 8%, rgba(238,238,242,0.896796218487395) 55%)",
               zIndex: "3",
-              animation: "animation-nav 0.4s",
+              animation: "animation-nav-v2 1s",
               visibility: "visible",
+              padding: "0 5vw",
             }
           : {
               position: "absolute",
               zIndex: "3",
-              animation: "animation-nav-1 1s",
+              animation: "animation-nav-v2-1 1s",
+              padding: "0 5vw",
             }
       }
     >
-      <Row>
+      <Row className={showEl ? "row-nav-v2" : "row-nav-v2 display-row-nav-v2"}>
         <Col
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            padding: "0px 87px",
-          }}
+          className={showEl ? "col-nav-v2" : "col-nav-v2 display-col-nav-v2"}
         >
-          <div>
+          <div className="size-nav-v2" style={{ width: "100%" }}>
             <Navbar className={show ? "navbar-v2 navbar-nav-v2 " : null}>
               <Navbar.Brand href="/">
                 <img
@@ -71,8 +91,20 @@ const NavBarV2 = () => {
               </Navbar.Brand>
             </Navbar>
           </div>
-          <div className="box-ul-v2">
-            <ul className="ul-nav-v2">
+          <div className="box-more-icon-v2">
+            <button
+              className={
+                showEl ? "more-icon-v2" : "more-icon-v2 hide-more-icon-v2"
+              }
+              onClick={MoreBtn}
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </Col>
+        <Col className={showEl ? "col-ul-v2" : "col-ul-v2 display-col-ul-v2"}>
+          <div className={showEl ? "box-ul-v2" : "box-ul-v2 hide-box-ul-v2"}>
+            <ul className={!showEl ? "ul-nav-v2" : "ul-nav-v2 pad-ul-nav-v2"}>
               <li>
                 <a className="home-v2 link-nav-v2" href="/">
                   Home
@@ -81,7 +113,7 @@ const NavBarV2 = () => {
               <li>
                 <Link
                   className="how-to-use-v2 link-nav-v2"
-                  to={{ pathname: "/how-to-use", state: "4" }}
+                  to={{ pathname: "/how-to-use" }}
                 >
                   How to use
                 </Link>

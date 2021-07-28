@@ -238,16 +238,17 @@
 }
 
 @media only screen and (min-width: 700px) and (max-width: 899px) {
-  .bg-nav {
-    background-color: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
-  }
   .nav-container {
     color: #fff;
     position: static;
     max-width: 1590px;
     padding: 0vh 1.8vw;
     margin: 0 auto;
+  }
+
+  .bg-nav {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   }
 
   .navbar-brand {
@@ -387,16 +388,17 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .bg-nav {
-    background-color: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
-  }
   .nav-container {
     color: #fff;
     position: static;
     max-width: 1590px;
     padding: 0vh 1.8vw;
     margin: 0 auto;
+  }
+
+  .bg-nav {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   }
 
   .navbar-brand {
