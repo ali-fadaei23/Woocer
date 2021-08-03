@@ -1,5 +1,5 @@
 /* ########################## Responsive ########################### */
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1280px) {
   .nav-container {
     color: #fff;
     position: static;
@@ -119,7 +119,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1249px) {
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
   .nav-container {
     color: #fff;
     position: static;
@@ -237,7 +237,7 @@
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 899px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .nav-container {
     color: #fff;
     position: static;
@@ -387,7 +387,7 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 480px) {
   .nav-container {
     color: #fff;
     position: static;

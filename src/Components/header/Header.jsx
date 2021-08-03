@@ -19,7 +19,10 @@ const Header = (props) => {
       className="header-container"
       style={{ margin: 0, paddingTop: "125px" }}
     >
-      <Row>
+      <Row className="row-header">
+      <div className="box-header-bg">
+            <div className="layer-img"></div>
+          </div>
         <Col
           className="col-header"
           style={{

@@ -19,10 +19,8 @@ class Home extends Component {
     return (
       <>
         <div className="h-container" id="top">
+         
           <NavigationBar />
-          <div className="box-header-bg">
-            <div className="layer-img"></div>
-          </div>
           <Header />
         </div>
         <div className="f-container">

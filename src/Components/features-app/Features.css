@@ -1,5 +1,5 @@
 /* ######################################## Main Style ######################################### */
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1280px) {
   .container-features {
     position: static;
     max-width: 1590px;
@@ -157,7 +157,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1249px) {
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
   .container-features {
     position: static;
     max-width: 1590px;
@@ -315,7 +315,7 @@
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 899px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .container-features {
     position: static;
     max-width: 1590px;
@@ -334,6 +334,7 @@
     width: 97.5vw;
     flex-direction: column;
     align-self: center;
+    margin: 0;
   }
 
   .box-features-btn {
@@ -464,7 +465,7 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 480px) {
   .container-features {
     position: static;
     max-width: 1590px;
@@ -483,6 +484,7 @@
     width: 97.5vw;
     flex-direction: column;
     align-self: center;
+    margin: 0;
   }
 
   .box-features-btn {

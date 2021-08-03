@@ -61,7 +61,8 @@ const About = () => {
               </div>
               <div className="box-text-about">
                 <span className="text-about" placeholder="Text">
-                  text
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry
                 </span>
               </div>
             </div>
@@ -84,6 +85,7 @@ const About = () => {
                   placeholder="Text"
                   style={{ overflow: "hidden" }}
                 >
+                  Contrary to popular belief, Lorem Ipsum is not simply random
                   text
                 </span>
               </div>

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1280px) {
   /* ####################### Icon Style ########################################## */
   .icon-footer {
     position: absolute;
@@ -13,6 +13,7 @@
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    overflow: hidden;
   }
 
   .building {
@@ -229,7 +230,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1249px) {
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
   /* ####################### Icon Style ########################################## */
   .icon-footer {
     position: absolute;
@@ -244,6 +245,7 @@
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    overflow: hidden;
   }
 
   .icon-building {
@@ -473,7 +475,7 @@
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 899px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   /* ####################### Icon Style ########################################## */
   .icon-footer {
     position: absolute;
@@ -488,6 +490,7 @@
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    overflow: hidden;
   }
 
   .icon-building {
@@ -717,7 +720,7 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 480px) {
   /* ####################### Icon Style ########################################## */
   .icon-footer {
     position: absolute;
@@ -732,6 +735,7 @@
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    overflow: hidden;
   }
 
   .icon-building {

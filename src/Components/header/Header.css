@@ -16,7 +16,7 @@
 }
 
 /* ################################## Animation Style ################################ */
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1280px) {
   .header-container {
     color: #fff;
     position: static;
@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 47vh;
+    margin-top: -60vh;
   }
 
   .box-text-h-1 {
@@ -48,8 +48,8 @@
   .txt-1 {
     position: relative;
     display: block;
-    font-size: 1.2vw;
-    line-height: 26px;
+    font-size: 1.1em;
+    line-height: 2em;
     color: #8a57de;
     font-weight: 600;
     letter-spacing: 5px;
@@ -78,9 +78,9 @@
 
   .txt-2 {
     position: relative;
-    font-size: 3.8vw;
-    line-height: 11.7vh;
-    margin-bottom: 4vh;
+    font-size: 3.1rem;
+    line-height: 1.6em;
+    margin-bottom: 2.5vh;
     font-weight: 600;
     visibility: visible;
     animation: text-2 800ms 1s both;
@@ -105,9 +105,9 @@
     visibility: visible;
     position: relative;
     animation: text-3 1200ms 1s both;
-    font-size: 1.3vw;
-    line-height: 4.8vh;
-    margin-bottom: 6.8vh;
+    font-size: 1.1rem;
+    line-height: 1em;
+    margin-bottom: 7vh;
   }
 
   .txt-3 {
@@ -288,12 +288,14 @@
 
   .box-wow {
     animation: image-wow 2000ms;
-    margin-left: 17.3%;
+    margin-left: 14.3%;
     margin-top: 1%;
   }
 
   .img-wow {
     animation: image-wow 1200ms 800ms both;
+    width: 100%;
+    height: auto;
   }
   @keyframes image-wow {
     0% {
@@ -317,7 +319,7 @@
     border: 2px solid #4749a0;
     display: flex;
     justify-content: center;
-    font-size: 1.4vw;
+    font-size: 1.1rem;
     animation: btn-header 1300ms 1.5s both;
   }
 
@@ -340,7 +342,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1249px) {
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
   .header-container {
     color: #fff;
     position: static;
@@ -545,13 +547,17 @@
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 899px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .header-container {
     color: #fff;
     position: static;
     max-width: 1590px;
     padding: 0vh 1.8vw;
     margin: 0 auto;
+  }
+
+  .row {
+    margin: 0;
   }
 
   .col-header {
@@ -901,13 +907,17 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 480px) {
   .header-container {
     color: #fff;
     position: static;
     max-width: 1590px;
     padding: 0vh 1.8vw;
     margin: 0 auto;
+  }
+
+  .row {
+    margin: 0;
   }
 
   .col-header {

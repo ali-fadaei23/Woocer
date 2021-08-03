@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1280px) {
   /* ############################# Default Button ########################################## */
   .btn-primary:not(:disabled):not(.disabled).active:focus,
   .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -155,7 +155,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1249px) {
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
   .btn-primary:not(:disabled):not(.disabled).active:focus,
   .btn-primary:not(:disabled):not(.disabled):active:focus,
   .show > .btn-primary.dropdown-toggle:focus {
@@ -311,7 +311,7 @@
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 899px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .btn-primary:not(:disabled):not(.disabled).active:focus,
   .btn-primary:not(:disabled):not(.disabled):active:focus,
   .show > .btn-primary.dropdown-toggle:focus {
@@ -469,7 +469,7 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 480px) {
   .btn-primary:not(:disabled):not(.disabled).active:focus,
   .btn-primary:not(:disabled):not(.disabled):active:focus,
   .show > .btn-primary.dropdown-toggle:focus {
