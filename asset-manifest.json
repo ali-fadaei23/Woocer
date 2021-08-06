@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Woocer/static/css/main.01843f09.chunk.css",
-    "main.js": "/Woocer/static/js/main.998814cd.chunk.js",
-    "main.js.map": "/Woocer/static/js/main.998814cd.chunk.js.map",
+    "main.css": "/Woocer/static/css/main.970d6185.chunk.css",
+    "main.js": "/Woocer/static/js/main.b2db1696.chunk.js",
+    "main.js.map": "/Woocer/static/js/main.b2db1696.chunk.js.map",
     "runtime-main.js": "/Woocer/static/js/runtime-main.08eb71c8.js",
     "runtime-main.js.map": "/Woocer/static/js/runtime-main.08eb71c8.js.map",
     "static/css/2.150d169a.chunk.css": "/Woocer/static/css/2.150d169a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.e2a6ee7f.chunk.js.map": "/Woocer/static/js/3.e2a6ee7f.chunk.js.map",
     "index.html": "/Woocer/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Woocer/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.01843f09.chunk.css.map": "/Woocer/static/css/main.01843f09.chunk.css.map",
+    "static/css/main.970d6185.chunk.css.map": "/Woocer/static/css/main.970d6185.chunk.css.map",
     "static/js/2.5d261d92.chunk.js.LICENSE.txt": "/Woocer/static/js/2.5d261d92.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/Woocer/static/media/1.51f5d9f2.png",
     "static/media/Header.css": "/Woocer/static/media/PoppinsLatin-Medium.e6e59763.ttf",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.08eb71c8.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.5d261d92.chunk.js",
-    "static/css/main.01843f09.chunk.css",
-    "static/js/main.998814cd.chunk.js"
+    "static/css/main.970d6185.chunk.css",
+    "static/js/main.b2db1696.chunk.js"
   ]
 }
