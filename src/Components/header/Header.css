@@ -357,8 +357,8 @@
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
   .header-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     padding: 0vh 1.8vw;
     margin: 0 auto;
   }
@@ -389,7 +389,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 13vh;
+    margin-top: 10em;
   }
 
   .box-text-h-1 {
