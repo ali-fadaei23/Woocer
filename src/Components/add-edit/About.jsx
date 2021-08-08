@@ -15,10 +15,10 @@ const About = () => {
 
   useEffect(() => {
     const ShowAnimationStart = function () {
-      if (window.pageYOffset >= 1670) {
+      if (window.pageYOffset >= 1270) {
         setShow(true);
       }
-      if (window.pageYOffset >= 2680) {
+      if (window.pageYOffset >= 2300) {
         setShow2(true);
       }
       // if (window.pageXOffset <= 699) {
