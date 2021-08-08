@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Woocer/static/css/main.8cbed7db.chunk.css",
-    "main.js": "/Woocer/static/js/main.b086d840.chunk.js",
-    "main.js.map": "/Woocer/static/js/main.b086d840.chunk.js.map",
+    "main.js": "/Woocer/static/js/main.586b4b2a.chunk.js",
+    "main.js.map": "/Woocer/static/js/main.586b4b2a.chunk.js.map",
     "runtime-main.js": "/Woocer/static/js/runtime-main.f8f78512.js",
     "runtime-main.js.map": "/Woocer/static/js/runtime-main.f8f78512.js.map",
     "static/css/2.150d169a.chunk.css": "/Woocer/static/css/2.150d169a.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.c122f804.chunk.js",
     "static/css/main.8cbed7db.chunk.css",
-    "static/js/main.b086d840.chunk.js"
+    "static/js/main.586b4b2a.chunk.js"
   ]
 }
