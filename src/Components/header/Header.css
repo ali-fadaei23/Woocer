@@ -452,7 +452,8 @@
   }
 
   .box-text-h-3 {
-    font-size: 1.62vw;
+    width: 90%;
+    font-size: 1.52vw;
     line-height: 30px;
     margin-bottom: 30px;
     font-weight: 500;
