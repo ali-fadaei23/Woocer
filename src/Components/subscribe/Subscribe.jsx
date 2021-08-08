@@ -7,7 +7,7 @@ const Subscribe = () => {
   const [show, setShow] = useState(false);
   useEffect(() => {
     const ShowAnimationStart = function () {
-      if (window.pageYOffset >= 3830) {
+      if (window.pageYOffset >= 3600) {
         setShow(true);
       }
     };
