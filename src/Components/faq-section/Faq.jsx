@@ -25,9 +25,9 @@ const Faq = () => {
                     Does Woocer use a plugin to work?
                     <span className="icon-plus-1">
                       {open ? (
-                        <i class="fas fa-minus"></i>
+                        <i className="fas fa-minus"></i>
                       ) : (
-                        <i class="fas fa-plus"></i>
+                        <i className="fas fa-plus"></i>
                       )}
                     </span>
                   </Button>
@@ -51,9 +51,9 @@ const Faq = () => {
                     Where do you store consumer key and consumer secret?
                     <span className="icon-plus-2">
                       {open2 ? (
-                        <i class="fas fa-minus"></i>
+                        <i className="fas fa-minus"></i>
                       ) : (
-                        <i class="fas fa-plus"></i>
+                        <i className="fas fa-plus"></i>
                       )}
                     </span>
                   </Button>

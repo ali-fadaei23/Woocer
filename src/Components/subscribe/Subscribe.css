@@ -1,98 +1,4 @@
 @media only screen and (min-width: 1280px) {
-  /* ####################### Icon Style ########################################## */
-  .animation-icons {
-    position: absolute;
-    left: -98vw;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .icon-cloud-1 {
-    top: 0.6vw;
-    animation: animate-cloud-1 25s linear infinite;
-  }
-  .icon-cloud-2 {
-    top: 4vw;
-    animation: animate-cloud-2 55s linear infinite;
-  }
-  .icon-cloud-3 {
-    top: 7vw;
-    animation: animate-cloud-3 50s linear infinite;
-  }
-  .icon-cloud-4 {
-    top: 9.5vw;
-    animation: animate-cloud-4 20s linear infinite;
-  }
-  .icon-cloud-5 {
-    top: 12.7vw;
-    animation: animate-cloud-5 35s linear infinite;
-  }
-
-  .icon-cloud-6 {
-    top: 16.2vw;
-    animation: animate-cloud-6 60s linear infinite;
-  }
-
-  @keyframes animate-cloud-1 {
-    0% {
-      margin-left: -100px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-
-  @keyframes animate-cloud-2 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-3 {
-    0% {
-      margin-left: -100px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-4 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-5 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-6 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  /* ################################################################# */
   .section-subscribe {
     position: relative;
     background-repeat: no-repeat;
@@ -164,100 +70,6 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
-  /* ####################### Icon Style ########################################## */
-  .animation-icons {
-    position: absolute;
-    left: -97vw;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .icon-cloud-1 {
-    top: 0.6vw;
-    animation: animate-cloud-1 25s linear infinite;
-  }
-  .icon-cloud-2 {
-    top: 4vw;
-    animation: animate-cloud-2 55s linear infinite;
-  }
-  .icon-cloud-3 {
-    top: 7vw;
-    animation: animate-cloud-3 50s linear infinite;
-  }
-  .icon-cloud-4 {
-    top: 9.5vw;
-    animation: animate-cloud-4 20s linear infinite;
-  }
-  .icon-cloud-5 {
-    top: 12.7vw;
-    animation: animate-cloud-5 35s linear infinite;
-  }
-
-  .icon-cloud-6 {
-    top: 16.2vw;
-    animation: animate-cloud-6 60s linear infinite;
-  }
-
-  @keyframes animate-cloud-1 {
-    0% {
-      margin-left: -100px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-
-  @keyframes animate-cloud-2 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-3 {
-    0% {
-      margin-left: -100px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-4 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-5 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-6 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  /* ################################################################# */
   .section-subscribe {
     position: relative;
     background-repeat: no-repeat;
@@ -300,8 +112,7 @@
   }
 
   .box-iframe {
-    padding: 1.6vw;
-    padding-bottom: 20vh;
+    padding-bottom: 5vh;
   }
 
   .iframe-video {
@@ -329,101 +140,6 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* ####################### Icon Style ########################################## */
-  .animation-icons {
-    position: absolute;
-    left: -97vw;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .icon-cloud-1 {
-    top: 0.6vw;
-    animation: animate-cloud-1 25s linear infinite;
-  }
-  .icon-cloud-2 {
-    top: 5.7vw;
-    animation: animate-cloud-2 55s linear infinite;
-  }
-  .icon-cloud-3 {
-    top: 10vw;
-    animation: animate-cloud-3 50s linear infinite;
-  }
-  .icon-cloud-4 {
-    top: 13.1vw;
-
-    animation: animate-cloud-4 20s linear infinite;
-  }
-  .icon-cloud-5 {
-    top: 17vw;
-    animation: animate-cloud-5 35s linear infinite;
-  }
-
-  .icon-cloud-6 {
-    top: 21.2vw;
-    animation: animate-cloud-6 60s linear infinite;
-  }
-
-  @keyframes animate-cloud-1 {
-    0% {
-      margin-left: -100px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-
-  @keyframes animate-cloud-2 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-3 {
-    0% {
-      margin-left: -100px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-4 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-5 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-6 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  /* ################################################################# */
   .section-subscribe {
     position: relative;
     background-repeat: no-repeat;
@@ -444,18 +160,19 @@
   .text-1-subscribe {
     position: relative;
     display: block;
-    font-size: 1.6vw;
-    line-height: 5.7vh;
+    font-size: 1em;
+    line-height: 1.2em;
     color: #7478fa;
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 0.8vw;
+    margin-bottom: 1em;
     z-index: 1;
   }
 
   .text-2-subscribe {
-    font-size: 3vw;
-    line-height: 9.7vh;
+    position: relative;
+    font-size: 1.7em;
+    line-height: 1.5em;
     color: #4c4754;
     font-weight: 500;
     z-index: 1;
@@ -495,113 +212,13 @@
 }
 
 @media only screen and (max-width: 480px) {
-  /* ####################### Icon Style ########################################## */
-  .animation-icons {
-    position: absolute;
-    left: -97vw;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .icon-cloud-1 {
-    width: 10vw;
-    top: 0.6vw;
-    animation: animate-cloud-1 25s linear infinite;
-  }
-  .icon-cloud-2 {
-    width: 10vw;
-    top: 5.7vw;
-    animation: animate-cloud-2 55s linear infinite;
-  }
-  .icon-cloud-3 {
-    width: 10vw;
-    top: 10vw;
-    animation: animate-cloud-3 50s linear infinite;
-  }
-  .icon-cloud-4 {
-    width: 10vw;
-    top: 13.1vw;
-    animation: animate-cloud-4 20s linear infinite;
-  }
-  .icon-cloud-5 {
-    width: 10vw;
-    top: 17vw;
-    animation: animate-cloud-5 35s linear infinite;
-  }
-
-  .icon-cloud-6 {
-    width: 10vw;
-    top: 21.2vw;
-    animation: animate-cloud-6 60s linear infinite;
-  }
-
-  @keyframes animate-cloud-1 {
-    0% {
-      margin-left: -100px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-
-  @keyframes animate-cloud-2 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-3 {
-    0% {
-      margin-left: -100px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-4 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-5 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  @keyframes animate-cloud-6 {
-    0% {
-      margin-left: -140px;
-    }
-
-    100% {
-      margin-left: 120%;
-    }
-  }
-  /* ################################################################# */
   .section-subscribe {
     position: relative;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
     background-color: #fbfbfe;
-    padding-top: 6.3vw;
+    padding-top: 1em;
   }
 
   .box-text-subscribe {
@@ -615,18 +232,19 @@
   .text-1-subscribe {
     position: relative;
     display: block;
-    font-size: 2.3vw;
-    line-height: 5.7vh;
+    font-size: 0.9em;
+    line-height: 1.1em;
     color: #7478fa;
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 0.8vw;
+    margin-bottom: 0.4em;
     z-index: 1;
   }
 
   .text-2-subscribe {
-    font-size: 4vw;
-    line-height: 9.7vh;
+    position: relative;
+    font-size: 1.5em;
+    line-height: 2em;
     color: #4c4754;
     font-weight: 500;
     z-index: 1;
@@ -637,8 +255,8 @@
   }
 
   .box-iframe {
-    padding: 1.6vw;
-    padding-bottom: 5vh;
+    padding: 1em;
+    padding-bottom: 1.5em;
   }
 
   .iframe-video {

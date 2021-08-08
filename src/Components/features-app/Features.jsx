@@ -29,7 +29,7 @@ const Features = () => {
   const [show, setShow] = useState(false);
   useEffect(() => {
     const ShowAnimationStart = function () {
-      if (window.pageYOffset >= 800) {
+      if (window.pageYOffset >= 430) {
         setShow(true);
       }
     };
@@ -81,19 +81,6 @@ const Features = () => {
             </div>
             <div className="box-features-btn">
               <BtnFeature text={"Manage Categories"} />
-            </div>
-          </div>
-        </Col>
-        <Col className="col-features-3 col-features">
-          <div className={show ? "anim-box-3 animation-3" : "anim-box-3"}>
-            <div className="box-features-btn">
-              <BtnFeature text={"Login with fingerprint"} />
-            </div>
-            <div className="box-features-btn">
-              <BtnFeature text={"Customizable Profile"} />
-            </div>
-            <div className="box-features-btn">
-              <BtnFeature text={"And so much more..."} />
             </div>
           </div>
         </Col>

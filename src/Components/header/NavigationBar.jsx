@@ -83,7 +83,7 @@ const NavigationBar = () => {
               className={showEl ? "more-icon" : "more-icon hide-more-icon"}
               onClick={MoreBtn}
             >
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </button>
           </div>
         </Col>

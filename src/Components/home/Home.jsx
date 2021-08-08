@@ -18,32 +18,17 @@ class Home extends Component {
   render() {
     return (
       <>
-        <div className="h-container" id="top">
-         
           <NavigationBar />
           <Header />
-        </div>
         <div className="f-container">
           <Features />
         </div>
-        <div className="a-container">
           <About />
-        </div>
-        <div className="s-container">
           <Subscribe />
-        </div>
-        <div className="get-app-container">
           <GetApp />
-        </div>
-        <div className="fq-container">
           <Faq />
-        </div>
-        <div className="footer-container">
           <Footer />
-        </div>
-        <div className="box-scroll-container">
           <ScrollButton scrollStepInPx={"90"} delayInMs={"16.66"} />
-        </div>
       </>
     );
   }

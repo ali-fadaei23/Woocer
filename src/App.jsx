@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import createHistory from "history/createBrowserHistory";
+import { Router, Route, Switch } from "react-router-dom";
+import { createBrowserHistory } from "history";
 
 // add CSS
 import "./App.css";
@@ -13,7 +13,7 @@ import HowToUse from "./Components/HowToUse";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import TermsAndConditions from "./Components/Terms";
 
-const history = createHistory();
+const history = createBrowserHistory();
 
 class App extends Component {
   render() {

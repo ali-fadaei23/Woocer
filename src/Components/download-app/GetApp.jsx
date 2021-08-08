@@ -7,6 +7,7 @@ import DownImage from "../../Assets/Woocer-screenshot-7.png";
 import ShapeImage from "../../Assets/shape-7.png";
 
 const GetApp = () => {
+  console.log(window.pageXOffset);
   var [value, setValue] = useState(0);
   var [show, setShow] = useState(false);
 
@@ -14,13 +15,20 @@ const GetApp = () => {
     var position = document.body.scrollTop;
     var handleScroll = () => {
       var scroll = window.pageYOffset;
-      if ((scroll > position) & (window.pageYOffset >= 3150)) {
+      if (
+        (scroll > position) &
+        (window.pageYOffset >= 4170 || window.pageYOffset <= 5620)
+      ) {
         setShow(true);
         setValue((window.pageXOffset += 2));
-      } else if ((scroll < position) & (window.pageYOffset >= 3150)) {
+      } else if (
+        (scroll < position) &
+        (window.pageYOffset >= 4170 || window.pageYOffset <= 5620)
+      ) {
         setValue((window.pageXOffset -= 2));
       } else {
         setShow(false);
+        setValue((window.pageXOffset = 70));
       }
       position = scroll;
     };
@@ -33,7 +41,7 @@ const GetApp = () => {
   const [show2, setShow2] = useState(false);
   useEffect(() => {
     const ShowAnimationStart = function () {
-      if (window.pageYOffset >= 4400) {
+      if (window.pageYOffset >= 3500) {
         setShow2(true);
       }
     };
@@ -106,7 +114,9 @@ const GetApp = () => {
             <img
               className="shape-image"
               style={{
-                transform: show ? `translateX(-${value}px)` : "translateX(0px)",
+                transform: show
+                  ? `translateX(-${value}px)`
+                  : `translateX(-${value}px)`,
                 visibility: show ? "visible" : "hidden",
               }}
               src={ShapeImage}

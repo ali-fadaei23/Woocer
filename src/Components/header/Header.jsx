@@ -20,9 +20,7 @@ const Header = (props) => {
       style={{ margin: 0, paddingTop: "125px" }}
     >
       <Row className="row-header">
-      <div className="box-header-bg">
-            <div className="layer-img"></div>
-          </div>
+        <div className="box-header-bg"></div>
         <Col
           className="col-header"
           style={{

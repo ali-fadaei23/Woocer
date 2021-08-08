@@ -1,17 +1,15 @@
 /* ######################################## Main Style ######################################### */
 @media only screen and (min-width: 1280px) {
   .container-features {
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #7478fa;
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 1.47em;
     font-family: "Poppins";
-    padding: 0vh 1.8vw;
-    margin: 0 auto;
   }
 
   .col-features-1 {
@@ -19,10 +17,6 @@
   }
 
   .col-features-2 {
-    padding: 0;
-  }
-
-  .col-features-3 {
     padding: 0vh 1vw;
   }
 
@@ -159,17 +153,15 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
   .container-features {
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #7478fa;
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 1.25em;
     font-family: "Poppins";
-    padding: 0vh 1.8vw;
-    margin: 0 auto;
   }
 
   .col-features-1 {
@@ -177,45 +169,43 @@
   }
 
   .col-features-2 {
-    padding: 0;
-  }
-
-  .col-features-3 {
     padding: 0vh 1vw;
   }
 
   .row-features {
-    width: 89vw;
+    width: 100%;
   }
 
   .box-features-btn {
-    padding: 0.1vw;
+    padding: 0.3vh 0.3vw;
   }
   .circle {
     background-color: #7f83fc;
-    margin-bottom: 7vh;
+    margin-bottom: 4vh;
     display: flex;
     align-items: center;
     position: relative;
-    min-height: 16vh;
-    padding-left: 1.4vw;
+    width: 100%;
+    padding: 5% 5%;
     border-radius: 10px;
     font-family: "Poppins";
   }
 
   .img-forward {
     filter: brightness(0) invert(1);
-    width: 2.5vw;
+    width: 1.3em;
+    position: relative;
   }
 
   .btns-features {
-    padding: 1.8vw;
+    padding: 1.6vw;
   }
 
   .text-title-features {
     padding: 40px;
     visibility: hidden;
-    font-size: 3.6vw;
+    font-size: 3em;
+    position: relative;
   }
 
   @keyframes bg-animate {
@@ -247,13 +237,14 @@
 
   .features-box {
     background-color: #767af7;
-    width: 5.5vw;
-    height: 5.5vw;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
   .anim-box-1 {
     visibility: hidden;
@@ -467,55 +458,55 @@
 
 @media only screen and (max-width: 480px) {
   .container-features {
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #7478fa;
     color: #fff;
-    font-size: 1.5vw;
     font-family: "Poppins";
-    padding: 0vh 1.8vw;
-    margin: 0 auto;
+    padding: 0;
   }
 
   .row-features {
-    width: 97.5vw;
+    width: 100%;
     flex-direction: column;
     align-self: center;
     margin: 0;
   }
 
   .box-features-btn {
-    padding: 0.1vw;
+    position: relative;
+    padding: 0em 0.5em;
   }
   .circle {
     background-color: #7f83fc;
-    margin-bottom: 4vh;
+    margin-bottom: 0.8em;
     display: flex;
     align-items: center;
     position: relative;
-    min-height: 15vh;
-    padding-left: 2.4vw;
-    border-radius: 10px;
+    min-height: 4em;
+    padding-left: 0.8em;
+    border-radius: 5px;
     font-family: "Poppins";
   }
 
   .img-forward {
     filter: brightness(0) invert(1);
-    width: 3.5vw;
+    width: 0.9em;
   }
 
   .btns-features {
-    padding: 2vw;
-    font-size: 2.8vw;
+    padding: 0.8em;
+    font-size: 0.8em;
   }
 
   .text-title-features {
-    padding: 40px;
+    padding: 30px;
     visibility: hidden;
-    font-size: 5vw;
+    font-size: 1.6em;
+    position: relative;
   }
 
   @keyframes bg-animate {
@@ -547,8 +538,9 @@
 
   .features-box {
     background-color: #767af7;
-    width: 8vw;
-    height: 8vw;
+    position: relative;
+    width: 2.2em;
+    height: 2.2em;
     border-radius: 50%;
     display: flex;
     flex-direction: column;

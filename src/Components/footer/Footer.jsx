@@ -3,12 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
-import Cloud1 from "../../Assets/icon-cloud-1.png";
-import Cloud2 from "../../Assets/icon-cloud-2.png";
-import Cloud3 from "../../Assets/icon-cloud-3.png";
-import Cloud4 from "../../Assets/icon-cloud-4.png";
-import Cloud5 from "../../Assets/icon-cloud-2.png";
-import Cloud6 from "../../Assets/icon-cloud-4.png";
+
 import IconBuilding from "../../Assets/icon-buildings.png";
 
 const Footer = () => {
@@ -46,38 +41,6 @@ const Footer = () => {
       <Row>
         <Col>
           <div className="footer">
-            <div className="animation-footer-icons">
-              <img
-                className="icon-footer icon-cloud-footer-1"
-                src={Cloud1}
-                alt=""
-              />
-              <img
-                className="icon-footer icon-cloud-footer-2"
-                src={Cloud2}
-                alt=""
-              />
-              <img
-                className="icon-footer icon-cloud-footer-3"
-                src={Cloud3}
-                alt=""
-              />
-              <img
-                className="icon-footer icon-cloud-footer-4"
-                src={Cloud4}
-                alt=""
-              />
-              <img
-                className="icon-footer icon-cloud-footer-5"
-                src={Cloud5}
-                alt=""
-              />
-              <img
-                className="icon-footer icon-cloud-footer-6"
-                src={Cloud6}
-                alt=""
-              />
-            </div>
             <div className="section-footer-pages">
               <div className="box-pages">
                 <span className="text-title-pages title">Pages</span>

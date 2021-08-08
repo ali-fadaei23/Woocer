@@ -98,7 +98,7 @@ const NavBarV2 = () => {
               }
               onClick={MoreBtn}
             >
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </button>
           </div>
         </Col>

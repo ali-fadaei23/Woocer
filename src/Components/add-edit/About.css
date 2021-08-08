@@ -1,8 +1,8 @@
 @media only screen and (min-width: 1280px) {
   .about-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 10vw;
     color: #000;
@@ -25,6 +25,7 @@
   .text-about {
     color: #7a7a7a;
     font-size: 2.5vw;
+    font-weight: 500;
   }
 
   .box-btn-about {
@@ -49,12 +50,15 @@
 
   .animation-box-about {
     animation: box-img-about 1000ms;
+    width: 100%;
+    height: auto;
   }
 
   .img-about {
     position: relative;
     top: 0.1vh;
     visibility: hidden;
+    width: 75%;
   }
 
   .img-about-shape {
@@ -110,15 +114,17 @@
   .text-order {
     color: #7a7a7a;
     font-size: 2.5vw;
+    font-weight: 500;
   }
 
   .box-img-order-about {
-    margin-right: 3vw;
     visibility: hidden;
+    width: 100%;
+    height: auto;
   }
 
   .img-order {
-    margin-right: 10vw;
+    width: 75%;
   }
 
   .img-order-2 {
@@ -229,8 +235,8 @@
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
   .about-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 10vw;
     color: #000;
@@ -243,25 +249,34 @@
   }
 
   .box-title-about {
-    font-size: 3.3vw;
-    line-height: 10vh;
-    padding: 8.1vh 0 2vw 5vw;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    padding: 20% 0;
     font-family: "Poppins";
     position: relative;
     color: #4c4754;
-    font-weight: 600;
+    font-weight: 500;
     text-align: left;
   }
+
+  .box-title-text-about {
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 2em;
+    position: relative;
+  }
+
   .box-text-about {
     font-family: "Nunito";
   }
   .text-about {
     color: #7a7a7a;
-    font-size: 2.6vw;
+    font-size: 1em;
+    position: relative;
   }
 
   .box-btn-about {
-    margin-top: 6vh;
+    margin-top: 3.5vh;
   }
 
   .btn-about {
@@ -269,9 +284,10 @@
     background: transparent;
     border: 2px solid #4749a0;
     color: #4749a0;
-    font-size: 1.4vw;
-    width: 14.4vw;
-    padding: 0.8vw;
+    font-size: 0.6em;
+    width: 50%;
+    padding: 0.7em;
+    position: relative;
   }
 
   .btn-about:hover {
@@ -280,17 +296,19 @@
     transition: all 800ms;
   }
 
+  .box-img-about {
+    width: 100%;
+    padding-left: 10%;
+  }
+
   .animation-box-about {
     animation: box-img-about 1000ms;
   }
 
-  .img-about-shape {
-    display: none;
-  }
-
   .img-about {
     position: relative;
-    top: 0.1vh;
+    top: 2em;
+    width: 90%;
     visibility: hidden;
   }
 
@@ -321,11 +339,14 @@
   }
   /* ################################ Order ##################################### */
   .row-about-order {
-    padding-top: 15vh;
+    padding-top: 18vh;
   }
 
-  .box-main-text-order {
-    padding: 8.1vh 0 2vw 5vw;
+  .box-title-text-order {
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 2em;
+    position: relative;
   }
 
   .box-text-order {
@@ -333,13 +354,13 @@
   }
 
   .box-add-order {
-    font-size: 3.3vw;
-    line-height: 10vh;
-    padding-top: 12vh;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    padding: 30% 0;
     font-family: "Poppins";
     position: relative;
     color: #4c4754;
-    font-weight: 600;
+    font-weight: 500;
     text-align: left;
   }
 
@@ -349,12 +370,15 @@
   }
 
   .box-img-order-about {
-    margin-right: 3vw;
+    width: 100%;
+    padding-right: 10%;
     visibility: hidden;
   }
 
   .img-order {
-    margin-right: 7vw;
+    position: relative;
+    top: 2em;
+    width: 90%;
   }
 
   .img-order-2 {
@@ -380,10 +404,10 @@
 
   .circle-1 {
     position: absolute;
-    right: 3vw;
-    top: 22vh;
-    width: 29.4vw;
-    height: 29.4vw;
+    right: 5%;
+    top: 18%;
+    width: 19em;
+    height: 19em;
     opacity: 0.5;
     border-radius: 50%;
     background-color: rgba(215, 60, 129, 0.5);
@@ -408,10 +432,10 @@
 
   .circle-2 {
     position: absolute;
-    right: 3.1vw;
-    top: 23vh;
-    width: 44vw;
-    height: 44vw;
+    right: 7%;
+    top: 20%;
+    width: 25em;
+    height: 25em;
     border-radius: 50%;
     background-image: linear-gradient(
       to bottom,
@@ -442,7 +466,7 @@
   }
 
   .box-btn-order {
-    margin-top: 6vh;
+    margin-top: 3.5vh;
   }
 
   .btn-order {
@@ -450,9 +474,10 @@
     background: transparent;
     border: 2px solid #4749a0;
     color: #4749a0;
-    font-size: 1.4vw;
-    width: 14.4vw;
-    padding: 0.8vw;
+    font-size: 0.6em;
+    width: 50%;
+    padding: 0.7em;
+    position: relative;
   }
 
   .btn-order:hover {
@@ -465,8 +490,8 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .about-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 10vw;
     color: #000;
@@ -509,7 +534,8 @@
   }
   .text-about {
     color: #7a7a7a;
-    font-size: 3.5vw;
+    font-size: 0.8em;
+    font-weight: 500;
   }
 
   .box-btn-about {
@@ -616,7 +642,8 @@
 
   .text-order {
     color: #7a7a7a;
-    font-size: 3.5vw;
+    font-size: 0.8em;
+    font-weight: 500;
   }
 
   .box-img-order-about {
@@ -738,10 +765,9 @@
 @media only screen and (max-width: 480px) {
   .about-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
-    margin: 0 auto;
-    padding-top: 10vw;
+    position: relative;
+    max-width: 100%;
+    padding: 3em 0em 1em;
     color: #000;
   }
 
@@ -755,22 +781,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20vh;
+    padding-bottom: 7em;
   }
 
   .col-about-product-img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 1vh;
+    padding-bottom: 1em;
   }
 
   .box-title-about {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 5vw;
-    line-height: 12vh;
+    font-size: 1.5em;
+    line-height: 1.6em;
     font-family: "Poppins";
     position: relative;
     color: #4c4754;
@@ -779,24 +805,27 @@
   }
   .box-text-about {
     font-family: "Nunito";
+    padding: 0em 0.4em;
   }
   .text-about {
     color: #7a7a7a;
-    font-size: 4.5vw;
+    font-size: 0.8em;
+    font-weight: 500;
   }
 
   .box-btn-about {
-    margin-top: 1vh;
+    margin-top: 0.5em;
   }
 
   .btn-about {
     border-radius: 3px;
+    position: relative;
     background: transparent;
     border: 2px solid #4749a0;
     color: #4749a0;
-    font-size: 2.5vw;
-    width: 24vw;
-    padding: 1vw;
+    font-size: 0.6em;
+    width: 100%;
+    padding: 0.47em;
   }
 
   .btn-about:hover {
@@ -822,13 +851,10 @@
     height: auto;
   }
 
-  /* .box-img-about {
-   
-  } */
-
   .animation-img-about {
     animation: img-about 3s linear infinite alternate;
     visibility: visible;
+    width: 80%;
   }
 
   @keyframes box-img-about {
@@ -862,29 +888,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20vh;
+    padding-bottom: 4em;
   }
 
   .col-about-order-img {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .box-main-text-order {
-    padding-top: 1vh;
+    padding-bottom: 1em;
   }
 
   .box-text-order {
     font-family: "Nunito";
+    padding: 0em 0.4em;
   }
 
   .box-add-order {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 5.5vw;
-    line-height: 12vh;
+    font-size: 1.5em;
+    line-height: 1.6em;
     font-family: "Poppins";
     position: relative;
     color: #4c4754;
@@ -894,17 +918,20 @@
 
   .text-order {
     color: #7a7a7a;
-    font-size: 4.5vw;
+    font-size: 0.8em;
+    font-weight: 500;
   }
 
   .box-img-order-about {
-    margin-right: 3vw;
     visibility: hidden;
   }
 
-  .img-order {
-    margin-right: 0vw;
+  .box-img-order {
     width: 100%;
+  }
+
+  .img-order {
+    width: 80%;
     height: auto;
   }
 
@@ -995,17 +1022,18 @@
   }
 
   .box-btn-order {
-    margin-top: 1vh;
+    margin-top: 0.5em;
   }
 
   .btn-order {
     border-radius: 3px;
+    position: relative;
     background: transparent;
     border: 2px solid #4749a0;
     color: #4749a0;
-    font-size: 2.5vw;
-    width: 24vw;
-    padding: 1vw;
+    font-size: 0.6em;
+    width: 34.416%;
+    padding: 0.47em;
   }
 
   .btn-order:hover {

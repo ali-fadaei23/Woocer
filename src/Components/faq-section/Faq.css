@@ -204,12 +204,13 @@
 
   .box-text-faq {
     font-family: "Poppins";
-    margin-bottom: 10vh;
+    margin-bottom: 6vh;
   }
 
   .text-faq {
-    font-size: 2.7vw;
-    line-height: 6vh;
+    position: relative;
+    font-size: 2.1em;
+    line-height: 1em;
     color: #4c4754;
     font-weight: 600;
   }
@@ -242,13 +243,13 @@
     align-items: center;
     text-align: left;
     width: 39.707vw;
-    padding: 3.1vh 2.9vw;
+    padding: 0.2vh 2.9vw;
     cursor: pointer;
     border: transparent;
     background: transparent;
     position: relative;
-    font-size: 1.67vw;
-    line-height: 5vh;
+    font-size: 1em;
+    line-height: 2.6em;
     color: #4c4754;
   }
   .btn-collapse-1:hover {
@@ -265,13 +266,13 @@
     align-items: center;
     text-align: left;
     width: 39.707vw;
-    padding: 3.1vh 2.9vw;
+    padding: 0.2vh 2.9vw;
     cursor: pointer;
     border: transparent;
     background: transparent;
     position: relative;
-    font-size: 1.67vw;
-    line-height: 5vh;
+    font-size: 1em;
+    line-height: 2.6em;
     color: #4c4754;
   }
   .btn-collapse-2:hover {
@@ -294,8 +295,8 @@
     text-align: left;
     position: relative;
     display: block;
-    font-size: 1.4vw;
-    line-height: 4.9vh;
+    font-size: 0.9em;
+    line-height: 2.5em;
     color: #75717b;
     font-weight: 400;
   }
@@ -304,8 +305,8 @@
     text-align: left;
     position: relative;
     display: block;
-    font-size: 1.4vw;
-    line-height: 4.9vh;
+    font-size: 0.9em;
+    line-height: 2.6em;
     color: #75717b;
     font-weight: 400;
   }
@@ -508,22 +509,23 @@
   /* ########################### Main Style ############################################### */
   .faq-container {
     position: relative;
-    padding: 9vw 0;
+    padding: 2em 0;
     background-color: #fbfbfd;
     max-width: 100%;
   }
   .section-faq {
-    padding: 0 5vw;
+    padding: 0 0.5em;
   }
 
   .box-text-faq {
     font-family: "Poppins";
-    margin-bottom: 6vh;
+    margin-bottom: 2.5em;
   }
 
   .text-faq {
-    font-size: 4.5vw;
-    line-height: 11vh;
+    position: relative;
+    font-size: 1.3em;
+    line-height: 1.2em;
     color: #4c4754;
     font-weight: 600;
   }
@@ -536,34 +538,36 @@
     text-align: left;
   }
 
+  .box-content {
+    padding: 0 0.46em;
+  }
+
   .box-content-1 {
     position: relative;
     background-color: #ffffff;
     box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
-    margin: 0 2vw;
-    margin-bottom: 5vh;
+    margin-bottom: 1.5em;
   }
   .box-content-2 {
     position: relative;
     background-color: #ffffff;
     box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
-    margin: 0 2vw;
-    margin-top: 2vh;
+    margin-bottom: 1.5em;
   }
 
   .btn-collapse-1 {
     display: flex;
     align-items: center;
     text-align: left;
-    width: 85vw;
-    height: 15vh;
-    padding: 0 3vw;
+    width: 100%;
+    height: auto;
+    padding: 0 1em;
     cursor: pointer;
     border: transparent;
     background: transparent;
     position: relative;
-    font-size: 2.7vw;
-    line-height: 5vh;
+    font-size: 0.87em;
+    line-height: 2em;
     color: #4c4754;
   }
   .btn-collapse-1:hover {
@@ -579,15 +583,15 @@
     display: flex;
     align-items: center;
     text-align: left;
-    width: 85vw;
-    height: 15vh;
-    padding: 0 3vw;
+    width: 100%;
+    height: auto;
+    padding: 0 1em;
     cursor: pointer;
     border: transparent;
     background: transparent;
     position: relative;
-    font-size: 2.7vw;
-    line-height: 5vh;
+    font-size: 0.87em;
+    line-height: 2em;
     color: #4c4754;
   }
   .btn-collapse-2:hover {
@@ -606,22 +610,22 @@
     margin-left: 11vw;
   }
   .text-1 {
-    padding: 2.7vw;
+    padding: 1em;
     text-align: left;
     position: relative;
     display: block;
-    font-size: 2.4vw;
-    line-height: 5vh;
+    font-size: 0.82em;
+    line-height: 1.2em;
     color: #75717b;
     font-weight: 400;
   }
   .text-2 {
-    padding: 2.7vw;
+    padding: 1em;
     text-align: left;
     position: relative;
     display: block;
-    font-size: 2.4vw;
-    line-height: 5vh;
+    font-size: 0.82em;
+    line-height: 2em;
     color: #75717b;
     font-weight: 400;
   }

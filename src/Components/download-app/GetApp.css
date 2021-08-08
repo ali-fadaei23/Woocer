@@ -1,12 +1,12 @@
 @media only screen and (min-width: 1280px) {
   .get-app-container {
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     margin: 0 auto;
     color: #000;
     background-color: #fbfbfe;
-    padding-bottom: 34vh;
     overflow: "hidden";
+    height: 70em;
   }
   .row-get-app {
     padding: 4vw 0vw;
@@ -162,13 +162,16 @@
   }
   .box-img-up {
     visibility: hidden;
+    width: 100%;
+    height: auto;
   }
   .image-up {
     position: absolute;
     z-index: 2;
-    top: 16vh;
+    top: 12vh;
     right: 4vw;
     visibility: hidden;
+    width: 70%;
   }
   .animate-image-up {
     visibility: visible;
@@ -185,6 +188,8 @@
   }
   .box-img-down {
     visibility: hidden;
+    width: 100%;
+    height: auto;
   }
   .animate-box-img-down {
     visibility: visible;
@@ -202,10 +207,11 @@
   }
   .image-down {
     position: absolute;
-    top: -2vw;
-    right: 15.5vw;
+    top: -4vw;
+    right: 14.5vw;
     z-index: 1;
     visibility: hidden;
+    width: 70%;
   }
   .animate-image-down {
     visibility: visible;
@@ -227,8 +233,8 @@
   }
   .shape-image {
     position: relative;
-    left: -4vw;
-    top: 23vh;
+    left: 0;
+    top: 11em;
     transition: transform 0s linear 0s;
     will-change: transform;
   }
@@ -236,20 +242,21 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
   .get-app-container {
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     margin: 0 auto;
     color: #000;
     background-color: #fbfbfe;
-    padding-bottom: 34vh;
     overflow: "hidden";
+    height: 940px;
   }
+
   .row-get-app {
-    padding: 4vw 0vw;
+    padding-top: 3em;
   }
   .section-get-app {
     position: relative;
-    padding: 6vw 1.4vw 6vw 2vw;
+    padding: 3em 1em;
     z-index: 1;
   }
   .box-text-get-app {
@@ -257,17 +264,18 @@
     flex-direction: column;
     align-items: center;
     text-align: left;
-    padding-right: 1vw;
-    padding-bottom: 12vh;
+    padding-right: 2vw;
+    padding-bottom: 5vh;
   }
   .box-text-1 {
-    font-size: 4vw;
+    position: relative;
+    font-size: 2.2em;
     font-weight: 600;
     visibility: hidden;
   }
   .text-1-get-app {
     position: relative;
-    line-height: 7vh;
+    line-height: 1.5em;
     color: #4c4754;
     font-family: "Poppins";
   }
@@ -286,12 +294,13 @@
     }
   }
   .box-text-2 {
-    margin-top: 7vh;
-    line-height: 6.4vh;
-    font-size: 1.5vw;
+    margin-top: 3em;
+    line-height: 2em;
+    font-size: 1.1em;
     font-weight: 500;
     color: #75717b;
     visibility: hidden;
+    position: relative;
   }
   .text-2-get-app {
     position: relative;
@@ -366,13 +375,12 @@
   .link-google-play {
     position: relative;
     float: left;
-    margin-right: 2.4vw;
-    margin-bottom: 3vh;
-    font-size: 1.4vw;
-    line-height: 4.5vh;
+    margin-right: 1.2em;
+    margin-bottom: 1em;
+    font-size: 1em;
     color: #4c4754;
-    padding: 2vh 2vw;
-    min-width: 14vw;
+    padding: 4% 5%;
+    min-width: 10em;
     text-align: center;
     border: 2px solid #4c4754;
     border-radius: 3px;
@@ -380,13 +388,12 @@
   .link-apple-store {
     position: relative;
     float: left;
-    margin-right: 2.4vw;
-    margin-bottom: 3vh;
-    font-size: 1.4vw;
-    line-height: 4.5vh;
+    margin-right: 1.2em;
+    margin-bottom: 1em;
+    font-size: 1em;
     color: #4c4754;
-    padding: 2vh 2vw;
-    min-width: 14vw;
+    padding: 4% 5%;
+    min-width: 10em;
     text-align: center;
     border: 2px solid #4c4754;
     border-radius: 3px;
@@ -396,6 +403,7 @@
     font-size: 25px;
     margin-right: 10px;
   }
+
   .box-img-up {
     visibility: hidden;
     display: none;
@@ -422,6 +430,8 @@
   }
   .box-img-down {
     visibility: hidden;
+    width: 80%;
+    margin-left: 15%;
   }
   .animate-box-img-down {
     visibility: visible;
@@ -438,9 +448,10 @@
     }
   }
   .image-down {
-    position: absolute;
-    top: -2vw;
-    right: 2vw;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 8em;
     z-index: 1;
     visibility: hidden;
   }
@@ -463,25 +474,27 @@
     }
   }
   .box-image-shape {
-    margin-left: -10vw;
+    padding-right: 20%;
   }
   .shape-image {
     position: relative;
-    left: 7vw;
-    top: 27vh;
+    left: 0;
+    top: 13em;
     transition: transform 0s linear 0s;
     will-change: transform;
+    width: 100%;
+    height: auto;
   }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .get-app-container {
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     margin: 0 auto;
     color: #000;
     background-color: #fbfbfe;
-    padding-bottom: 74vh;
+    padding-bottom: 50em;
     overflow: "hidden";
   }
   .row-get-app {
@@ -676,6 +689,8 @@
   .animate-box-img-down {
     visibility: visible;
     animation: box-img-down 2s 1 both;
+    width: 100%;
+    height: auto;
   }
   @keyframes box-img-down {
     0% {
@@ -689,10 +704,10 @@
   }
   .image-down {
     position: absolute;
-    top: 85vh;
+    top: 30em;
     z-index: 1;
     visibility: hidden;
-    width: 100%;
+    width: 60%;
     height: auto;
   }
   .animate-image-down {
@@ -728,24 +743,24 @@
 
 @media only screen and (max-width: 480px) {
   .get-app-container {
-    position: static;
-    max-width: 1590px;
-    margin: 0 auto;
+    position: relative;
+    max-width: 100%;
     color: #000;
     background-color: #fbfbfe;
-    padding-bottom: 74vh;
+    padding-left: 0;
+    padding-right: 0;
     overflow: "hidden";
   }
   .row-get-app {
     flex-direction: column;
-    padding: 4vw 0vw;
+    padding: 1em 0em;
   }
   .section-get-app {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding: 6vw 1.4vw 6vw 2vw;
+    padding: 1.5em 0em;
     z-index: 1;
   }
   .box-text-get-app {
@@ -753,16 +768,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-bottom: 9vh;
+    padding-bottom: 2em;
   }
   .box-text-1 {
-    font-size: 5vw;
+    font-size: 1.4em;
     font-weight: 600;
     visibility: hidden;
+    padding: 0em 0.4em;
   }
   .text-1-get-app {
     position: relative;
-    line-height: 7vh;
+    line-height: 1em;
     color: #4c4754;
     font-family: "Poppins";
   }
@@ -781,10 +797,11 @@
     }
   }
   .box-text-2 {
-    margin-top: 5vh;
-    line-height: 6vh;
-    padding: 0 13vw;
-    font-size: 2.3vw;
+    position: relative;
+    margin-top: 1em;
+    line-height: 2.1em;
+    padding: 0 0.5em;
+    font-size: 0.9em;
     font-weight: 500;
     color: #75717b;
     visibility: hidden;
@@ -863,13 +880,12 @@
   .link-google-play {
     position: relative;
     float: left;
-    margin-bottom: 4vh;
-    font-size: 2.2vw;
-    line-height: 5.5vh;
-    margin-right: 4vw;
+    margin-bottom: 0.9em;
+    font-size: 0.9em;
+    line-height: 1em;
     color: #4c4754;
-    padding: 2vh 3vw;
-    min-width: 20vw;
+    padding: 0.8em 1em;
+    width: 100%;
     text-align: center;
     border: 2px solid #4c4754;
     border-radius: 3px;
@@ -877,12 +893,13 @@
   .link-apple-store {
     position: relative;
     float: left;
-    margin-bottom: 4vh;
-    font-size: 2.2vw;
-    line-height: 5.5vh;
+    margin-bottom: 0.9em;
+    font-size: 0.9em;
+    line-height: 1em;
+    margin-left: 0.4em;
     color: #4c4754;
-    padding: 2vh 3vw;
-    min-width: 20vw;
+    padding: 0.8em 1em;
+    width: 100%;
     text-align: center;
     border: 2px solid #4c4754;
     border-radius: 3px;
@@ -924,6 +941,7 @@
     flex-direction: column;
     align-items: center;
     visibility: hidden;
+    width: 100%;
   }
   .animate-box-img-down {
     visibility: visible;
@@ -940,11 +958,11 @@
     }
   }
   .image-down {
-    position: absolute;
-    top: 85vh;
+    position: relative;
+    top: 30em;
     z-index: 1;
     visibility: hidden;
-    width: 100%;
+    width: 80%;
     height: auto;
   }
   .animate-image-down {

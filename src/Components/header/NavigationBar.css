@@ -2,10 +2,10 @@
 @media only screen and (min-width: 1280px) {
   .nav-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
+    position: relative;
     padding: 0vh 1.8vw;
     margin: 0 auto;
+    max-width: 100%;
   }
 
   .navbar-brand {
@@ -66,7 +66,7 @@
     position: relative;
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: 30px;
     font-weight: 500;
     color: #4c4754;
@@ -108,6 +108,8 @@
 
   .ul-nav {
     list-style: none;
+    font-size: 1.1em;
+    position: relative;
   }
 
   .box-ul {
@@ -122,8 +124,8 @@
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
   .nav-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     padding: 0vh 1.8vw;
     margin: 0 auto;
   }
@@ -177,14 +179,14 @@
   }
 
   .navbar-nav {
-    padding: 15px 0px;
+    padding: 10px 0px;
   }
 
   li > .link-nav {
     position: relative;
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 30px;
     font-weight: 500;
     color: #4c4754;
@@ -226,7 +228,8 @@
 
   .ul-nav {
     list-style: none;
-    margin-left: 25.6vw;
+    margin-left: 26vw;
+    position: relative;
   }
 
   .box-ul {
@@ -235,13 +238,17 @@
     justify-content: flex-end;
     flex-direction: column;
   }
+
+  .box-more-icon {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .nav-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     padding: 0vh 1.8vw;
     margin: 0 auto;
   }
@@ -390,8 +397,8 @@
 @media only screen and (max-width: 480px) {
   .nav-container {
     color: #fff;
-    position: static;
-    max-width: 1590px;
+    position: relative;
+    max-width: 100%;
     padding: 0vh 1.8vw;
     margin: 0 auto;
   }
